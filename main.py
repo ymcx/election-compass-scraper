@@ -1,8 +1,8 @@
 import concurrent.futures
 import csv
-import json
+import headers
+from threading import Lock
 from typing import List, Tuple
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
@@ -10,12 +10,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 class Config:
-    BASE_URL = "https://vaalit.yle.fi/vaalikone/kuntavaalit2025/"
-    FILE = "candidates.csv"
-    MAX_QUESTIONS = 25
-    MUNICIPALITIES = 313
     THREADS = 8
     TIMEOUT = 5
+    ELECTION = headers.COUNTY_ELECTIONS_2025
 
 
 def create_driver() -> webdriver.Chrome:
@@ -48,7 +45,7 @@ def get_candidate_urls(driver: webdriver.Chrome, gender: str) -> List[Tuple[str,
     candidates = []
     for link in driver.find_elements(By.TAG_NAME, "a"):
         href = link.get_attribute("href")
-        if href and Config.BASE_URL in href:
+        if href and Config.ELECTION.URL in href:
             candidates.append((href, gender))
 
     click_element(driver, (By.XPATH, f"//input[@value='{gender}']"))
@@ -56,34 +53,26 @@ def get_candidate_urls(driver: webdriver.Chrome, gender: str) -> List[Tuple[str,
 
 
 def parse_candidate_info(driver: webdriver.Chrome, gender: str) -> List[str]:
-    script = driver.find_element(By.XPATH, '//script[@type="application/ld+json"]')
-    attribute = script.get_attribute("innerHTML")
-    if not attribute:
-        return []
-
-    data = json.loads(attribute)
-    person_data = next(
-        (item for item in data["@graph"] if item.get("@type") == "Person"), {}
-    )
-
     keys = driver.find_elements(By.CLASS_NAME, "sc-fxLEUo.iIOaPI")
     values = driver.find_elements(By.CLASS_NAME, "sc-cDCfkV.yFgtA")
 
-    fields_to_extract = ["Kotikunta", "Koulutus", "Syntymävuosi", "Äidinkieli"]
-    extracted_data = {
+    extract = ["Kotikunta", "Koulutus", "Syntymävuosi", "Äidinkieli"]
+    data = {
         key.text: values[index].text
         for index, key in enumerate(keys)
-        if key.text in fields_to_extract
+        if key.text in extract
     }
 
+    name = driver.find_element(By.CLASS_NAME, "sc-xyPcs.eWLytF").text
+    party = driver.find_element(By.CLASS_NAME, "sc-cdoHnr.ebTVhW.sc-fUubzJ.sc-isewAz.gtdlFp.cbPEsB").text
+
     return [
-        person_data.get("givenName", ""),
-        person_data.get("familyName", ""),
-        person_data.get("affiliation", ""),
-        extracted_data.get("Kotikunta", ""),
-        extracted_data.get("Koulutus", ""),
-        extracted_data.get("Syntymävuosi", ""),
-        extracted_data.get("Äidinkieli", ""),
+        name,
+        party,
+        data.get(extract[0], ""),
+        data.get(extract[1], ""),
+        data.get(extract[2], ""),
+        data.get(extract[3], ""),
         gender,
     ]
 
@@ -91,16 +80,11 @@ def parse_candidate_info(driver: webdriver.Chrome, gender: str) -> List[str]:
 def parse_candidate_answers(driver: webdriver.Chrome) -> List[str]:
     """Parse candidate's answers to questions."""
     answers = []
-    questions = driver.find_elements(By.CLASS_NAME, "sc-bRilDX.sc-lcBlzg.ddoxjp.ZCKmG")[
-        : Config.MAX_QUESTIONS
-    ]
+    questions = driver.find_elements(By.CLASS_NAME, "sc-bRilDX.sc-lcBlzg.ddoxjp.ZCKmG")[:len(Config.ELECTION.QUESTIONS)]
 
     for question in questions:
         options = question.find_elements(By.CLASS_NAME, "sc-kuCIbt")
-        selected = next(
-            (str(i) for i, opt in enumerate(options) if opt.get_attribute("imgurl")),
-            "-1",
-        )
+        selected = next((str(i) for i, opt in enumerate(options) if opt.get_attribute("imgurl")), "-1")
         answers.append(selected)
 
     return answers
@@ -116,9 +100,9 @@ def scrape_candidate(driver: webdriver.Chrome, url: str, gender: str) -> List[st
     return info + answers
 
 
-def process_municipality(url: str) -> List[List[str]]:
+def process_municipality(url: str, lock: Lock) -> None:
     """Process a single municipality page and all its candidates."""
-    print(f"Processing {url}")
+    print(url)
 
     driver = create_driver()
     driver.get(url)
@@ -131,32 +115,34 @@ def process_municipality(url: str) -> List[List[str]]:
     for gender in ["female", "male", "other"]:
         candidate_urls += get_candidate_urls(driver, gender)
 
-    candidates = [
-        scrape_candidate(driver, url, gender) for url, gender in candidate_urls
-    ]
+    candidates = [scrape_candidate(driver, url, gender) for url, gender in candidate_urls]
 
     driver.quit()
 
-    return candidates
+    save(candidates, "a", lock)
+
+
+def save(contents: List[List[str]], mode: str, lock: Lock) -> None:
+    lock.acquire()
+
+    file = open(Config.ELECTION.FILE, mode)
+    csv.writer(file).writerows(contents)
+    file.close()
+
+    lock.release()
 
 
 def main() -> None:
     """Main scraping workflow."""
-    municipality_urls = [
-        f"{Config.BASE_URL}{i + 1}" for i in range(Config.MUNICIPALITIES)
-    ]
+    lock = Lock()
+    save([Config.ELECTION.FIELDS], "w", lock)
+    urls = [f"{Config.ELECTION.URL}{i}" for i in Config.ELECTION.RANGE]
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=Config.THREADS) as executor:
-        futures = [
-            executor.submit(process_municipality, url) for url in municipality_urls
-        ]
+    executor = concurrent.futures.ThreadPoolExecutor(Config.THREADS)
+    for url in urls:
+        executor.submit(process_municipality, url, lock)
 
-        with open(Config.FILE, "w", newline="", encoding="utf-8") as file:
-            writer = csv.writer(file)
-
-            for future in concurrent.futures.as_completed(futures):
-                writer.writerows(future.result())
+    executor.shutdown()
 
 
-if __name__ == "__main__":
-    main()
+main()
