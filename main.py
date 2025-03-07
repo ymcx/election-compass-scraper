@@ -1,6 +1,8 @@
 import concurrent.futures
 import csv
 import headers
+import random
+import sys
 from threading import Lock
 from typing import List, Tuple
 from selenium.webdriver import Chrome, ChromeOptions
@@ -17,10 +19,16 @@ class Config:
 
 def create_driver() -> Chrome:
     """Create and configure a headless Chrome driver."""
+    dir = random.randint(0, sys.maxsize)
     options = ChromeOptions()
     options.add_argument("--headless")
+    options.add_argument(f"--user-data-dir=__pycache__/{dir}")
 
-    return Chrome(options)
+    try:
+        return Chrome(options)
+    except Exception as e:
+        print(e)
+        sys.exit(1)
 
 
 def click_element(driver: Chrome, locator: Tuple[str, str]) -> None:
@@ -39,17 +47,22 @@ def expand_candidate_list(driver: Chrome) -> None:
             break
 
 
-def get_candidate_urls(driver: Chrome, gender: str) -> List[Tuple[str, str]]:
+def get_candidate_urls_gender(driver: Chrome, gender: str) -> List[str]:
     """Collect candidate URLs for a specific gender."""
     click_element(driver, (By.XPATH, f"//input[@value='{gender}']"))
+    candidates = get_candidate_urls(driver)
+    click_element(driver, (By.XPATH, f"//input[@value='{gender}']"))
 
+    return candidates
+
+
+def get_candidate_urls(driver: Chrome) -> List[str]:
+    """Collect candidate URLs."""
     candidates = []
     for link in driver.find_elements(By.TAG_NAME, "a"):
         href = link.get_attribute("href")
         if href and Config.ELECTION.URL in href:
-            candidates.append((href, gender))
-
-    click_element(driver, (By.XPATH, f"//input[@value='{gender}']"))
+            candidates.append(href)
 
     return candidates
 
@@ -95,6 +108,11 @@ def parse_candidate_answers(driver: Chrome) -> List[str]:
     return answers
 
 
+def scrape_candidates(driver: Chrome, urls: List[str], gender: str):
+    """Scrapes all candidates of the given gender."""
+    return [scrape_candidate(driver, url, gender) for url in urls]
+
+
 def scrape_candidate(driver: Chrome, url: str, gender: str) -> List[str]:
     """Scrape individual candidate details."""
     driver.get(url)
@@ -117,13 +135,20 @@ def process_municipality(url: str, lock: Lock) -> None:
     expand_candidate_list(driver)
     click_element(driver, (By.XPATH, "//button[@aria-label='Sukupuoli']"))
 
-    genders = ["female", "male", "other"]
-    candidate_urls = [
-        pair for gender in genders for pair in get_candidate_urls(driver, gender)
-    ]
-    candidates = [
-        scrape_candidate(driver, url, gender) for url, gender in candidate_urls
-    ]
+    candidate_f = get_candidate_urls_gender(driver, "female")
+    candidate_m = get_candidate_urls_gender(driver, "male")
+    candidate_o = get_candidate_urls_gender(driver, "other")
+    candidate_n = get_candidate_urls(driver)
+    candidate_n = list(
+        set(candidate_n) - set(candidate_f) - set(candidate_m) - set(candidate_o)
+    )
+
+    candidates = (
+        scrape_candidates(driver, candidate_f, "female")
+        + scrape_candidates(driver, candidate_m, "male")
+        + scrape_candidates(driver, candidate_o, "other")
+        + scrape_candidates(driver, candidate_n, "")
+    )
 
     driver.quit()
     save(candidates, "a", lock)
