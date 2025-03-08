@@ -108,11 +108,6 @@ def parse_candidate_answers(driver: Chrome) -> List[str]:
     return answers
 
 
-def scrape_candidates(driver: Chrome, urls: List[str], gender: str):
-    """Scrapes all candidates of the given gender."""
-    return [scrape_candidate(driver, url, gender) for url in urls]
-
-
 def scrape_candidate(driver: Chrome, url: str, gender: str) -> List[str]:
     """Scrape individual candidate details."""
     driver.get(url)
@@ -135,23 +130,27 @@ def process_municipality(url: str, lock: Lock) -> None:
     expand_candidate_list(driver)
     click_element(driver, (By.XPATH, "//button[@aria-label='Sukupuoli']"))
 
-    candidate_f = get_candidate_urls_gender(driver, "female")
-    candidate_m = get_candidate_urls_gender(driver, "male")
-    candidate_o = get_candidate_urls_gender(driver, "other")
-    candidate_n = get_candidate_urls(driver)
-    candidate_n = list(
-        set(candidate_n) - set(candidate_f) - set(candidate_m) - set(candidate_o)
+    candidate_urls_f = get_candidate_urls_gender(driver, "female")
+    candidate_urls_m = get_candidate_urls_gender(driver, "male")
+    candidate_urls_o = get_candidate_urls_gender(driver, "other")
+    candidate_urls_n = list(
+        set(get_candidate_urls(driver))
+        - set(candidate_urls_f)
+        - set(candidate_urls_m)
+        - set(candidate_urls_o)
     )
 
-    candidates = (
-        scrape_candidates(driver, candidate_f, "female")
-        + scrape_candidates(driver, candidate_m, "male")
-        + scrape_candidates(driver, candidate_o, "other")
-        + scrape_candidates(driver, candidate_n, "")
-    )
+    candidates_f = [scrape_candidate(driver, url, "female") for url in candidate_urls_f]
+    candidates_m = [scrape_candidate(driver, url, "male") for url in candidate_urls_m]
+    candidates_o = [scrape_candidate(driver, url, "other") for url in candidate_urls_o]
+    candidates_n = [scrape_candidate(driver, url, "") for url in candidate_urls_n]
 
     driver.quit()
-    save(candidates, "a", lock)
+
+    save(candidates_f, "a", lock)
+    save(candidates_m, "a", lock)
+    save(candidates_o, "a", lock)
+    save(candidates_n, "a", lock)
 
 
 def save(contents: List[List[str]], mode: str, lock: Lock) -> None:
