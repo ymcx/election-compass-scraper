@@ -28,7 +28,7 @@ def click_element(driver: Chrome, locator: Tuple[str, str]) -> None:
 
 
 def expand_candidate_list(driver: Chrome) -> None:
-    """Keep clicking 'Show more' until all candidates are loaded."""
+    """Keep clicking 'Show more' until all candidates are visible."""
     while True:
         try:
             click_element(driver, (By.XPATH, "//button[@aria-label='Näytä lisää']"))
@@ -37,7 +37,7 @@ def expand_candidate_list(driver: Chrome) -> None:
 
 
 def get_candidate_urls_gender(driver: Chrome, gender: str) -> List[str]:
-    """Collect candidate URLs for a specific gender."""
+    """Collect all candidate URLs in the current page, filtered by gender."""
     click_element(driver, (By.XPATH, f"//input[@value='{gender}']"))
     candidates = get_candidate_urls(driver)
     click_element(driver, (By.XPATH, f"//input[@value='{gender}']"))
@@ -46,7 +46,7 @@ def get_candidate_urls_gender(driver: Chrome, gender: str) -> List[str]:
 
 
 def get_candidate_urls(driver: Chrome) -> List[str]:
-    """Collect candidate URLs."""
+    """Collect all candidate URLs in the current page."""
     candidates = []
     links = driver.find_elements(By.TAG_NAME, "a")
     for link in links:
@@ -58,6 +58,7 @@ def get_candidate_urls(driver: Chrome) -> List[str]:
 
 
 def parse_candidate_info(driver: Chrome) -> List[str]:
+    """Parse candidate's information."""
     keys = driver.find_elements(By.CLASS_NAME, "sc-fxLEUo.iIOaPI")
     values = driver.find_elements(By.CLASS_NAME, "sc-cDCfkV.yFgtA")
     extract = ["Kotikunta", "Koulutus", "Syntymävuosi", "Äidinkieli"]
