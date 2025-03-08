@@ -1,9 +1,5 @@
-import concurrent.futures
 import csv
 import headers
-import random
-import sys
-from threading import Lock
 from typing import List, Tuple
 from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
@@ -12,23 +8,16 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 class Config:
-    THREADS = 8
     TIMEOUT = 5
     ELECTION = headers.COUNTY_ELECTIONS_2025
 
 
 def create_driver() -> Chrome:
     """Create and configure a headless Chrome driver."""
-    dir = random.randint(0, sys.maxsize)
     options = ChromeOptions()
     options.add_argument("--headless")
-    options.add_argument(f"--user-data-dir=__pycache__/{dir}")
 
-    try:
-        return Chrome(options)
-    except Exception as e:
-        print(e)
-        sys.exit(1)
+    return Chrome(options)
 
 
 def click_element(driver: Chrome, locator: Tuple[str, str]) -> None:
@@ -59,7 +48,8 @@ def get_candidate_urls_gender(driver: Chrome, gender: str) -> List[str]:
 def get_candidate_urls(driver: Chrome) -> List[str]:
     """Collect candidate URLs."""
     candidates = []
-    for link in driver.find_elements(By.TAG_NAME, "a"):
+    links = driver.find_elements(By.TAG_NAME, "a")
+    for link in links:
         href = link.get_attribute("href")
         if href and Config.ELECTION.URL in href:
             candidates.append(href)
@@ -67,7 +57,7 @@ def get_candidate_urls(driver: Chrome) -> List[str]:
     return candidates
 
 
-def parse_candidate_info(driver: Chrome, gender: str) -> List[str]:
+def parse_candidate_info(driver: Chrome) -> List[str]:
     keys = driver.find_elements(By.CLASS_NAME, "sc-fxLEUo.iIOaPI")
     values = driver.find_elements(By.CLASS_NAME, "sc-cDCfkV.yFgtA")
     extract = ["Kotikunta", "Koulutus", "Syntymävuosi", "Äidinkieli"]
@@ -84,7 +74,7 @@ def parse_candidate_info(driver: Chrome, gender: str) -> List[str]:
     year_of_birth = data.get(extract[2], "")
     language = data.get(extract[3], "")
 
-    return [name, party, municipality, education, year_of_birth, language, gender]
+    return [name, party, municipality, education, year_of_birth, language]
 
 
 def parse_candidate_answers(driver: Chrome) -> List[str]:
@@ -113,20 +103,15 @@ def scrape_candidate(driver: Chrome, url: str, gender: str) -> List[str]:
     driver.get(url)
     click_element(driver, (By.XPATH, "//button[@aria-label='Näytä lisää']"))
 
-    info = parse_candidate_info(driver, gender)
+    info = parse_candidate_info(driver)
     answers = parse_candidate_answers(driver)
 
-    return info + answers
+    return info + [gender] + answers
 
 
-def process_municipality(url: str, lock: Lock) -> None:
+def process_municipality(driver: Chrome, url: str) -> List[List[str]]:
     """Process a single municipality page and all its candidates."""
-    print(url)
-
-    driver = create_driver()
     driver.get(url)
-
-    click_element(driver, (By.XPATH, "//button[@aria-label='Vain välttämättömät']"))
     expand_candidate_list(driver)
     click_element(driver, (By.XPATH, "//button[@aria-label='Sukupuoli']"))
 
@@ -145,36 +130,31 @@ def process_municipality(url: str, lock: Lock) -> None:
     candidates_o = [scrape_candidate(driver, url, "other") for url in candidate_urls_o]
     candidates_n = [scrape_candidate(driver, url, "") for url in candidate_urls_n]
 
-    driver.quit()
-
-    save(candidates_f, "a", lock)
-    save(candidates_m, "a", lock)
-    save(candidates_o, "a", lock)
-    save(candidates_n, "a", lock)
+    return candidates_f + candidates_m + candidates_o + candidates_n
 
 
-def save(contents: List[List[str]], mode: str, lock: Lock) -> None:
+def save(contents: List[List[str]], mode: str) -> None:
     """Saves the given contents to a file in CSV format."""
-    lock.acquire()
-
     file = open(Config.ELECTION.FILE, mode)
     csv.writer(file).writerows(contents)
     file.close()
 
-    lock.release()
-
 
 def main() -> None:
     """Main scraping workflow."""
-    lock = Lock()
-    save([Config.ELECTION.FIELDS], "w", lock)
+    driver = create_driver()
+    driver.get(Config.ELECTION.URL)
+    click_element(driver, (By.XPATH, "//button[@aria-label='Vain välttämättömät']"))
+
+    save([Config.ELECTION.FIELDS], "w")
 
     urls = [f"{Config.ELECTION.URL}{i}" for i in Config.ELECTION.RANGE]
-    executor = concurrent.futures.ThreadPoolExecutor(Config.THREADS)
-    for url in urls:
-        executor.submit(process_municipality, url, lock)
+    for i, url in enumerate(urls):
+        progress = f"{round(i / len(urls) * 100, 2)}%"
+        print(progress)
 
-    executor.shutdown()
+        fields = process_municipality(driver, url)
+        save(fields, "a")
 
 
 main()
