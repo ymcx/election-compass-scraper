@@ -22,9 +22,15 @@ def create_driver() -> Chrome:
 
 def click_element(driver: Chrome, locator: Tuple[str, str]) -> None:
     """Click an element after waiting for it to be clickable."""
-    WebDriverWait(driver, Config.TIMEOUT).until(
-        expected_conditions.element_to_be_clickable(locator)
-    ).click()
+    while True:
+        try:
+            WebDriverWait(driver, Config.TIMEOUT).until(
+                expected_conditions.element_to_be_clickable(locator)
+            ).click()
+
+            break
+        except Exception as e:
+            print(e)
 
 
 def expand_candidate_list(driver: Chrome) -> None:
