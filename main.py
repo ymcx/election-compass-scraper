@@ -151,6 +151,7 @@ def save(contents: List[List[str]], mode: str) -> None:
 
 def main() -> None:
     """Main scraping workflow."""
+    global DRIVER
     DRIVER = create_driver()
     DRIVER.get(ELECTIONS.URL)
     click_element(By.XPATH, "//button[@aria-label='Vain välttämättömät']")
