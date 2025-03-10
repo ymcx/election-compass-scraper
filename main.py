@@ -96,20 +96,23 @@ def get_candidate_info() -> List[str]:
 def get_candidate_answers() -> List[str]:
     """Parse candidate's answers to questions."""
     answers = []
-    questions = DRIVER.find_elements(By.CLASS_NAME, "sc-bRilDX.sc-lcBlzg.ddoxjp.ZCKmG")[
-        : len(ELECTIONS.QUESTIONS)
-    ]
-    for question in questions:
-        options = question.find_elements(By.CLASS_NAME, "sc-kuCIbt")
-        selected = next(
-            (
-                str(i)
-                for i, option in enumerate(options)
-                if option.get_attribute("imgurl")
-            ),
-            "",
-        )
-        answers.append(selected)
+
+    while len(answers) != 25:
+        answers = []
+        questions = DRIVER.find_elements(
+            By.CLASS_NAME, "sc-bRilDX.sc-lcBlzg.ddoxjp.ZCKmG"
+        )[: len(ELECTIONS.QUESTIONS)]
+        for question in questions:
+            options = question.find_elements(By.CLASS_NAME, "sc-kuCIbt")
+            selected = next(
+                (
+                    str(i)
+                    for i, option in enumerate(options)
+                    if option.get_attribute("imgurl")
+                ),
+                "",
+            )
+            answers.append(selected)
 
     return answers
 
