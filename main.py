@@ -5,6 +5,11 @@ from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import (
+    StaleElementReferenceException,
+    NoSuchElementException,
+    TimeoutException,
+)
 
 ELECTIONS = headers.COUNTY_ELECTIONS_2025
 DRIVER: Chrome
@@ -20,7 +25,7 @@ def create_driver() -> Chrome:
 
 def click_element(by: str, value: str) -> None:
     """Click an element after waiting for it to be clickable."""
-    WebDriverWait(DRIVER, 5).until(
+    WebDriverWait(DRIVER, 10).until(
         expected_conditions.element_to_be_clickable((by, value))
     ).click()
 
@@ -29,7 +34,7 @@ def find_element(by: str, value: str) -> str:
     """Returns the found element or an empty string."""
     try:
         return DRIVER.find_element(by, value).text
-    except Exception:
+    except NoSuchElementException:
         return ""
 
 
@@ -38,7 +43,7 @@ def expand_list() -> None:
     while True:
         try:
             click_element(By.XPATH, "//button[@aria-label='Näytä lisää']")
-        except Exception:
+        except TimeoutException:
             break
 
 
@@ -53,14 +58,18 @@ def get_candidate_urls_gender(gender: str) -> List[str]:
 
 def get_candidate_urls() -> List[str]:
     """Collect all candidate URLs in the current page."""
-    candidates = []
-    links = DRIVER.find_elements(By.TAG_NAME, "a")
-    for link in links:
-        href = link.get_attribute("href")
-        if href and ELECTIONS.URL in href:
-            candidates.append(href)
+    while True:
+        try:
+            candidates = []
+            links = DRIVER.find_elements(By.TAG_NAME, "a")
+            for link in links:
+                href = link.get_attribute("href")
+                if href and ELECTIONS.URL in href:
+                    candidates.append(href)
 
-    return candidates
+            return candidates
+        except StaleElementReferenceException as e:
+            print(e)
 
 
 def get_candidate_info() -> List[str]:
