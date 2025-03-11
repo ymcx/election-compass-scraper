@@ -39,7 +39,7 @@ class MUNICIPAL_ELECTIONS_2025:
         "My municipality should show support for gender and sexual minorities by flying a Pride flag",
     ]
     FIELDS = COMMON + QUESTIONS
-    RANGE = range(1, 314)
+    RANGE = list(range(1, 263)) + list(range(284, 314))
     URL = "https://vaalit.yle.fi/vaalikone/kuntavaalit2025/"
 
 
