@@ -23,11 +23,32 @@ def create_driver() -> Chrome:
     return Chrome(options)
 
 
-def click_element(by: str, value: str) -> None:
+def click_element(by: str, value: str) -> bool:
     """Click an element after waiting for it to be clickable."""
-    WebDriverWait(DRIVER, 10).until(
-        expected_conditions.element_to_be_clickable((by, value))
-    ).click()
+    try:
+        WebDriverWait(DRIVER, 10).until(
+            expected_conditions.element_to_be_clickable((by, value))
+        ).click()
+
+        return True
+    except TimeoutException:
+        return False
+
+
+def click_element_once(by: str, value: str) -> None:
+    """Try to click an element until it's clicked."""
+    for _ in range(10):
+        success = click_element(by, value)
+        if success:
+            break
+
+
+def click_element_forever(by: str, value: str) -> None:
+    """Click an element until it's not clickable anymore."""
+    for _ in range(100):
+        success = click_element(by, value)
+        if not success:
+            break
 
 
 def find_element(by: str, value: str) -> str:
@@ -38,20 +59,11 @@ def find_element(by: str, value: str) -> str:
         return ""
 
 
-def expand_list() -> None:
-    """Keep clicking 'Show more' until the whole list is visible."""
-    while True:
-        try:
-            click_element(By.XPATH, "//button[@aria-label='Näytä lisää']")
-        except TimeoutException:
-            break
-
-
 def get_candidate_urls_gender(gender: str) -> List[str]:
     """Collect all candidate URLs in the current page, filtered by gender."""
-    click_element(By.XPATH, f"//input[@value='{gender}']")
+    click_element_once(By.XPATH, f"//input[@value='{gender}']")
     candidates = get_candidate_urls()
-    click_element(By.XPATH, f"//input[@value='{gender}']")
+    click_element_once(By.XPATH, f"//input[@value='{gender}']")
 
     return candidates
 
@@ -122,7 +134,7 @@ def get_candidate(url: str, gender: str) -> List[str]:
     print(url)
 
     DRIVER.get(url)
-    click_element(By.XPATH, "//button[@aria-label='Näytä lisää']")
+    click_element_once(By.XPATH, "//button[@aria-label='Näytä lisää']")
 
     info = get_candidate_info()
     answers = get_candidate_answers()
@@ -133,8 +145,8 @@ def get_candidate(url: str, gender: str) -> List[str]:
 def get_municipality(url: str) -> List[List[str]]:
     """Process a single municipality page and all its candidates."""
     DRIVER.get(url)
-    expand_list()
-    click_element(By.XPATH, "//button[@aria-label='Sukupuoli']")
+    click_element_forever(By.XPATH, "//button[@aria-label='Näytä lisää']")
+    click_element_once(By.XPATH, "//button[@aria-label='Sukupuoli']")
 
     candidate_urls_f = get_candidate_urls_gender("female")
     candidate_urls_m = get_candidate_urls_gender("male")
@@ -166,7 +178,7 @@ def main() -> None:
     global DRIVER
     DRIVER = create_driver()
     DRIVER.get(ELECTIONS.URL)
-    click_element(By.XPATH, "//button[@aria-label='Vain välttämättömät']")
+    click_element_once(By.XPATH, "//button[@aria-label='Vain välttämättömät']")
 
     save([ELECTIONS.FIELDS], "w")
 
