@@ -1,0 +1,45 @@
+/* https://github.com/mbadolato/iTerm2-Color-Schemes */
+/* Solarized Light */
+:root {
+	--link: #2aa198;
+	--text: #657b83;
+	--back: #fdf6e3;
+}
+
+/* Solarized Dark */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--link: #2aa198;
+		--text: #839496;
+		--back: #002b36;
+	}
+}
+
+body {
+	background-color: var(--back);
+	color: var(--text);
+	font-family: sans-serif;
+	margin: auto;
+	line-height: 1.5;
+	max-width: 40em;
+}
+
+a {
+	color: var(--link);
+	text-decoration: none;
+}
+
+button {
+	margin-top: 4em;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links {
+	display: flex;
+	gap: 2em;
+}
