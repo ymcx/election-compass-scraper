@@ -54,6 +54,7 @@ Sirkka-liisa Lamminkoski,KD,Ähtäri,ammattitutkinto,1955,suomi,female,2,3,3,0,0
 Annukka Latvala,KD,Seinäjoki,ylempi korkeakoulututkinto,1959,suomi,female,3,1,2,1,1,1,2,3,2,1,2,2,3,3,1,2,1,2,2,3,1,3,1,2,2
 Johanna Latvala,Sit,Seinäjoki,ammattitutkinto,1980,suomi,female,3,0,3,0,1,0,0,3,0,0,0,3,3,3,0,0,1,3,3,3,2,0,0,3,0
 Julia Lehtinen,Kok.,Kurikka,ylioppilas,2002,suomi,female,3,1,3,2,2,2,3,3,1,0,1,3,3,1,1,1,1,0,0,3,0,3,2,2,1
+Alina Lehto,Kesk.,Seinäjoki,alempi korkeakoulututkinto,1989,suomi,female,1,2,2,2,2,1,2,3,0,1,2,1,2,2,2,2,1,1,2,2,1,0,1,2,1
 Riitta Lehtola,SDP,Seinäjoki,ylempi korkeakoulututkinto,1955,suomi,female,3,3,1,2,1,0,2,2,2,0,2,1,2,3,1,2,0,2,1,2,0,0,0,3,2
 Heli Leppälä,KD,Kurikka,alempi korkeakoulututkinto,1982,suomi,female,1,1,2,2,2,2,1,3,1,1,0,2,1,3,0,2,1,2,2,2,2,2,1,2,1
 Nina Leppänen,Vihr.,Seinäjoki,ammattitutkinto,1998,suomi,female,3,3,0,0,1,2,1,2,3,0,3,2,3,2,2,0,1,2,2,3,1,1,2,1,2
@@ -78,7 +79,9 @@ Satu Niemi,PS,Kurikka,alempi korkeakoulututkinto,1976,suomi,female,1,2,2,3,1,1,1
 Kati Nummensalo,KD,Seinäjoki,ylempi korkeakoulututkinto,1972,suomi,female,1,1,2,3,2,2,2,2,0,2,1,1,3,2,2,2,0,3,1,2,0,2,2,1,1
 Päivi Nummijoki,Kesk.,Kauhajoki,ammattitutkinto,1958,suomi,female,2,3,3,2,1,2,2,2,1,1,1,1,2,2,2,0,1,2,2,3,0,0,0,0,2
 Noora Nyrhilä,Vas.,Lapua,alempi korkeakoulututkinto,1986,suomi,female,1,2,2,2,2,2,0,3,1,0,3,1,2,2,1,0,1,1,3,2,0,2,0,0,3
+Anne Nätynki,KD,Alajärvi,ammattitutkinto,1960,suomi,female,2,1,2,2,1,1,2,3,0,1,0,1,2,3,2,3,1,1,1,3,0,3,2,2,1
 Kati Ojaniemi,Kesk.,Seinäjoki,ylempi korkeakoulututkinto,1973,suomi,female,2,2,2,3,2,1,2,2,1,0,2,2,3,3,0,2,1,1,2,3,0,0,1,2,2
+Arja Ollikainen,KD,Ähtäri,alempi korkeakoulututkinto,1956,suomi,female,2,1,2,2,1,1,2,2,2,1,0,0,2,3,0,1,1,2,1,3,0,2,2,3,1
 Sari Palmu,Kesk.,Alajärvi,ammattitutkinto,1972,suomi,female,2,1,1,3,0,2,1,3,1,1,2,1,3,2,0,1,1,2,2,3,1,0,0,1,1
 Hanna Peräaho,Kesk.,Lapua,ylempi korkeakoulututkinto,1978,suomi,female,3,2,1,3,1,1,1,3,1,0,2,2,2,2,2,1,0,2,2,3,1,0,0,0,2
 Merja Phoenix,Liik.,Lapua,ylioppilas,1982,suomi,female,2,3,1,3,0,0,0,0,0,0,0,1,3,3,0,0,1,3,3,3,0,1,3,2,0
@@ -95,6 +98,7 @@ Paula Risikko,Kok.,Seinäjoki,ylempi korkeakoulututkinto,1960,suomi,female,3,2,3
 Tiina Roumio,Kesk.,Kauhava,ylempi korkeakoulututkinto,1973,suomi,female,2,1,1,3,2,2,2,3,1,2,3,1,2,3,2,1,0,2,2,3,2,0,0,3,1
 Hanna-leena Saarela,SDP,Seinäjoki,alempi korkeakoulututkinto,1959,suomi,female,3,3,0,3,2,1,1,2,2,0,3,0,3,3,0,1,1,0,3,1,0,2,2,1,2
 Hilkka Salmela,Vihr.,Seinäjoki,ylempi korkeakoulututkinto,1960,suomi,female,3,2,1,2,2,2,2,2,2,0,3,2,3,3,1,1,1,2,3,3,2,1,0,3,2
+Sirpa Salomäki,Kesk.,Vimpeli,ylempi korkeakoulututkinto,1961,suomi,female,3,1,2,3,1,1,2,3,1,2,0,3,0,3,1,3,0,1,3,3,0,2,0,1,3
 Merja Sankelo,Kok.,Seinäjoki,ylempi korkeakoulututkinto,1956,suomi,female,2,1,2,3,2,1,2,2,1,1,2,1,1,2,1,1,2,2,2,2,0,2,2,3,1
 Suvi Saunamäki,PS,Ilmajoki,ammattitutkinto,1982,suomi,female,1,2,2,1,1,1,1,2,1,0,1,2,0,2,0,1,1,2,1,2,1,1,1,0,1
 Maarit Siik,Kok.,Seinäjoki,alempi korkeakoulututkinto,1962,suomi,female,1,1,2,2,2,2,2,2,2,1,2,1,2,2,1,2,1,1,2,2,0,2,1,1,1
@@ -113,6 +117,8 @@ Tellervo Tulisalo,SDP,Seinäjoki,ylempi korkeakoulututkinto,1978,suomi,female,3,
 Helena Tuuri-Tammela,Kesk.,Isokyrö,ylempi korkeakoulututkinto,1969,suomi,female,2,2,1,3,0,2,2,2,0,1,2,1,2,1,2,1,2,3,2,3,0,0,0,2,1
 Taina Törvi,Kok.,Seinäjoki,alempi korkeakoulututkinto,1974,suomi,female,0,0,3,3,2,2,2,3,1,0,1,0,3,3,3,0,3,1,3,3,0,0,1,0,2
 Tiialotta Ueckermann,KD,Kuortane,ylempi korkeakoulututkinto,1991,suomi,female,2,1,1,2,2,1,0,3,1,1,0,1,1,2,1,2,2,1,1,2,1,2,1,1,0
+Outi Valli,PS,Isojoki,alempi korkeakoulututkinto,1956,suomi,female,3,1,2,1,1,2,1,3,1,0,1,1,3,3,1,1,0,2,2,3,0,3,2,3,1
+Riikka Varila,Kok.,Kuortane,alempi korkeakoulututkinto,1989,suomi,female,0,0,3,3,3,2,2,3,2,3,1,0,2,1,2,3,3,0,0,3,0,3,2,0,0
 Minna Vienola,Kok.,Seinäjoki,alempi korkeakoulututkinto,1969,suomi,female,2,1,2,3,1,1,1,3,2,1,1,2,1,2,2,1,2,1,3,3,0,1,2,1,2
 Maria Viita-aho-tohni,KD,Lappajärvi,alempi korkeakoulututkinto,1966,suomi,female,1,1,2,2,0,2,2,3,1,1,1,1,1,1,1,2,1,1,2,3,0,0,1,1,1
 Susanna Viitala,Kesk.,Kurikka,alempi korkeakoulututkinto,1974,suomi,female,2,1,1,3,1,1,2,3,1,1,2,1,1,1,2,0,0,1,2,3,1,0,0,2,0
@@ -157,7 +163,9 @@ Harri Jokiranta,SDP,Seinäjoki,ylempi korkeakoulututkinto,1956,suomi,male,3,2,2,
 Juha Julmala,Kesk.,Seinäjoki,ylioppilas,1996,suomi,male,3,2,1,3,0,2,2,3,0,0,1,0,3,3,1,2,0,3,3,3,0,0,0,1,1
 Aku-matti Juttuniemi,PS,Lappajärvi,ammattitutkinto,1979,suomi,male,2,2,2,1,2,2,1,3,1,1,1,1,2,2,0,2,2,1,2,2,1,2,1,2,1
 Toni Juurakko,Kesk.,Alavus,ylempi korkeakoulututkinto,1971,suomi,male,2,0,2,3,1,2,2,3,0,0,1,0,3,3,0,2,1,1,2,3,0,1,1,3,2
+Kari Järviö,Vas.,Seinäjoki,peruskoulu,1965,suomi,male,2,2,0,1,1,0,2,3,2,0,2,2,3,3,1,2,1,2,3,3,1,1,0,3,2
 Pasi Järviö,Vas.,Seinäjoki,ammattitutkinto,1989,suomi,male,2,2,1,2,0,2,1,2,2,0,2,2,2,3,2,2,1,1,3,3,2,1,0,2,2
+Kai Kaistila,Kok.,Seinäjoki,ammattitutkinto,1957,suomi,male,3,1,2,1,2,2,2,3,0,3,1,0,3,2,0,3,1,1,1,3,2,2,1,3,1
 Olavi Kandolin,Kesk.,Kurikka,alempi korkeakoulututkinto,1979,suomi,male,2,1,1,3,1,2,0,3,0,0,1,0,3,2,1,2,1,2,1,3,0,1,0,3,0
 Jari Kankaanpää,Kok.,Seinäjoki,ylempi korkeakoulututkinto,1986,suomi,male,0,1,2,3,2,2,3,2,1,3,1,0,1,2,2,1,2,2,2,2,2,2,2,2,1
 Pauli Kankaanpää,Kesk.,Seinäjoki,ylempi korkeakoulututkinto,1954,suomi,male,3,3,1,3,1,1,1,3,0,1,1,1,3,3,0,1,0,3,0,3,0,0,0,3,0
@@ -180,6 +188,7 @@ Tuomas Lahdenperä,Kok.,Alajärvi,alempi korkeakoulututkinto,1991,suomi,male,1,1
 Kari Laine,KD,Lapua,ammattitutkinto,1958,suomi,male,3,3,1,2,0,1,2,2,2,1,1,0,3,3,1,2,1,2,0,3,2,1,0,3,1
 Tauno Lampinen,PS,Kuortane,peruskoulu,1956,suomi,male,2,2,2,1,1,1,1,3,1,1,1,0,2,3,0,2,1,2,1,3,0,3,1,3,1
 Hannu Laturi,Kesk.,Seinäjoki,ammattitutkinto,2001,suomi,male,2,2,1,2,1,2,1,3,1,0,1,1,3,3,1,2,0,1,2,3,1,0,0,1,1
+Jarmo Latvala,Kok.,Kurikka,ammattitutkinto,1961,suomi,male,2,2,2,3,2,2,1,3,1,1,1,1,2,2,1,2,1,1,1,2,0,2,1,1,1
 Esko Lehtimäki,Kesk.,Teuva,ylempi korkeakoulututkinto,1960,suomi,male,3,2,3,2,0,3,2,2,1,1,1,0,3,3,2,1,1,1,1,3,0,0,0,1,2
 Pekka Lehtiniemi,SDP,Seinäjoki,alempi korkeakoulututkinto,1980,suomi,male,3,2,1,3,3,1,1,3,0,0,1,1,3,3,1,1,0,1,0,2,0,0,0,0,2
 Petteri Lehtola,Vas.,Seinäjoki,alempi korkeakoulututkinto,1981,suomi,male,3,1,0,2,2,2,2,2,3,1,2,1,3,2,0,1,0,2,2,3,3,1,0,2,2
@@ -194,6 +203,7 @@ Mikko Martikkala,PS,Lapua,ammattitutkinto,1988,suomi,male,2,1,2,2,1,1,1,3,0,3,0,
 Jukka Pekka Matintupa,SDP,Alajärvi,ammattitutkinto,1954,suomi,male,3,2,1,0,1,1,2,2,2,1,2,1,0,3,1,1,0,2,1,3,0,1,0,3,2
 Risto Mattila,PS,Kauhava,alempi korkeakoulututkinto,1983,suomi,male,3,2,1,3,1,1,1,3,0,0,0,1,2,3,0,1,1,2,0,3,0,1,0,3,1
 Tuomas Mikkola,Vihr.,Kuortane,ylempi korkeakoulututkinto,1979,suomi,male,3,2,2,3,2,1,2,2,3,0,2,2,3,2,1,2,1,3,3,3,2,0,0,3,3
+Perttu Moisio,SDP,Ähtäri,alempi korkeakoulututkinto,1976,suomi,male,2,2,0,2,1,1,2,2,1,1,2,1,2,2,1,2,1,2,2,2,2,1,1,2,1
 Mikko Muilu,Vihr.,Seinäjoki,ylempi korkeakoulututkinto,1978,suomi,male,3,1,1,3,3,1,3,3,2,0,3,1,3,3,2,1,2,2,3,3,2,1,1,2,3
 Anssi Mutka,VKK,Alavus,ylioppilas,1990,suomi,male,3,0,0,3,0,0,0,0,0,3,0,0,3,0,0,3,0,3,0,3,0,3,3,0,0
 Tomi Mäenpää,PS,Seinäjoki,alempi korkeakoulututkinto,1988,suomi,male,3,0,1,3,3,1,1,2,0,3,0,0,2,0,2,3,3,1,0,1,1,3,1,3,0
@@ -217,6 +227,7 @@ Kalle Peltokangas,Kesk.,Alavus,ylempi korkeakoulututkinto,1984,suomi,male,3,2,1,
 Matias Peltonen,SDP,Kauhava,ammattitutkinto,1974,suomi,male,3,2,0,3,0,3,3,3,3,0,3,0,3,3,3,0,0,3,3,3,0,0,3,3,3
 Jaakko Pihlajamäki,Kesk.,Seinäjoki,ylempi korkeakoulututkinto,1954,suomi,male,3,2,2,3,2,2,2,2,2,2,2,1,2,2,2,2,2,1,2,2,2,1,0,2,2
 Antti Piipponen,SDP,Soini,ammattitutkinto,1954,suomi,male,3,2,2,2,0,1,1,2,1,1,2,2,2,3,1,1,0,1,2,3,1,0,1,2,2
+Heikki Veli-Matti Poola,PS,Seinäjoki,alempi korkeakoulututkinto,1964,suomi,male,2,2,2,2,2,1,1,3,0,2,0,1,1,1,1,2,1,2,0,2,2,1,2,3,0
 Eemeli Porthen,Kesk.,Seinäjoki,alempi korkeakoulututkinto,1986,suomi,male,1,1,2,3,2,1,2,3,0,0,1,1,2,2,2,1,0,3,2,3,0,0,1,1,2
 Jaakko Pukkinen,Kok.,Isokyrö,ylempi korkeakoulututkinto,1961,suomi,male,1,0,3,3,1,1,1,2,0,0,2,0,2,1,3,3,3,2,0,3,0,0,0,3,1
 Rami Puro,Kok.,Soini,ylempi korkeakoulututkinto,1968,suomi,male,2,1,2,1,2,2,2,3,1,1,2,1,1,2,2,1,1,1,1,3,1,2,1,1,2
@@ -272,6 +283,7 @@ Heli-hannele Haapaniemi,Vas.,Ii,ammattitutkinto,1962,suomi,female,3,3,1,1,1,2,2,
 Milja Haatanen,Vihr.,Oulu,ylioppilas,2003,suomi,female,3,3,0,1,2,0,3,3,3,0,3,1,3,3,1,0,0,2,3,3,2,1,0,2,3
 Tarja Hackzell,SDP,Kempele,ylempi korkeakoulututkinto,1967,suomi,female,3,2,1,0,2,2,2,3,3,0,3,2,3,3,1,1,0,0,3,3,0,0,0,2,2
 Annu Haho,Kesk.,Oulu,ylempi korkeakoulututkinto,1964,suomi,female,2,1,2,0,2,1,2,2,1,1,2,1,2,2,2,2,0,1,2,2,0,1,0,1,2
+Elisa Hallapuro,Vihr.,Oulu,ylioppilas,2001,suomi,female,3,3,1,0,1,2,2,3,3,0,3,2,3,3,1,1,0,2,3,3,2,1,1,2,3
 Taru Hallikainen,Vihr.,Oulu,ylempi korkeakoulututkinto,1977,suomi,female,2,2,1,0,1,2,2,3,2,0,3,0,3,3,1,1,0,2,3,2,1,1,1,3,3
 Mira Haukipuro,Kesk.,Haapavesi,alempi korkeakoulututkinto,1985,suomi,female,2,1,2,0,2,3,2,3,1,1,1,0,2,2,0,1,2,2,2,2,2,0,1,2,1
 Jaana Hautamäki,SDP,Raahe,ylempi korkeakoulututkinto,1968,suomi,female,3,1,1,1,1,2,1,3,2,1,2,1,3,2,2,1,2,2,2,2,1,1,1,2,2
@@ -295,6 +307,7 @@ Ritva Huusko,Vas.,Tyrnävä,ylempi korkeakoulututkinto,1968,suomi,female,1,2,1,0
 Sari Huuskonen,Kesk.,Reisjärvi,alempi korkeakoulututkinto,1972,suomi,female,3,1,0,0,0,3,3,3,2,0,2,2,3,3,1,1,0,2,2,3,0,0,0,0,3
 Elina Hyttinen,Kesk.,Nivala,ylempi korkeakoulututkinto,1979,suomi,female,3,2,1,1,1,2,2,3,2,1,2,0,3,2,1,2,1,2,2,3,2,1,0,2,1
 Katri Hyvärinen,Kesk.,Muhos,ylempi korkeakoulututkinto,1980,suomi,female,1,1,2,0,2,2,2,3,1,0,3,1,3,3,2,1,2,1,2,3,0,0,0,2,1
+Piia Härkönen,SDP,Kalajoki,alempi korkeakoulututkinto,1973,suomi,female,3,2,0,0,1,1,1,3,2,0,3,1,3,3,1,1,0,1,2,3,0,1,0,3,2
 Päivi Iivonen,SDP,Sievi,alempi korkeakoulututkinto,1988,suomi,female,3,3,1,1,0,3,1,3,1,0,3,1,3,3,0,2,0,2,3,3,0,0,0,0,1
 Laura Illikainen,Kok.,Kuusamo,ammattitutkinto,1986,suomi,female,1,2,2,1,0,1,2,2,1,2,2,1,3,2,2,2,1,0,2,3,0,2,1,1,1
 Miia Immonen,Vihr.,Oulu,ylempi korkeakoulututkinto,1984,suomi,female,2,1,1,1,2,2,2,3,2,0,3,1,3,2,2,1,2,2,2,2,2,2,1,2,2
@@ -323,6 +336,7 @@ Maria Kekkonen,Vas.,Oulu,alempi korkeakoulututkinto,1990,suomi,female,3,3,0,0,3,
 Anna-Kaisa Kekolahti,Vihr.,Oulu,alempi korkeakoulututkinto,1980,suomi,female,3,3,0,1,1,1,2,3,3,0,3,3,3,3,1,0,0,2,3,3,2,0,1,3,2
 Marja-leena Kemppainen,KD,Oulu,alempi korkeakoulututkinto,1956,suomi,female,2,2,2,1,3,0,1,3,1,2,3,1,3,2,1,2,1,2,2,2,0,3,1,1,3
 Minna Keskitalo,Kesk.,Oulu,ylempi korkeakoulututkinto,1971,suomi,female,2,2,2,1,3,2,2,3,2,0,3,1,3,2,2,3,2,2,3,2,1,2,1,1,2
+Anne Kesti,PS,Pyhäntä,ylempi korkeakoulututkinto,1969,suomi,female,1,1,1,1,2,2,0,3,1,1,1,1,2,2,1,2,1,2,3,2,1,0,2,3,1
 Elisa Kettunen,VL,Oulu,alempi korkeakoulututkinto,1986,suomi,female,2,1,1,0,0,2,0,3,0,1,0,1,3,2,3,1,0,3,3,2,0,0,0,3,0
 Niina Kettunen,SDP,Oulu,alempi korkeakoulututkinto,1989,suomi,female,3,1,0,0,1,1,0,3,1,0,2,2,3,2,1,1,2,3,3,3,1,2,1,3,2
 Susanna Kisner,Kok.,Oulu,ylempi korkeakoulututkinto,1979,suomi,female,2,1,2,1,2,1,2,2,0,0,2,0,2,2,2,2,2,2,2,2,0,2,2,1,2
@@ -380,8 +394,10 @@ Marja Mäyrä-Mafi,Vas.,Oulu,ammattitutkinto,1971,suomi,female,1,3,1,0,2,1,3,3,3
 Henna Määttä,Vihr.,Oulu,ylempi korkeakoulututkinto,1984,suomi,female,3,2,1,1,2,1,2,3,3,0,3,1,3,2,1,1,1,1,3,3,1,3,0,3,3
 Pille Nevala,Kesk.,Haapavesi,alempi korkeakoulututkinto,1977,jokin muu,female,3,1,0,0,0,1,0,3,1,0,2,0,3,3,1,1,0,2,2,3,1,2,2,2,2
 Anni Niemi,Vas.,Oulu,alempi korkeakoulututkinto,1996,suomi,female,3,3,1,1,2,2,0,3,3,1,3,1,2,3,0,1,2,3,3,2,3,1,0,2,3
+Kirsti Nivala,Kesk.,Merijärvi,ammattitutkinto,1964,suomi,female,3,2,0,0,2,1,1,3,0,0,2,2,3,3,0,1,0,3,3,3,0,0,3,3,0
 Sari Nurro,Kok.,Raahe,ylempi korkeakoulututkinto,1971,suomi,female,0,1,3,3,2,1,2,3,1,0,2,1,1,0,3,3,3,2,0,1,0,3,3,3,1
 Maarit Nyman,SDP,Oulu,ylioppilas,1966,suomi,female,3,2,1,1,2,1,2,2,2,0,3,1,2,2,2,1,1,2,2,2,1,1,1,1,2
+Sari Nyman,Vas.,Siikajoki,ammattitutkinto,1977,suomi,female,3,3,2,0,1,1,1,3,3,0,2,1,3,3,1,1,0,3,2,3,2,0,0,1,1
 Tanja-maria Nyman,RKP,Oulu,ylempi korkeakoulututkinto,1965,ruotsi,female,2,2,2,0,3,1,2,3,2,1,3,2,3,2,0,1,1,1,3,3,1,1,1,2,2
 Anneli Näppä,Kesk.,Oulu,joku muu,1957,suomi,female,3,2,1,2,2,1,1,3,2,1,2,1,3,2,1,2,2,3,3,2,1,2,0,2,1
 Anu Ohukainen,Kok.,Oulu,ammattitutkinto,1992,suomi,female,2,1,2,2,1,1,1,3,1,0,1,2,3,2,3,1,2,0,0,3,0,1,2,2,1
@@ -391,6 +407,7 @@ Kati Paasovaara,Vihr.,Oulu,ylempi korkeakoulututkinto,1976,suomi,female,2,1,2,1,
 Eija Pahkala,Kesk.,Kalajoki,ammattitutkinto,1957,suomi,female,3,1,1,0,0,1,2,3,2,1,1,1,2,3,0,1,0,2,2,3,0,0,1,2,2
 Laura Palmgren-Neuvonen,Vas.,Oulu,ylempi korkeakoulututkinto,1959,suomi,female,2,2,1,1,1,1,2,3,2,0,3,1,3,3,2,1,1,3,3,2,2,1,1,1,3
 Sirkka Pankinaho,PS,Pudasjärvi,alempi korkeakoulututkinto,1959,suomi,female,0,1,3,2,0,0,0,3,1,0,1,0,1,2,0,0,0,3,1,3,0,2,2,3,0
+Päivi Partanen,Vihr.,Oulu,ylempi korkeakoulututkinto,1977,suomi,female,3,2,2,1,1,2,1,3,1,0,3,1,3,3,2,1,0,2,3,2,2,1,1,2,3
 Sinikka Parttimaa,Kesk.,Haapajärvi,ylempi korkeakoulututkinto,1953,suomi,female,3,2,0,3,0,3,3,3,0,1,2,0,3,2,1,0,0,3,1,3,0,0,0,1,3
 Reeta Pasma,Vihr.,Oulu,ylioppilas,2004,suomi,female,3,3,0,0,0,1,3,2,3,0,3,2,3,3,0,1,0,2,3,2,2,1,0,3,3
 Tarja Pasma,Vihr.,Oulu,ylempi korkeakoulututkinto,1958,suomi,female,3,3,1,2,2,2,3,2,2,0,3,1,3,3,2,0,2,3,3,3,3,2,0,3,3
@@ -409,6 +426,7 @@ Anu Pyykönen,Kok.,Oulu,alempi korkeakoulututkinto,1977,suomi,female,3,2,2,0,1,1
 Pirjo Pyörälä,Kesk.,Oulu,ylempi korkeakoulututkinto,1973,suomi,female,1,1,1,0,2,1,3,2,1,1,2,0,2,2,1,1,0,2,2,2,0,0,0,2,1
 Arja Rantapelkonen,Kok.,Liminka,ylempi korkeakoulututkinto,1957,suomi,female,3,0,3,3,0,2,2,3,1,0,3,0,2,1,2,0,3,0,2,3,0,0,1,2,3
 Saga Rasi,SDP,Oulu,peruskoulu,2007,suomi,female,3,3,1,1,2,1,2,3,1,0,1,2,3,2,1,1,1,2,2,3,1,1,1,3,2
+Merja Rasinkangas,PS,Oulu,alempi korkeakoulututkinto,1963,suomi,female,1,2,3,3,3,1,0,3,0,2,0,1,3,3,2,3,2,1,1,3,0,3,3,1,0
 Satu Rimpeläinen,Kesk.,Pyhäntä,alempi korkeakoulututkinto,1975,suomi,female,2,3,1,3,1,1,2,2,1,0,2,1,3,2,1,2,1,2,2,3,1,2,0,2,2
 Tanja Roth,Vas.,Oulu,alempi korkeakoulututkinto,1965,suomi,female,3,3,1,1,0,1,2,2,3,0,3,1,3,3,1,2,0,0,3,3,0,0,1,2,3
 Ammi Ruotsalainen,Vas.,Oulu,alempi korkeakoulututkinto,1981,suomi,female,3,3,1,0,2,2,2,3,3,0,3,1,3,2,1,1,1,2,3,2,2,1,0,2,3
@@ -494,6 +512,7 @@ Jukka Holtinkoski,SDP,Oulu,alempi korkeakoulututkinto,1956,suomi,male,2,2,2,1,2,
 Matti Honkala,Kok.,Raahe,ylempi korkeakoulututkinto,1953,suomi,male,2,3,3,3,2,2,3,2,3,0,3,1,0,2,2,0,3,0,0,3,0,0,2,3,1
 Vesa Huittinen,Vas.,Oulu,peruskoulu,1961,suomi,male,3,2,2,1,1,1,3,2,2,0,3,1,2,3,1,1,2,1,3,3,0,3,0,3,1
 Esko Huotari,Vas.,Tyrnävä,peruskoulu,1952,suomi,male,3,3,0,0,1,1,3,3,3,0,3,2,3,3,1,2,0,2,3,3,3,1,0,2,3
+Jukka Huotari,PS,Oulu,joku muu,1978,suomi,male,3,3,2,0,0,2,0,3,0,2,0,0,3,2,0,1,2,3,3,3,0,1,1,2,0
 Uoti Huotari,Vas.,Oulu,alempi korkeakoulututkinto,1986,suomi,male,3,3,0,0,1,1,2,2,3,0,2,1,3,2,0,0,2,2,3,2,3,1,1,1,3
 Jarmo J Husso,Kok.,Oulu,alempi korkeakoulututkinto,1953,suomi,male,3,0,3,3,3,0,2,3,1,1,0,0,3,3,1,3,3,0,3,3,0,3,3,3,2
 Petri Hyvönen,PS,Ii,ammattitutkinto,1985,suomi,male,3,2,2,1,1,1,1,3,1,1,2,2,2,2,1,1,1,1,1,3,2,1,1,1,1
@@ -564,6 +583,7 @@ Janne Leinonen,Lib.,Taivalkoski,ylioppilas,1985,suomi,male,2,1,2,2,2,2,2,2,0,3,2
 Markus Lepinoja,Vas.,Oulu,joku muu,1981,suomi,male,3,2,1,1,0,1,2,2,3,0,2,1,3,2,1,2,0,2,2,3,2,0,0,2,2
 Jani Leppänen,PS,Muhos,ammattitutkinto,1999,suomi,male,1,1,2,2,1,1,0,3,0,3,0,0,2,2,2,2,1,2,0,2,0,3,2,3,0
 Teijo Liedes,Vas.,Ii,ylempi korkeakoulututkinto,1955,suomi,male,3,3,1,0,1,3,2,2,2,0,3,0,2,3,2,0,2,3,3,3,2,1,1,1,3
+Timo Lindborg,Kok.,Oulu,ylempi korkeakoulututkinto,1955,suomi,male,2,1,3,1,2,1,2,3,1,1,3,1,2,3,2,1,3,2,3,2,0,3,3,2,1
 Otto Loukkola,SDP,Oulu,ylioppilas,2000,suomi,male,3,2,0,1,2,1,1,3,0,0,2,1,1,2,2,1,1,3,1,3,1,2,1,3,2
 Juho Lukkari,Vihr.,Oulu,ylempi korkeakoulututkinto,1991,suomi,male,3,2,2,1,2,0,2,3,1,0,3,0,2,2,2,2,1,3,3,3,2,2,3,3,2
 Matti Luonuansuu,Vas.,Alavieska,alempi korkeakoulututkinto,1982,suomi,male,3,1,1,0,0,1,1,2,3,0,3,1,3,3,1,2,0,2,3,2,2,2,0,1,2
@@ -588,7 +608,9 @@ Harri Minkkinen,SDP,Oulu,ammattitutkinto,1978,suomi,male,3,2,1,0,2,1,1,2,1,0,2,1
 Pekka Mustakallio,Kesk.,Oulu,ylempi korkeakoulututkinto,1984,suomi,male,3,2,2,3,2,1,2,3,2,0,2,1,3,3,1,2,1,1,2,3,0,0,1,1,2
 Juha-matti Mustonen,Vas.,Oulu,ammattitutkinto,1982,suomi,male,3,3,0,0,2,0,3,3,3,0,3,2,3,3,1,1,0,3,3,3,3,0,0,0,3
 Lassi Mäkelä,Kok.,Oulu,alempi korkeakoulututkinto,1980,suomi,male,2,1,2,0,2,1,2,2,1,1,2,1,3,2,2,1,2,2,1,2,1,2,1,2,1
+Tuukka Mäkiranta,VKK,Oulu,ylempi korkeakoulututkinto,1984,suomi,male,3,3,0,0,0,2,0,3,0,3,0,0,3,3,0,2,0,3,0,3,0,0,0,3,0
 Juha Mäkivierikko,SDP,Oulu,ammattitutkinto,1960,suomi,male,2,2,1,0,1,1,1,3,1,1,3,2,2,2,1,1,2,2,2,2,1,2,0,3,2
+Arvi Mäläskä,Kesk.,Oulu,ylempi korkeakoulututkinto,1966,suomi,male,0,1,1,0,1,1,1,3,0,1,2,1,3,3,0,2,2,3,3,3,3,2,0,3,1
 Ari Mäntykenttä,Vas.,Oulu,ammattitutkinto,1972,suomi,male,3,3,0,0,1,1,1,3,2,3,3,1,3,2,1,0,0,3,3,3,2,0,0,3,2
 Lauri Määttä,PS,Oulu,ammattitutkinto,1967,suomi,male,3,2,2,2,2,1,2,3,0,0,1,0,3,3,2,2,0,2,3,3,0,3,0,3,1
 Simo Niemelä,Kesk.,Oulu,ammattitutkinto,1981,suomi,male,3,3,1,0,0,2,0,3,0,0,2,3,3,3,2,0,0,3,3,3,0,0,1,3,0
@@ -621,6 +643,7 @@ Reijo Perander,KD,Kalajoki,ammattitutkinto,1950,suomi,male,0,2,2,0,1,1,1,3,2,1,1
 Pasi Perkiö,SDP,Muhos,ammattitutkinto,1970,suomi,male,3,3,0,1,2,1,2,3,2,0,3,2,3,2,2,1,2,2,3,2,1,3,1,0,2
 Raine Pernu,SDP,Oulu,ylioppilas,1977,suomi,male,2,2,1,0,2,2,2,3,2,0,2,2,3,3,1,0,2,2,2,2,0,3,0,0,1
 Kimmo Pesonen,SDP,Kärsämäki,ammattitutkinto,1975,suomi,male,3,2,1,0,1,2,1,3,1,0,1,3,3,3,2,1,1,1,2,3,2,0,1,2,2
+Tuomo Pienimäki,Kesk.,Oulu,ylempi korkeakoulututkinto,1951,suomi,male,1,2,2,1,2,1,2,2,1,1,1,2,3,3,2,2,0,1,2,2,1,2,0,2,2
 Paavo Pietiläinen,Kok.,Oulu,ylempi korkeakoulututkinto,1954,suomi,male,1,1,2,2,2,1,3,3,2,0,2,1,2,2,2,1,1,0,2,2,0,2,2,1,2
 Juha Piirala,Kok.,Muhos,ylempi korkeakoulututkinto,1969,suomi,male,1,1,2,2,2,2,2,2,1,1,1,1,2,1,1,2,2,2,1,2,0,3,2,1,1
 Antti Pikkarainen,Vihr.,Oulu,peruskoulu,2006,suomi,male,3,2,0,1,3,2,2,3,2,0,3,0,2,2,0,1,2,2,3,1,1,2,0,3,3
@@ -630,6 +653,7 @@ Ilpo Puro,Kok.,Oulu,alempi korkeakoulututkinto,1962,suomi,male,2,1,2,2,2,1,2,2,1
 Tarmo Raatikainen,Vas.,Kuusamo,ylempi korkeakoulututkinto,1962,suomi,male,3,3,1,0,1,1,2,2,2,0,3,2,3,2,1,2,0,2,2,3,2,0,0,2,2
 Lyly Rajala,Kok.,Oulu,ylioppilas,1951,suomi,male,2,1,2,1,1,1,2,2,1,2,2,1,3,3,0,2,2,1,1,2,0,3,1,3,2
 Samuli Raninen,Vas.,Oulu,ylempi korkeakoulututkinto,1988,suomi,male,2,3,0,2,2,1,1,3,3,0,3,1,3,3,0,2,3,3,3,2,3,0,0,3,2
+Rami Rauhala,Kesk.,Sievi,ylempi korkeakoulututkinto,1975,suomi,male,3,1,1,3,2,2,3,2,2,0,3,0,3,1,3,3,0,2,3,3,0,0,1,1,0
 Matti Rinnekangas,PS,Oulu,ylempi korkeakoulututkinto,1971,suomi,male,3,3,2,0,0,2,0,3,0,3,0,0,1,2,3,2,0,0,3,3,0,3,0,0,0
 Mika Rojola,SDP,Oulu,ammattitutkinto,1968,suomi,male,2,2,1,1,2,1,2,2,2,1,2,2,2,2,1,1,1,2,2,2,2,1,1,2,2
 Janne Romppainen,PS,Tyrnävä,ammattitutkinto,1974,suomi,male,0,2,1,3,2,2,1,3,0,1,0,0,3,1,1,0,1,3,3,3,0,3,0,3,0
@@ -651,6 +675,7 @@ Artturi Sarvela,Vihr.,Oulu,alempi korkeakoulututkinto,2001,suomi,male,2,3,0,0,2,
 Riku Sauvola,PS,Hailuoto,alempi korkeakoulututkinto,1971,suomi,male,2,2,2,2,1,2,1,3,0,1,1,1,3,2,0,1,1,1,0,3,1,1,1,1,1
 Heikki Savilampi,PS,Oulu,ammattitutkinto,1983,suomi,male,2,2,1,2,2,0,0,3,0,0,0,0,2,2,1,2,1,3,3,3,3,2,2,3,1
 Jari Seppänen,PS,Raahe,alempi korkeakoulututkinto,1961,suomi,male,3,2,2,0,0,1,0,3,1,1,1,0,2,3,0,1,0,2,2,3,0,0,3,3,0
+Ville Siirtola,KD,Ylivieska,alempi korkeakoulututkinto,1979,suomi,male,3,2,2,2,1,1,2,2,0,0,2,1,2,2,2,2,3,2,1,1,0,2,1,2,2
 Pertti Similä,Kesk.,Oulu,alempi korkeakoulututkinto,1952,suomi,male,2,1,1,0,2,1,2,2,1,1,2,0,3,3,2,2,1,2,2,2,2,2,0,3,2
 Pekka Simonen,Kok.,Oulu,alempi korkeakoulututkinto,1971,suomi,male,2,1,2,2,2,2,2,3,0,2,1,1,3,2,2,2,1,2,1,2,0,2,2,2,2
 Pekka Sinervo,RKP,Oulu,ylempi korkeakoulututkinto,1966,suomi,male,3,2,3,1,1,2,2,2,2,2,1,2,3,2,1,2,2,2,1,2,1,1,2,0,1
@@ -665,6 +690,7 @@ Jussi-mikael Suikkanen,SDP,Oulu,alempi korkeakoulututkinto,1996,suomi,male,2,2,2
 Juuso Säkkinen,Kok.,Oulu,ylioppilas,2000,suomi,male,2,1,2,1,1,2,1,3,0,0,2,0,2,2,2,1,2,1,3,2,0,3,3,2,1
 Jere Tapio,Kesk.,Oulu,ylioppilas,1997,suomi,male,2,2,2,0,2,2,2,3,0,0,3,1,3,2,2,2,1,2,3,3,1,0,0,1,2
 Jouni Tapio,SDP,Ylivieska,ammattitutkinto,1970,suomi,male,2,2,0,1,1,1,1,3,1,0,1,1,2,2,1,1,1,2,2,3,1,0,1,1,0
+Joel Taskila,Kesk.,Oulu,alempi korkeakoulututkinto,1992,suomi,male,2,2,3,0,3,1,2,2,0,2,1,0,2,2,2,2,0,1,3,3,0,1,0,1,0
 Antti Tihinen,Vas.,Pudasjärvi,ammattitutkinto,1985,suomi,male,3,3,1,0,0,2,3,2,2,0,2,2,3,3,1,0,0,3,2,3,2,0,0,3,1
 Markku Timonen,PS,Oulu,peruskoulu,1958,suomi,male,2,2,3,1,2,2,1,3,0,2,1,1,2,1,1,1,2,2,1,3,0,3,2,3,0
 Elias Tornberg,Kesk.,Oulu,alempi korkeakoulututkinto,2001,suomi,male,2,1,2,0,1,1,1,3,1,3,1,1,3,2,1,2,1,2,1,3,0,0,1,1,1
@@ -689,9 +715,9 @@ Samuli Äijälä,Kesk.,Raahe,alempi korkeakoulututkinto,1987,suomi,male,1,1,3,0,
 Anniina Koutonen,Vas.,Oulu,ylempi korkeakoulututkinto,1997,suomi,other,2,3,1,1,1,1,2,2,2,0,3,2,3,2,1,1,0,3,3,3,3,1,0,3,3
 Runo Lähde,Vihr.,Oulu,ylempi korkeakoulututkinto,1995,suomi,other,2,3,0,0,2,1,2,3,2,0,3,2,3,3,1,1,1,2,2,2,3,1,0,2,3
 Irni Salmirinne,Vihr.,Kuusamo,ylempi korkeakoulututkinto,1992,suomi,other,3,3,0,0,0,2,2,3,3,0,3,2,3,3,1,0,0,2,3,3,2,2,0,3,2
+Vuokko Hiltunen,Kesk.,Oulainen,ylempi korkeakoulututkinto,1980,suomi,,2,1,1,2,1,2,2,3,1,3,1,0,3,2,2,1,2,2,2,2,2,1,1,2,2
 Pauli Koski,Vihr.,Oulu,ylempi korkeakoulututkinto,1986,suomi,,3,2,0,3,2,0,2,3,2,0,2,1,2,2,1,1,1,2,3,2,2,3,1,3,2
 Perttu Satomaa,Vihr.,Oulu,ylioppilas,2000,suomi,,2,2,1,2,2,1,1,1,2,0,3,1,3,3,1,1,1,2,3,2,2,1,0,0,1
-Vuokko Hiltunen,Kesk.,Oulainen,ylempi korkeakoulututkinto,1980,suomi,,2,1,1,2,1,2,2,3,1,3,1,0,3,2,2,1,2,2,2,2,2,1,1,2,2
 Tarja Aatonen,SDP,Hollola,ammattitutkinto,1964,suomi,female,2,2,0,3,1,2,1,3,1,1,1,1,2,2,1,1,1,1,2,2,2,2,1,2,1
 Jaana Alaharju,Vas.,Hollola,alempi korkeakoulututkinto,1973,suomi,female,3,2,0,3,0,2,1,3,2,2,2,2,3,2,1,1,2,2,3,3,2,1,0,2,2
 Tarja Anttonen,Kesk.,Heinola,alempi korkeakoulututkinto,1982,suomi,female,2,1,2,3,2,1,3,3,1,0,2,2,3,3,0,2,1,2,2,3,1,0,0,2,2
@@ -708,6 +734,7 @@ Hanna Haarasilta,Kesk.,Lahti,ylioppilas,2002,suomi,female,3,1,2,1,1,2,2,3,2,0,3,
 Heidi Hakanen,SDP,Hollola,alempi korkeakoulututkinto,1972,suomi,female,2,1,1,3,1,1,1,3,1,0,2,2,3,3,3,0,1,1,3,3,2,1,0,1,2
 Miina Harmaala,Kok.,Lahti,ylempi korkeakoulututkinto,1992,suomi,female,3,2,2,3,2,2,2,3,1,0,3,0,3,2,0,1,1,2,2,3,0,0,1,2,2
 Mervi Hartikainen,PS,Lahti,ammattitutkinto,1973,suomi,female,3,3,3,3,0,0,1,3,1,0,3,3,3,3,3,0,0,3,3,3,0,3,0,3,0
+Hanna Hasala,Kesk.,Asikkala,ylempi korkeakoulututkinto,1977,suomi,female,3,1,1,3,2,1,2,3,1,1,2,0,2,2,2,1,1,2,1,2,1,1,0,2,1
 Arja Heikinheimo,Kok.,Lahti,alempi korkeakoulututkinto,1958,suomi,female,3,1,3,0,2,1,1,3,1,1,2,1,2,2,2,2,2,2,3,2,1,3,1,2,3
 Minna Heikkinen,Kok.,Lahti,ylempi korkeakoulututkinto,1981,suomi,female,2,1,2,2,3,2,2,2,2,2,2,1,3,2,1,1,2,1,3,2,1,2,1,3,2
 Krista Heinilä,Vas.,Lahti,ammattitutkinto,1998,suomi,female,3,3,0,2,1,1,2,2,3,0,3,2,3,3,0,1,0,3,3,2,3,0,0,2,2
@@ -726,6 +753,7 @@ Satu Jaatinen,Kesk.,Lahti,ylempi korkeakoulututkinto,1966,suomi,female,3,3,0,1,1
 Saga-taina Jantunen-tillgren,Kesk.,Hollola,ammattitutkinto,1977,suomi,female,2,2,2,1,1,0,1,3,2,0,1,1,3,3,2,2,1,2,3,3,0,0,1,2,3
 Laura Jokela,PS,Orimattila,ammattitutkinto,1991,suomi,female,1,1,3,3,1,2,0,3,0,2,0,0,2,2,2,1,2,1,2,3,0,1,2,2,0
 Leea Jokinen,PS,Hollola,alempi korkeakoulututkinto,1959,suomi,female,0,0,3,3,1,2,0,3,0,0,0,0,1,3,3,1,2,3,2,3,0,3,2,3,1
+Sari Jyrkiäinen,PS,Asikkala,ammattitutkinto,1973,suomi,female,2,2,1,2,0,0,2,3,0,1,1,1,3,3,1,2,0,1,2,3,1,1,1,2,1
 Mari Jänisniemi-honkala,Vas.,Asikkala,joku muu,1964,suomi,female,2,1,1,2,1,1,1,3,1,0,1,2,2,3,0,0,1,3,2,2,1,1,0,2,2
 Wilma Järnstedt,Kok.,Lahti,alempi korkeakoulututkinto,1992,suomi,female,2,1,3,2,2,1,2,3,0,0,3,1,3,3,0,1,2,3,2,3,0,3,1,3,2
 Mirja Järvinen,SDP,Asikkala,ammattitutkinto,1955,suomi,female,2,2,1,2,2,1,1,3,0,1,2,2,2,3,0,0,3,3,0,2,1,3,1,3,2
@@ -778,6 +806,7 @@ Hanna Paikkala,Vihr.,Hollola,ylempi korkeakoulututkinto,1979,suomi,female,2,2,2,
 Pauliina Palo,Kesk.,Lahti,ammattitutkinto,1970,suomi,female,2,2,1,2,1,2,1,2,1,1,2,1,2,2,1,2,1,2,2,2,1,1,1,1,1
 Merja Palokangas-viitanen,Kok.,Asikkala,ylioppilas,1955,suomi,female,1,1,3,1,1,1,2,3,0,1,0,1,2,2,1,2,1,1,1,2,1,1,2,3,1
 Tiina Pankka,SDP,Lahti,alempi korkeakoulututkinto,1964,suomi,female,3,2,1,2,1,1,2,3,2,0,2,2,3,2,2,1,1,2,2,2,1,1,1,2,2
+Hanna Patana,Vas.,Lahti,ylempi korkeakoulututkinto,1977,suomi,female,3,3,1,3,0,1,2,2,3,0,3,1,3,3,0,1,2,3,3,3,3,1,0,3,3
 Katja Pekkola,SDP,Lahti,ammattitutkinto,1978,suomi,female,3,3,3,3,3,1,2,3,0,0,2,2,3,3,2,1,0,2,3,3,2,2,1,0,2
 Liisa Peltonen,Vas.,Asikkala,ylempi korkeakoulututkinto,1985,suomi,female,3,3,0,1,1,3,1,2,3,0,3,1,3,3,0,1,1,3,3,2,2,0,0,3,3
 Saara Penttinen,SDP,Lahti,alempi korkeakoulututkinto,1980,suomi,female,3,3,1,3,0,1,2,3,3,1,2,2,3,3,2,1,0,2,3,3,1,0,0,2,2
@@ -789,6 +818,7 @@ Kati Pölönen,Kesk.,Hollola,ylempi korkeakoulututkinto,1975,suomi,female,3,1,1,
 Terhi Raikas,Vihr.,Hollola,ylempi korkeakoulututkinto,1993,suomi,female,3,2,1,2,1,2,0,1,1,0,3,3,3,3,0,1,0,2,2,3,3,1,0,3,3
 Mari Raininko,Kok.,Kärkölä,ylempi korkeakoulututkinto,1968,suomi,female,3,1,3,3,0,2,3,3,2,1,2,2,3,3,2,2,1,1,2,3,0,2,0,0,2
 Pia Rajala,PS,Hollola,ammattitutkinto,1973,suomi,female,3,2,2,2,1,2,0,3,3,0,2,1,2,2,0,1,0,2,1,3,0,1,1,2,1
+Viivi Rantajääskö,Sit,Lahti,ammattitutkinto,2002,suomi,female,3,3,2,0,0,1,3,3,3,0,3,3,3,3,2,0,0,3,3,3,3,1,0,3,3
 Arja Rantala,Kok.,Lahti,alempi korkeakoulututkinto,1960,suomi,female,3,1,3,3,3,1,1,3,1,3,2,1,3,3,0,0,3,0,0,3,0,3,3,3,1
 Emma Rautava,Vihr.,Asikkala,ylempi korkeakoulututkinto,1989,suomi,female,3,3,0,3,2,1,1,2,2,0,3,1,3,2,1,0,2,2,3,2,3,1,0,2,3
 Henna Rautavuo-Hätönen,Sit,Asikkala,alempi korkeakoulututkinto,1979,suomi,female,3,1,2,3,0,1,2,3,1,1,1,1,3,2,1,1,0,2,1,3,0,1,1,3,2
@@ -812,8 +842,8 @@ Kaarina Suhonen,Kesk.,Lahti,ylempi korkeakoulututkinto,1970,suomi,female,3,2,1,3
 Anne Suomäki,SDP,Hollola,ammattitutkinto,1961,suomi,female,1,2,2,0,0,1,1,2,1,0,3,3,1,3,2,1,3,1,3,2,3,1,0,3,2
 Riikka Suutari,Kesk.,Heinola,ylempi korkeakoulututkinto,1984,suomi,female,3,0,2,3,1,2,2,3,1,0,3,1,2,3,0,2,1,3,3,3,1,0,0,2,2
 Sanna Säteri,SDP,Lahti,joku muu,1985,suomi,female,3,3,1,3,2,0,3,3,0,0,2,0,3,3,3,0,0,1,3,3,0,0,0,2,1
+Erika Tiainen,SDP,Heinola,alempi korkeakoulututkinto,1983,suomi,female,3,3,1,3,1,1,2,3,2,0,2,1,3,3,1,1,1,2,2,3,1,1,0,1,2
 Pirjo Tiira,Kok.,Lahti,ylempi korkeakoulututkinto,1963,suomi,female,3,2,2,2,2,2,2,3,3,0,3,2,3,2,1,1,0,2,3,2,0,2,1,2,3
-Katja Toepfer,KD,Lahti,ylempi korkeakoulututkinto,1984,suomi,female,2,1,2,3,2,1,1,3,1,2,1,1,3,3,1,2,2,2,2,2,1,2,2,2,1
 Tarja Tornio,Kesk.,Asikkala,alempi korkeakoulututkinto,1954,suomi,female,2,0,3,3,1,0,3,3,2,2,2,0,0,1,2,1,0,3,1,2,1,0,0,1,3
 Johanna Tuliainen,SDP,Lahti,ylempi korkeakoulututkinto,1969,suomi,female,3,3,0,3,2,1,3,2,3,0,3,2,3,2,2,0,1,2,3,2,1,1,0,2,2
 Maarit Tuomi,PS,Lahti,ammattitutkinto,1967,suomi,female,3,1,2,2,2,2,1,3,0,2,1,1,2,2,1,1,1,2,2,2,0,2,1,3,1
@@ -852,6 +882,7 @@ Pauli Heikkinen,Sit,Lahti,ammattitutkinto,1967,suomi,male,3,2,1,0,1,2,2,3,3,0,3,
 Marko Heino,PS,Heinola,alempi korkeakoulututkinto,1966,suomi,male,3,3,0,2,3,0,0,3,0,0,0,0,3,0,0,0,0,0,0,3,0,0,0,0,0
 Tuomas Heinonen,PS,Lahti,alempi korkeakoulututkinto,1981,suomi,male,3,3,1,1,2,2,1,2,0,2,0,0,1,2,2,2,3,2,1,2,1,1,2,1,2
 Jesse Hildén,PS,Sysmä,joku muu,1991,suomi,male,3,2,2,3,1,1,1,3,0,1,1,1,3,2,0,2,1,2,3,3,2,2,1,3,0
+Tomi Honkanen,RKP,Lahti,alempi korkeakoulututkinto,1966,ruotsi,male,3,1,2,2,2,2,3,2,1,0,3,2,3,2,1,1,2,2,3,2,2,2,1,2,3
 Mikael Hursti,KD,Lahti,ammattitutkinto,1954,suomi,male,3,2,2,1,2,1,2,3,1,3,1,2,3,3,0,2,1,2,2,2,1,0,1,2,0
 Kimmo Huvinen,SDP,Heinola,ammattitutkinto,1979,suomi,male,2,3,1,3,0,2,1,3,0,1,0,2,2,3,1,0,2,2,0,3,1,1,0,2,1
 Vesa Hyvärinen,Vas.,Lahti,ammattitutkinto,1958,suomi,male,3,2,3,3,2,2,2,3,2,2,3,2,3,3,1,2,0,2,3,3,2,1,1,3,3
@@ -975,6 +1006,7 @@ Jukka Tammelin,PS,Kärkölä,ammattitutkinto,1984,suomi,male,2,2,1,3,1,1,1,3,0,1
 Miika Toivonen,SDP,Lahti,alempi korkeakoulututkinto,1985,suomi,male,3,3,1,2,3,0,2,3,2,0,3,0,3,3,3,0,1,2,3,2,1,2,0,2,0
 Niklas Tommola,Vihr.,Lahti,alempi korkeakoulututkinto,1999,suomi,male,2,2,0,2,2,1,3,3,2,0,3,1,3,2,2,0,1,3,3,2,3,0,0,3,3
 Mikko Tukonen,Kok.,Heinola,ammattitutkinto,1958,suomi,male,1,2,2,2,2,1,2,2,1,0,2,3,3,1,2,2,1,2,0,2,2,1,1,2,2
+Kimi Uosukainen,SDP,Lahti,ylioppilas,1996,suomi,male,2,2,1,2,1,1,2,2,2,1,2,1,2,2,1,1,1,2,2,2,1,1,1,2,2
 Toni Vainikainen,PS,Lahti,ammattitutkinto,1979,suomi,male,1,2,2,2,2,1,0,3,0,1,0,1,1,3,0,1,1,2,1,2,0,1,1,3,0
 Ilkka Valonen,PS,Heinola,alempi korkeakoulututkinto,1958,suomi,male,3,3,2,0,1,0,1,2,0,0,1,1,2,3,0,0,0,3,2,3,0,3,3,3,0
 Tommi Vanhala,Vas.,Lahti,ammattitutkinto,1977,suomi,male,2,2,2,3,2,2,0,3,0,0,1,0,3,2,1,3,2,2,1,3,2,1,1,3,1
@@ -1057,6 +1089,7 @@ Lenita Niemelä,Kesk.,Loviisa,ammattitutkinto,1966,suomi,female,3,1,2,3,0,2,2,2,
 Denise Niemi,Vihr.,Loviisa,alempi korkeakoulututkinto,1996,ruotsi,female,3,0,0,2,0,1,3,3,3,0,3,2,3,3,0,0,0,2,3,3,2,1,0,3,3
 Mari Nikkanen,SDP,Sipoo,ylempi korkeakoulututkinto,1980,suomi,female,3,2,0,2,1,1,1,3,0,0,2,1,3,2,0,1,0,2,3,3,1,0,2,1,3
 Mikaela Nylander,RKP,Porvoo,ylempi korkeakoulututkinto,1970,ruotsi,female,2,1,2,0,1,1,3,1,3,0,2,3,2,2,1,1,1,2,3,2,1,0,1,1,2
+Mari Oinonen,PS,Loviisa,ammattitutkinto,1973,suomi,female,2,0,3,2,0,0,3,1,0,1,3,0,2,3,2,1,1,2,2,3,0,3,3,3,2
 Pirkko Parjanen,KD,Porvoo,alempi korkeakoulututkinto,1956,suomi,female,3,2,3,3,0,1,3,3,0,0,3,3,3,3,3,0,0,2,3,3,0,0,0,3,3
 Nina Pauloaho,Kesk.,Porvoo,ylempi korkeakoulututkinto,1993,suomi,female,2,2,1,3,1,2,2,3,2,0,2,1,3,2,0,1,0,2,2,3,1,0,1,1,3
 Anne Penninkangas,Kesk.,Lapinjärvi,ylempi korkeakoulututkinto,1961,suomi,female,2,2,1,2,1,2,2,1,2,1,2,1,2,2,2,2,1,2,1,2,1,1,0,2,1
@@ -1091,6 +1124,7 @@ Jacqueline Utujije-habiyakare,RKP,Porvoo,alempi korkeakoulututkinto,1970,jokin m
 Tea Valjakka,Kok.,Porvoo,alempi korkeakoulututkinto,1978,suomi,female,3,1,2,1,0,3,2,3,1,1,1,1,2,3,1,1,1,1,2,3,2,1,1,1,2
 Anni Vilmunen,Vihr.,Porvoo,alempi korkeakoulututkinto,1990,suomi,female,3,3,1,2,2,1,2,3,3,0,3,1,3,2,1,0,1,3,3,3,2,1,1,2,3
 Anna-karoliina Vilonen,Vihr.,Sipoo,ylempi korkeakoulututkinto,1975,suomi,female,3,1,1,2,2,2,2,3,2,0,3,1,3,2,1,2,0,2,3,3,2,1,1,3,3
+Maarit Virtanen,PS,Sipoo,ammattitutkinto,1959,suomi,female,3,3,2,2,0,2,2,3,1,0,1,1,3,3,1,0,0,2,2,3,0,0,0,3,1
 Chi Weckström,RKP,Sipoo,ylempi korkeakoulututkinto,1989,jokin muu,female,2,0,2,3,0,1,3,2,3,0,2,3,2,2,0,0,1,2,2,2,0,0,0,3,2
 Maria von Flittner,Liik.,Sipoo,ylioppilas,1969,suomi,female,2,1,2,3,2,2,2,2,1,1,1,2,3,2,2,2,2,2,3,3,2,3,1,2,1
 Seija Öhman,Kesk.,Askola,ammattitutkinto,1958,suomi,female,1,1,2,3,1,1,2,3,2,0,2,3,3,3,2,1,0,1,1,3,0,1,0,0,1
@@ -1193,6 +1227,7 @@ Michael Vanamo,Kesk.,Sipoo,ylempi korkeakoulututkinto,1979,suomi,male,3,1,0,2,0,
 Sami Vihuri,SDP,Askola,ammattitutkinto,1975,suomi,male,3,2,0,1,1,1,1,3,1,0,2,2,2,2,1,1,2,3,2,3,1,2,1,3,2
 Janne Wasenius,SDP,Porvoo,ammattitutkinto,1982,suomi,male,1,1,1,0,1,3,0,3,2,0,1,0,3,3,3,0,2,2,3,2,1,0,0,2,2
 Lauri Welling,SDP,Lapinjärvi,ammattitutkinto,1986,suomi,male,2,2,1,2,1,1,2,2,1,1,2,1,2,2,1,1,1,1,2,2,2,1,1,1,2
+Roger Wide,RKP,Loviisa,alempi korkeakoulututkinto,1963,ruotsi,male,3,1,3,0,0,3,3,3,3,0,0,3,3,3,0,1,0,1,3,3,0,0,0,0,0
 Anders Wikström,RKP,Sipoo,alempi korkeakoulututkinto,1980,ruotsi,male,3,1,2,2,0,2,3,3,3,0,3,3,3,3,1,1,0,2,2,3,1,0,1,0,1
 Jonatan Wikström,SDP,Sipoo,alempi korkeakoulututkinto,1998,ruotsi,male,3,2,0,2,2,1,2,3,2,0,3,2,3,2,2,1,2,2,3,3,3,1,1,3,3
 Nikolaj von Veh,RKP,Porvoo,ylempi korkeakoulututkinto,1983,ruotsi,male,1,2,2,2,2,2,3,3,3,0,3,3,3,2,1,1,1,1,3,3,2,1,1,2,3
@@ -1209,6 +1244,7 @@ Niina Anttila,Kesk.,Taivassalo,alempi korkeakoulututkinto,1969,suomi,female,3,2,
 Sari Anttila,PS,Turku,ylempi korkeakoulututkinto,1970,suomi,female,2,1,2,2,2,1,2,3,0,2,1,1,2,2,1,1,2,2,2,1,1,1,1,3,1
 Katie Astin,Kok.,Naantali,ylioppilas,2000,suomi,female,1,0,3,2,1,2,2,3,0,1,1,2,1,2,1,1,3,1,3,2,0,3,2,2,2
 Merja Augustin,Kok.,Turku,ylempi korkeakoulututkinto,1975,suomi,female,0,0,3,3,3,0,1,3,0,2,0,0,1,2,2,3,3,0,3,1,0,3,3,0,2
+Anne Bang,Vas.,Masku,alempi korkeakoulututkinto,1983,suomi,female,3,2,1,0,1,2,0,3,2,0,3,2,3,3,1,0,0,3,3,3,3,1,0,1,2
 Claire Bell,Vas.,Turku,alempi korkeakoulututkinto,1981,suomi,female,3,3,0,1,0,1,2,3,3,0,3,2,3,3,1,1,1,3,3,2,3,1,0,2,3
 Sandra Bergqvist,RKP,Parainen,ylempi korkeakoulututkinto,1980,ruotsi,female,3,2,2,2,1,2,3,3,3,0,3,2,3,2,1,2,2,2,2,3,0,1,1,2,3
 Jeanette Björklund,RKP,Parainen,ylempi korkeakoulututkinto,1975,ruotsi,female,3,2,2,3,0,3,1,2,2,0,2,2,2,3,2,0,2,3,3,3,1,0,2,3,1
@@ -1281,6 +1317,7 @@ Mimmi Kamppi-Opacic,Vihr.,Turku,alempi korkeakoulututkinto,1994,suomi,female,3,3
 Elina Kanerva,Kok.,Turku,ylioppilas,1969,suomi,female,2,1,2,1,1,3,3,3,2,0,3,2,2,3,2,2,2,2,2,3,0,2,1,1,2
 Mari Kangas,Kok.,Turku,alempi korkeakoulututkinto,1970,suomi,female,0,0,3,3,2,2,3,3,1,0,2,0,3,2,1,0,3,0,3,2,0,3,2,0,2
 Miina Kankaanranta,PS,Turku,ylempi korkeakoulututkinto,1986,suomi,female,1,1,2,1,2,1,1,3,0,1,0,0,1,2,2,0,1,2,2,2,0,3,2,2,0
+Sari Kantonen,Kesk.,Mynämäki,alempi korkeakoulututkinto,1967,suomi,female,3,1,2,2,1,2,2,3,1,0,3,1,3,2,2,1,1,2,2,3,1,0,0,2,3
 Katri Kapanen,Vas.,Kaarina,ylempi korkeakoulututkinto,1980,suomi,female,3,3,0,0,0,0,2,3,3,0,3,0,3,3,0,0,0,3,3,1,3,0,0,3,3
 Riitta Karjalainen,Kesk.,Turku,ylempi korkeakoulututkinto,1959,suomi,female,2,2,0,0,0,2,3,3,1,0,3,2,3,3,3,0,0,3,3,3,1,0,0,1,2
 Saija Karnisto-toivonen,SDP,Salo,ylempi korkeakoulututkinto,1980,suomi,female,2,2,1,0,1,1,3,2,2,0,2,1,2,2,2,1,2,3,3,3,2,2,0,3,2
@@ -1293,6 +1330,7 @@ Anne Kero,KD,Masku,alempi korkeakoulututkinto,1974,suomi,female,3,2,2,1,1,1,0,3,
 Suvi Kesti,Kok.,Kaarina,ylempi korkeakoulututkinto,1994,suomi,female,1,0,2,2,2,1,1,2,0,0,1,0,2,3,0,3,0,1,0,2,0,3,2,2,1
 Anneli Kivijärvi,SDP,Raisio,ylempi korkeakoulututkinto,1951,suomi,female,3,2,2,3,1,1,3,0,0,2,2,0,2,3,1,3,2,1,3,1,0,2,0,0,1
 Michelle Kivimäki wilders,KD,Turku,ylempi korkeakoulututkinto,1994,suomi,female,1,2,2,2,1,1,2,3,0,0,1,0,2,1,1,1,3,1,3,2,0,1,2,3,1
+Outi Kivinen,SDP,Turku,ylempi korkeakoulututkinto,1955,suomi,female,3,3,1,0,1,0,1,3,3,0,3,2,2,3,1,1,2,3,3,2,1,1,0,1,3
 Sara Koiranen,Vas.,Turku,ylempi korkeakoulututkinto,1994,suomi,female,3,3,0,0,2,2,1,2,3,0,3,2,3,2,0,1,2,3,3,2,3,0,0,2,3
 Elina Koisaari,Kesk.,Naantali,alempi korkeakoulututkinto,1967,suomi,female,2,0,1,0,1,2,1,3,2,1,3,1,0,1,2,1,1,2,2,3,2,0,1,3,2
 Maarit Koivisto,Vas.,Loimaa,ylempi korkeakoulututkinto,1986,suomi,female,3,3,0,1,0,1,2,3,2,0,3,1,3,2,1,0,0,3,3,2,3,1,0,2,2
@@ -1330,6 +1368,8 @@ Jonna Lappalainen,Kesk.,Kemiönsaari,alempi korkeakoulututkinto,1976,suomi,femal
 Heli-Päivikki Laurén,SDP,Uusikaupunki,ammattitutkinto,1968,suomi,female,3,3,1,0,1,1,2,3,1,0,2,2,3,3,2,1,1,2,3,2,0,0,0,2,2
 Anneli Lehtimäki,Kok.,Aura,ylempi korkeakoulututkinto,1966,suomi,female,2,1,2,2,2,1,2,2,1,1,2,1,2,2,2,2,2,1,2,2,1,2,2,2,1
 Päivi Lehtinen,PS,Salo,alempi korkeakoulututkinto,1982,suomi,female,2,1,2,1,1,1,0,3,0,2,0,0,2,2,2,0,2,1,1,3,0,0,0,2,0
+Riitta Lehtinen,SDP,Somero,joku muu,1960,suomi,female,3,2,1,0,1,2,1,2,3,0,2,1,3,3,1,1,2,3,3,3,1,1,0,2,2
+Tuija Lehtinen,KD,Kaarina,ylempi korkeakoulututkinto,1970,suomi,female,3,2,2,1,1,1,0,3,1,0,0,3,3,1,0,2,1,1,2,2,1,1,1,1,1
 Mia Lehtonen,Kesk.,Kustavi,alempi korkeakoulututkinto,1976,suomi,female,3,1,1,0,1,1,1,3,2,0,2,2,2,2,2,1,0,1,3,3,1,1,1,1,3
 Riitta-liisa Lehtonen,SDP,Kaarina,ammattitutkinto,1956,suomi,female,3,1,2,0,2,1,1,2,0,0,1,1,2,3,1,1,0,0,2,2,1,1,1,2,2
 Roosa Lehtonen,Vas.,Salo,ammattitutkinto,1993,suomi,female,3,3,0,0,1,1,2,3,3,0,3,2,3,3,0,2,0,3,3,3,3,0,0,0,3
@@ -1360,6 +1400,7 @@ Tiia Marttila,PS,Turku,ammattitutkinto,1998,suomi,female,3,3,2,0,0,2,0,3,0,0,0,3
 Sari Meisola,SDP,Salo,ylioppilas,1989,suomi,female,3,3,1,0,0,0,1,0,2,0,3,1,3,3,0,0,2,2,3,3,1,0,0,1,1
 Veera Meltti,SDP,Kaarina,ylempi korkeakoulututkinto,1993,suomi,female,3,2,0,2,3,0,2,3,3,0,3,2,3,3,0,0,2,2,3,3,0,0,0,0,3
 Kirsi Mikkonen,SDP,Raisio,ylempi korkeakoulututkinto,1978,suomi,female,3,3,0,0,2,1,1,3,1,0,3,1,3,3,2,0,2,2,3,3,0,1,0,3,3
+Jonna Moberg,RKP,Kemiönsaari,alempi korkeakoulututkinto,1992,ruotsi,female,2,1,2,1,0,2,2,3,0,0,1,2,3,3,2,1,2,3,1,3,2,0,0,3,2
 Edita Mulaku,SDP,Lieto,ylempi korkeakoulututkinto,1992,suomi,female,3,2,2,1,1,1,2,3,3,1,2,2,2,3,0,1,0,1,2,2,1,1,0,2,2
 Marja-liisa Mutka,Vihr.,Laitila,ylempi korkeakoulututkinto,1956,suomi,female,3,3,1,0,2,1,3,1,2,0,3,1,2,3,1,1,0,2,3,2,3,3,0,2,3
 Mirka Muukkonen,Vas.,Turku,ammattitutkinto,1975,suomi,female,3,3,0,1,2,2,1,3,3,0,3,3,3,3,1,0,0,3,3,3,3,0,0,3,3
@@ -1392,6 +1433,7 @@ Anniina Orrenmaa,Kesk.,Salo,alempi korkeakoulututkinto,1986,suomi,female,2,2,1,0
 Saara Paananen,PS,Naantali,ylempi korkeakoulututkinto,1969,suomi,female,2,0,2,1,1,2,1,3,0,3,0,2,0,3,0,2,2,2,0,3,0,0,1,2,0
 Sirpa Pahalahti,Vihr.,Turku,ammattitutkinto,1961,suomi,female,2,2,1,1,1,1,2,3,3,0,3,1,3,3,2,0,0,2,3,3,2,2,1,0,3
 Ronja Pajusalo,PS,Kaarina,peruskoulu,2000,suomi,female,2,2,2,2,2,1,1,2,1,2,1,1,1,2,1,2,1,1,1,2,0,2,1,2,1
+Eva Palmgren-wickström,RKP,Parainen,alempi korkeakoulututkinto,1970,ruotsi,female,1,0,2,3,1,0,3,1,1,0,0,0,3,2,0,0,2,2,3,3,3,0,1,2,3
 Tanja Parkko,Kok.,Raisio,ylempi korkeakoulututkinto,1987,suomi,female,1,1,3,1,2,2,2,3,0,1,1,0,2,1,2,2,3,1,1,3,0,1,2,3,1
 Satu Parttimaa,SDP,Salo,ammattitutkinto,1972,suomi,female,2,2,2,0,1,1,2,2,2,1,3,2,3,2,2,1,0,1,3,3,2,1,1,2,2
 Anniina Peltola,KD,Mynämäki,ylempi korkeakoulututkinto,1979,suomi,female,2,0,2,1,1,2,1,3,1,1,1,1,2,2,1,1,2,1,2,2,1,1,1,1,1
@@ -1402,6 +1444,7 @@ Maisa Pikkarainen,Vihr.,Turku,alempi korkeakoulututkinto,1999,suomi,female,3,3,0
 Sanna Pitkänen,Kok.,Pöytyä,alempi korkeakoulututkinto,1974,suomi,female,2,1,2,1,1,1,1,2,1,1,1,2,2,2,2,2,1,1,2,3,1,1,1,2,2
 Eva-maija Poijärvi,KD,Turku,ylempi korkeakoulututkinto,1982,suomi,female,2,2,1,0,0,2,1,3,0,0,1,2,3,2,0,1,2,3,1,3,0,1,0,0,2
 Peppi Porjo,Vihr.,Turku,ylioppilas,2002,suomi,female,2,2,1,1,0,1,3,1,3,0,3,2,2,2,0,0,1,2,3,2,2,1,0,1,3
+Monika Punna,Liik.,Lieto,ylempi korkeakoulututkinto,1966,suomi,female,2,2,1,1,2,0,2,2,2,0,3,1,3,3,1,1,1,2,3,3,0,3,0,2,2
 Tarja Puotsaari,Vas.,Aura,ammattitutkinto,1958,suomi,female,3,2,1,0,1,2,0,3,2,0,3,2,2,3,1,1,0,2,1,3,0,0,1,1,2
 Minttu Quintana,KD,Turku,alempi korkeakoulututkinto,1990,suomi,female,2,2,2,1,1,1,2,3,0,2,2,1,3,2,0,1,1,1,3,2,0,0,2,3,2
 Eva-Liisa Raekallio,Vas.,Turku,alempi korkeakoulututkinto,1978,suomi,female,3,3,1,1,1,2,1,3,2,0,3,2,3,3,1,1,1,3,2,3,2,1,1,2,3
@@ -1553,6 +1596,7 @@ Pekka Heikkilä,Vihr.,Raisio,ylempi korkeakoulututkinto,1973,suomi,male,1,2,2,2,
 Jarmo Heimo,Kesk.,Paimio,ylempi korkeakoulututkinto,1952,suomi,male,1,1,1,0,2,1,2,2,0,0,3,2,3,3,0,2,0,2,3,3,0,0,0,3,2
 Jaakko Heininen,Kok.,Lieto,ylioppilas,1964,suomi,male,2,1,1,2,3,2,3,0,0,2,0,0,1,2,3,3,3,0,0,1,0,3,3,2,0
 Pekka Heinonen,PS,Kaarina,peruskoulu,1986,suomi,male,1,2,2,1,2,1,0,3,0,2,1,1,2,2,1,2,2,2,2,3,0,1,1,3,1
+Sampsa Heinonen,Vihr.,Loimaa,ylempi korkeakoulututkinto,1964,suomi,male,1,1,2,0,1,2,1,3,2,0,3,2,3,2,2,2,1,1,2,2,3,2,1,1,2
 Jussi Helesvirta,Kok.,Rusko,ylempi korkeakoulututkinto,1982,suomi,male,2,1,1,2,2,1,2,2,1,1,1,1,2,2,2,1,2,2,0,2,1,3,2,2,1
 Perttu Helin,Kesk.,Turku,ylempi korkeakoulututkinto,1978,suomi,male,3,1,1,0,1,1,2,0,1,1,2,1,2,2,2,2,1,2,2,2,1,0,1,2,2
 Henry Hemanus,KD,Turku,ylempi korkeakoulututkinto,1988,suomi,male,2,2,2,2,2,2,0,3,0,2,0,2,2,2,2,1,3,1,1,3,0,3,2,1,1
@@ -1566,6 +1610,7 @@ Rasmus Hurmerinta,Vihr.,Turku,ylioppilas,1998,suomi,male,3,2,0,0,0,2,2,1,3,0,3,1
 Hans Huttunen,PS,Kaarina,ammattitutkinto,1970,suomi,male,3,2,2,0,1,1,0,3,0,3,0,2,2,3,2,2,1,2,1,3,0,3,2,0,0
 Sami Hyttinen,Lib.,Naantali,alempi korkeakoulututkinto,1993,suomi,male,2,1,1,3,3,0,3,1,0,2,2,0,1,1,3,3,3,1,3,0,3,3,3,3,2
 Jari-antti Hörkkö,Kesk.,Naantali,ylempi korkeakoulututkinto,1970,suomi,male,3,1,2,1,1,1,2,3,1,1,2,1,3,2,2,1,0,1,2,3,1,1,1,2,2
+Jaso Jaakkola,Vihr.,Turku,alempi korkeakoulututkinto,1990,suomi,male,2,2,2,0,2,0,2,2,3,0,1,2,3,2,3,2,3,3,3,1,3,2,0,3,3
 Kari Jakobsson,Vihr.,Turku,ylempi korkeakoulututkinto,1980,suomi,male,2,2,1,0,2,0,1,2,3,0,2,0,3,2,1,0,3,3,2,3,2,2,1,2,3
 Kimmo Jalonen,KD,Paimio,ammattitutkinto,1968,suomi,male,2,1,2,2,1,1,2,3,2,1,2,1,3,3,2,1,2,1,2,2,0,2,1,3,1
 Timo Jalonen,SDP,Turku,ylempi korkeakoulututkinto,1966,suomi,male,2,1,2,2,2,1,1,2,2,1,3,1,2,3,1,1,0,2,3,2,2,3,0,1,3
@@ -1614,6 +1659,7 @@ Erkki Koskinen,PS,Turku,ammattitutkinto,1965,suomi,male,2,1,2,1,2,1,0,2,0,1,1,0,
 Heimo Koskinen,PS,Salo,ammattitutkinto,1975,suomi,male,3,3,3,0,0,3,0,3,0,0,0,0,3,3,1,1,0,3,0,3,0,3,1,0,0
 Raino Koskinen,PS,Turku,ammattitutkinto,1966,suomi,male,3,1,2,1,2,3,1,3,0,2,0,2,3,2,0,1,0,3,2,3,2,1,0,3,0
 Kimmo Kosonen,SDP,Raisio,alempi korkeakoulututkinto,1974,suomi,male,2,1,1,1,1,1,1,2,2,0,3,2,2,2,0,1,2,2,3,2,1,1,0,2,2
+Bohumil Kotlar,Kesk.,Uusikaupunki,ylioppilas,2004,suomi,male,3,3,1,0,0,2,0,3,0,0,0,2,3,3,0,3,0,3,2,1,3,1,1,0,1
 Antti Kotti,SDP,Somero,ammattitutkinto,1979,suomi,male,3,2,2,0,1,2,2,2,2,0,2,1,3,2,1,1,1,2,2,2,1,2,1,2,2
 Lauri Kouki,Vas.,Turku,alempi korkeakoulututkinto,1980,suomi,male,3,2,1,0,2,2,3,3,3,0,3,3,3,3,1,2,1,2,3,3,3,1,0,2,3
 Jalmari Kovaleff,Lib.,Turku,ylioppilas,1997,suomi,male,3,2,2,1,1,2,3,3,3,0,2,1,3,2,1,2,2,1,2,3,2,2,0,3,2
@@ -1685,6 +1731,7 @@ Samuel Oliveros de Nordenflicht,Kok.,Turku,ylioppilas,2004,suomi,male,1,2,3,1,1,
 Antti Olkinuora,PS,Salo,ammattitutkinto,1959,suomi,male,3,1,3,2,1,3,0,2,0,1,1,1,3,3,1,2,0,2,1,3,0,3,2,3,0
 Petri Paakki,Kok.,Lieto,ylempi korkeakoulututkinto,1975,suomi,male,1,2,2,0,0,2,1,3,1,0,1,2,2,3,2,2,0,0,2,3,0,2,1,3,0
 Petteri Paananen,Kok.,Nousiainen,ylioppilas,1971,suomi,male,3,2,3,3,2,2,3,3,1,1,2,1,3,3,3,2,3,1,1,3,0,3,2,0,2
+Harri Palomäki,Vas.,Naantali,ylempi korkeakoulututkinto,1988,suomi,male,2,3,0,0,1,1,1,3,3,0,3,0,3,3,1,1,2,3,3,2,3,1,0,2,3
 Marko Paukku,PS,Turku,joku muu,1988,suomi,male,0,0,2,2,3,2,2,2,0,2,0,0,1,3,2,2,2,1,0,2,0,3,3,2,0
 Sami Peltola,PS,Turku,ammattitutkinto,1976,suomi,male,2,1,2,2,2,2,1,3,0,0,2,1,2,2,2,1,2,2,2,2,1,1,2,2,1
 Sami Peltola,SDP,Turku,ylempi korkeakoulututkinto,1978,suomi,male,2,2,1,0,1,1,2,3,2,1,2,2,2,2,2,1,1,1,2,2,1,1,0,2,2
@@ -1750,6 +1797,7 @@ Leyser Timo otto antero,Vihr.,Raisio,ammattitutkinto,1977,suomi,male,3,0,0,0,3,1
 Jyri Toikka,Kok.,Salo,ylempi korkeakoulututkinto,1969,suomi,male,3,2,3,3,1,1,1,2,0,1,2,1,0,2,2,2,3,0,1,2,0,3,2,3,1
 Toni Toivonen,KD,Kaarina,ylempi korkeakoulututkinto,1966,suomi,male,1,1,2,1,2,1,2,3,1,1,2,2,2,2,2,1,2,1,2,2,1,2,1,2,2
 Jari Tschernij,Vihr.,Parainen,joku muu,1966,suomi,male,2,1,1,3,1,2,3,0,0,0,0,2,3,3,2,3,0,3,3,3,1,2,1,3,3
+Antti Tuppurainen,KD,Pöytyä,alempi korkeakoulututkinto,1976,suomi,male,2,2,1,2,1,0,1,3,2,1,1,3,3,2,2,2,0,3,2,3,0,3,1,3,1
 Juha-pekka Tähkämaa,Kesk.,Kaarina,ylempi korkeakoulututkinto,1962,suomi,male,2,1,1,1,1,1,2,2,1,1,1,1,2,2,1,1,2,1,2,2,0,2,2,3,0
 Mika Tättilä,Kok.,Raisio,alempi korkeakoulututkinto,1965,suomi,male,2,1,2,1,1,1,2,2,2,1,2,1,3,2,2,2,3,1,2,2,1,2,2,2,2
 Jani Ursin,KD,Salo,ylioppilas,1974,suomi,male,1,2,2,1,1,1,1,2,1,1,1,1,2,2,1,2,1,2,2,2,1,2,1,3,1
@@ -1766,6 +1814,7 @@ Simo Virtanen,SDP,Vehmaa,ammattitutkinto,1956,suomi,male,3,2,0,2,2,0,3,2,1,0,2,3
 Veli-matti Virtanen,Kesk.,Uusikaupunki,joku muu,1961,suomi,male,3,1,2,2,1,1,2,1,1,0,2,1,1,2,2,1,0,1,2,3,0,1,0,3,1
 Verneri Virtanen,KD,Turku,ammattitutkinto,1999,suomi,male,2,0,3,3,0,2,1,3,0,2,0,0,2,2,0,2,3,1,2,2,0,2,1,3,0
 Ilmari Vuorela,Kesk.,Laitila,ylioppilas,2002,suomi,male,1,2,2,1,2,2,1,1,1,0,2,1,3,3,1,1,1,2,2,3,0,1,1,1,1
+Jari Vähätalo,Kesk.,Lieto,joku muu,1964,suomi,male,3,1,2,1,1,1,1,3,1,1,2,1,1,2,1,1,1,1,2,3,2,1,1,2,2
 Janne Väistö,Kok.,Salo,ylempi korkeakoulututkinto,1972,suomi,male,0,0,3,1,0,0,2,3,0,2,1,1,1,2,2,2,2,2,0,1,0,3,2,1,0
 Jari Välimäki,Kesk.,Loimaa,ylempi korkeakoulututkinto,1954,suomi,male,3,2,1,0,1,1,2,3,2,0,3,1,1,3,2,2,3,3,2,3,0,0,0,3,2
 Jari-matti Välkkynen,Vas.,Salo,ammattitutkinto,1968,suomi,male,3,1,1,1,1,1,2,3,1,0,2,1,2,2,1,2,1,1,2,2,2,1,1,2,2
@@ -1783,8 +1832,8 @@ Emilia Lindström,RKP,Parainen,alempi korkeakoulututkinto,1995,ruotsi,other,3,2,
 Eeri Poutiainen,Vihr.,Turku,peruskoulu,2003,suomi,other,3,3,2,1,1,2,2,3,3,0,3,2,2,3,1,1,2,0,3,2,3,0,0,3,3
 Sonja Siikanen,Vas.,Turku,ylioppilas,1994,suomi,other,3,3,0,0,3,0,2,3,3,0,3,3,3,3,0,0,1,3,3,3,3,0,0,3,3
 Jukka Väisänen,Vihr.,Turku,alempi korkeakoulututkinto,1977,suomi,other,3,3,2,0,0,1,2,3,3,0,3,3,3,3,0,1,1,1,3,3,3,1,0,3,3
-Viivu Seila,SDP,Turku,ammattitutkinto,1997,suomi,,3,3,1,1,2,2,1,3,2,0,3,1,3,3,2,2,2,1,3,2,2,1,2,1,2
 Mari-johanna Vähäsarja,Vas.,Raisio,ylempi korkeakoulututkinto,1992,suomi,,3,3,0,0,1,1,1,2,2,0,2,2,2,3,0,0,0,3,3,3,2,1,0,1,3
+Viivu Seila,SDP,Turku,ammattitutkinto,1997,suomi,,3,3,1,1,2,2,1,3,2,0,3,1,3,3,2,2,2,1,3,2,2,1,2,1,2
 Henri Remander,SDP,Rusko,peruskoulu,1986,suomi,,3,1,2,1,2,2,2,3,1,2,1,1,2,2,0,2,2,1,2,3,2,2,1,3,2
 Tom Pesch,EOP,Turku,alempi korkeakoulututkinto,1980,suomi,,3,3,0,1,3,2,2,3,3,0,3,2,2,2,2,2,1,3,3,2,2,1,0,3,3
 Petra Aalto,Vihr.,Kangasala,alempi korkeakoulututkinto,1978,suomi,female,3,3,1,2,1,2,2,2,3,0,3,2,3,3,1,1,2,1,3,3,3,2,1,3,3
@@ -1793,6 +1842,7 @@ Janika Aho,Kesk.,Kangasala,alempi korkeakoulututkinto,1987,suomi,female,2,0,1,2,
 Laura Ahola,Vas.,Ylöjärvi,ylempi korkeakoulututkinto,1975,suomi,female,3,3,3,0,1,1,1,2,3,1,3,2,2,3,0,0,1,3,3,3,2,1,1,3,3
 Mari Ahola,KD,Tampere,alempi korkeakoulututkinto,1985,suomi,female,1,2,3,2,2,2,1,3,1,3,0,2,3,3,2,0,2,3,3,3,0,2,1,1,2
 Sari Ahola,KD,Tampere,alempi korkeakoulututkinto,1966,suomi,female,2,1,3,2,1,1,2,2,2,0,0,1,2,3,1,2,0,2,1,2,0,2,1,0,1
+Rimma Ahonen,Kok.,Tampere,ylempi korkeakoulututkinto,1987,suomi,female,1,1,2,3,2,1,1,2,2,0,2,1,1,1,2,0,1,1,2,1,1,3,2,1,1
 Pauliina Ahtiainen,Vihr.,Pirkkala,ylioppilas,1972,suomi,female,3,2,1,0,1,1,2,3,3,0,3,2,3,3,0,1,1,2,3,3,3,2,0,2,2
 Kirsi Ahtola,KD,Kangasala,ylempi korkeakoulututkinto,1975,suomi,female,2,1,1,2,1,1,2,2,2,0,2,1,3,2,0,1,2,2,2,2,1,2,1,2,2
 Annina Airola,Kesk.,Kangasala,alempi korkeakoulututkinto,1980,suomi,female,3,2,2,2,2,2,3,2,0,1,1,2,2,2,2,1,2,2,2,2,0,0,1,3,0
@@ -1926,6 +1976,7 @@ Mari Lind,Vas.,Orivesi,ammattitutkinto,1970,suomi,female,3,3,1,1,2,2,1,3,2,1,2,1
 Nina Lindberg,SDP,Tampere,ylempi korkeakoulututkinto,1984,suomi,female,3,3,1,1,2,1,2,3,3,0,3,2,3,3,1,1,0,3,3,3,2,1,1,3,3
 Noora Linnakylä,Vas.,Tampere,alempi korkeakoulututkinto,1995,suomi,female,3,3,0,1,2,1,1,3,3,0,3,2,3,2,2,1,2,3,3,3,3,0,0,3,2
 Sari Listenmaa,Vihr.,Ylöjärvi,ylempi korkeakoulututkinto,1968,suomi,female,2,3,1,2,2,2,3,2,3,0,3,3,3,3,1,1,3,1,3,1,2,1,1,2,3
+Merja Litmanen,SDP,Pirkkala,alempi korkeakoulututkinto,1956,suomi,female,2,2,2,1,2,1,1,3,2,0,2,2,2,2,2,2,2,1,2,2,2,1,1,1,2
 Sari Liuksiala,PS,Sastamala,ammattitutkinto,1975,suomi,female,0,1,1,1,1,1,0,3,1,0,1,1,3,2,1,1,0,3,3,3,1,0,1,2,1
 Inka Loppi,SDP,Akaa,joku muu,1974,suomi,female,3,2,1,2,1,2,1,3,2,0,3,1,2,2,0,1,1,2,2,3,1,2,0,2,2
 Johanna Loukaskorpi,SDP,Tampere,ylempi korkeakoulututkinto,1974,suomi,female,3,2,1,2,2,1,2,2,2,0,2,2,3,3,2,1,1,3,3,2,2,2,0,3,2
@@ -1937,6 +1988,7 @@ Mirka Löf,Vas.,Hämeenkyrö,alempi korkeakoulututkinto,1982,suomi,female,3,3,0,
 Paula Majava,SDP,Tampere,ammattitutkinto,1957,suomi,female,3,2,2,1,1,1,2,2,2,0,2,2,2,2,2,1,1,2,2,2,1,2,1,2,2
 Katriina Majuri,Kesk.,Tampere,alempi korkeakoulututkinto,1975,suomi,female,2,1,2,2,1,2,2,2,2,0,2,2,2,3,0,1,1,1,2,1,1,1,1,2,2
 Minna Malkamäki,Vas.,Tampere,alempi korkeakoulututkinto,1979,suomi,female,3,3,1,2,3,1,2,3,3,0,3,1,3,3,1,1,0,3,3,3,3,2,0,1,3
+Leena Mankkinen,SDP,Ylöjärvi,ylempi korkeakoulututkinto,1948,suomi,female,3,3,1,0,1,0,2,2,2,0,2,2,3,3,1,1,1,3,1,3,2,3,0,2,3
 Mari Markkanen,Kesk.,Kuhmoinen,alempi korkeakoulututkinto,1986,suomi,female,3,2,1,0,1,1,1,3,1,0,2,1,2,3,2,2,0,1,0,3,2,1,0,3,3
 Maria Markkula,Kok.,Tampere,ylioppilas,2004,suomi,female,1,1,2,2,2,2,2,2,1,0,3,1,3,2,2,1,2,2,3,2,1,2,1,2,2
 Eerika Merimaa,Vihr.,Kangasala,alempi korkeakoulututkinto,1996,suomi,female,3,3,1,0,2,0,3,3,3,0,3,1,3,3,0,0,1,2,3,3,2,0,0,0,3
@@ -2078,8 +2130,8 @@ Hanna Virtanen,Vihr.,Lempäälä,alempi korkeakoulututkinto,1981,suomi,female,3,
 Ava Vuorenpää,PS,Pirkkala,ammattitutkinto,2004,suomi,female,2,1,2,0,2,1,1,3,0,2,0,1,2,2,0,2,0,2,2,3,0,2,2,3,1
 Alli Vähätiitto,Vas.,Kangasala,alempi korkeakoulututkinto,1993,suomi,female,3,3,1,1,1,2,1,3,2,0,3,2,2,3,2,1,0,3,3,2,3,2,0,3,3
 Eevastiina Väisänen,SDP,Tampere,ylempi korkeakoulututkinto,1992,suomi,female,3,3,1,0,2,0,2,2,2,0,3,2,3,3,2,2,0,2,2,3,0,0,0,2,3
+Marjut Välimaa,KD,Juupajoki,ammattitutkinto,1962,suomi,female,2,1,2,2,1,2,2,3,1,0,1,1,3,2,0,2,1,1,2,3,1,2,1,2,3
 Minna Välitalo,Vas.,Tampere,ylioppilas,1988,suomi,female,3,2,1,1,1,2,2,2,2,0,3,2,3,2,0,1,1,2,3,2,2,1,1,2,2
-Katja Vänni,Vas.,Tampere,ylioppilas,1968,suomi,female,3,3,1,3,2,3,1,3,3,0,3,1,2,3,0,0,0,3,3,2,3,0,0,3,3
 Laura Vänskä,Vihr.,Tampere,ylempi korkeakoulututkinto,1989,suomi,female,2,3,2,1,2,2,2,2,3,0,2,1,3,3,1,1,2,3,2,2,1,1,1,2,3
 Anna Weckström,Vas.,Valkeakoski,ylempi korkeakoulututkinto,1993,suomi,female,3,3,0,1,2,1,1,3,3,0,3,2,3,3,0,0,0,3,3,3,3,1,0,2,3
 Lisa Wesin,PS,Urjala,alempi korkeakoulututkinto,1991,suomi,female,2,2,2,2,1,1,1,3,0,2,0,0,1,2,0,1,2,3,0,3,0,3,1,2,0
@@ -2117,6 +2169,7 @@ Tuomas Evikoski,KD,Tampere,ylioppilas,1997,suomi,male,2,1,1,0,2,2,1,2,0,2,0,1,1,
 Mikko Franssila,Kok.,Valkeakoski,ylempi korkeakoulututkinto,1985,suomi,male,2,1,2,2,1,1,2,2,0,0,1,0,2,2,1,2,1,3,2,2,0,3,2,3,1
 Ilkka Fritius,Kesk.,Tampere,ylempi korkeakoulututkinto,1961,suomi,male,2,2,0,2,0,1,2,2,1,1,1,2,2,2,0,1,1,2,1,3,1,1,0,2,1
 Arto Grönroos,PS,Tampere,ylioppilas,1957,suomi,male,3,3,3,0,2,2,0,3,1,0,2,2,3,3,0,2,0,0,3,3,0,3,0,2,0
+Niko Haapalainen,Kok.,Tampere,alempi korkeakoulututkinto,1996,suomi,male,2,2,3,2,2,1,1,3,0,0,1,1,3,2,0,1,1,1,2,2,3,3,1,0,1
 Eero Haapalehto,Kok.,Tampere,ylioppilas,1988,suomi,male,0,0,3,3,2,2,2,3,1,1,1,0,0,1,2,3,3,0,2,2,1,3,3,3,0
 Timo Haapanen,Vas.,Sastamala,alempi korkeakoulututkinto,1954,suomi,male,3,2,1,2,1,1,2,3,2,0,3,1,3,3,1,1,1,3,3,2,2,2,0,2,3
 Pasi Haapaniemi,Kesk.,Lempäälä,alempi korkeakoulututkinto,1972,suomi,male,2,1,2,0,1,2,0,3,0,1,2,0,2,3,1,2,3,1,0,3,0,3,1,3,2
@@ -2148,6 +2201,7 @@ Jaakko Ikonen,KD,Lempäälä,ylioppilas,1979,suomi,male,1,1,2,2,2,1,1,3,0,0,1,0,
 Toni Ilmaniemi,Vas.,Kangasala,alempi korkeakoulututkinto,1992,suomi,male,3,3,0,0,2,2,0,2,3,0,2,1,3,3,0,1,1,3,3,3,3,2,0,0,3
 Tuomo Isokangas,PS,Nokia,joku muu,1974,suomi,male,2,1,2,1,2,1,1,3,0,3,0,2,2,2,2,2,2,3,0,2,0,3,1,3,1
 Antti Ivanoff,Kok.,Tampere,ylempi korkeakoulututkinto,1978,suomi,male,2,1,2,2,1,1,2,2,1,1,2,1,2,2,2,1,2,1,1,1,1,3,2,1,1
+Jari Jokilampi,Kok.,Kangasala,ylempi korkeakoulututkinto,1953,suomi,male,1,1,3,0,2,2,2,1,1,2,1,1,2,2,1,1,1,1,1,3,0,3,3,2,2
 Vili Antero Jousi,Vas.,Tampere,peruskoulu,1997,suomi,male,3,3,1,0,2,3,1,2,3,0,3,3,3,3,1,0,1,3,3,3,3,1,0,0,3
 Jorma Jussila,KD,Kangasala,joku muu,1959,suomi,male,0,1,1,2,2,1,1,2,2,1,2,1,2,2,1,1,2,2,1,2,1,3,2,2,1
 Mauri Jussila,Kok.,Kangasala,ylempi korkeakoulututkinto,1955,suomi,male,3,2,1,1,1,2,2,2,2,1,2,1,3,3,1,1,2,3,2,3,0,3,1,1,2
@@ -2271,6 +2325,7 @@ Aki Rokkonen,Vas.,Tampere,ylioppilas,2000,suomi,male,3,3,1,0,1,1,2,3,3,0,3,2,3,3
 Elias Rosengrén,PS,Tampere,ylempi korkeakoulututkinto,1999,suomi,male,2,1,2,3,1,1,0,3,0,2,1,0,3,0,2,2,2,1,2,2,1,3,2,3,1
 Miikka Roslöf,SDP,Tampere,alempi korkeakoulututkinto,2001,suomi,male,3,3,3,3,3,0,3,3,3,0,2,3,3,3,0,0,3,3,3,3,0,0,0,3,2
 Ville Rossa,Vas.,Tampere,ammattitutkinto,1976,suomi,male,3,3,2,3,0,2,2,2,2,0,3,1,3,3,1,1,1,2,3,3,2,1,1,1,2
+Oke Rouhe,Vihr.,Tampere,ylempi korkeakoulututkinto,1968,suomi,male,2,1,2,0,0,0,2,1,2,0,3,1,2,2,1,1,0,3,3,2,3,1,0,0,3
 Pekka Rouhiainen,Kesk.,Tampere,ylempi korkeakoulututkinto,1955,suomi,male,2,1,2,2,1,1,2,1,1,0,3,2,2,3,1,1,1,1,2,3,1,2,1,0,2
 Tomi Ryynänen,KD,Tampere,ylempi korkeakoulututkinto,1975,suomi,male,1,1,1,1,3,0,3,2,2,0,2,0,2,3,1,1,3,3,1,1,3,3,1,3,1
 Jesse Räsänen,KD,Kihniö,ylempi korkeakoulututkinto,1987,suomi,male,3,1,2,2,1,1,1,3,0,2,0,1,2,2,2,2,2,1,1,2,1,1,2,1,1
@@ -2345,10 +2400,10 @@ Kapa Monola-Lemière,EOP,Tampere,ylempi korkeakoulututkinto,1983,suomi,other,3,3
 Tiitus Pajukangas,Vas.,Tampere,ylioppilas,1998,suomi,other,3,2,1,0,3,1,0,2,2,0,3,2,2,3,0,0,0,1,3,3,3,1,0,2,3
 Bex Tapanainen,SKP,Tampere,peruskoulu,2002,suomi,other,3,3,0,0,2,2,2,3,3,0,3,3,3,3,0,1,0,3,3,3,3,2,0,3,3
 Jyri Kankila,Vihr.,Pälkäne,ylempi korkeakoulututkinto,1960,suomi,,2,3,1,1,1,0,2,2,2,0,3,2,3,3,1,1,1,3,3,3,3,1,1,2,2
-Anna Kontula,Vas.,Valkeakoski,joku muu,1977,suomi,,3,3,1,2,1,2,2,3,3,0,3,1,2,3,2,0,0,3,3,2,3,1,0,1,3
 Saara Almusa,Vas.,Akaa,ylioppilas,1980,suomi,,3,3,1,1,1,2,2,2,2,0,3,2,3,2,1,1,1,2,2,3,2,1,0,2,3
-Petri Kemppinen,Vas.,Tampere,ylioppilas,1997,suomi,,3,3,2,0,1,3,3,2,3,0,3,3,3,3,0,0,0,3,3,3,3,0,0,2,3
 Juuso-matias Maijanen,Vas.,Tampere,alempi korkeakoulututkinto,1988,suomi,,3,3,0,0,3,2,2,3,2,0,3,3,3,3,1,1,0,3,3,3,3,1,0,3,3
+Anna Kontula,Vas.,Valkeakoski,joku muu,1977,suomi,,3,3,1,2,1,2,2,3,3,0,3,1,2,3,2,0,0,3,3,2,3,1,0,1,3
+Petri Kemppinen,Vas.,Tampere,ylioppilas,1997,suomi,,3,3,2,0,1,3,3,2,3,0,3,3,3,3,0,0,0,3,3,3,3,0,0,2,3
 Liisa Ahonen,KD,Mikkeli,ammattitutkinto,1962,suomi,female,2,2,2,2,2,1,2,3,1,0,2,1,3,2,2,2,2,2,2,3,0,0,1,3,1
 Vilma Ahtiainen,Vas.,Mäntyharju,ammattitutkinto,2004,suomi,female,3,3,0,0,1,2,3,3,3,0,3,2,3,2,1,1,1,3,3,3,1,0,0,3,2
 Marjo-Riina Alhainen,VKK,Mikkeli,alempi korkeakoulututkinto,1978,suomi,female,3,3,0,0,1,2,0,3,2,1,0,1,2,2,1,2,2,2,1,2,0,1,0,2,1
@@ -2382,6 +2437,7 @@ Lea Kokko,Kok.,Savonlinna,alempi korkeakoulututkinto,1967,suomi,female,3,1,2,0,1
 Leena Kontinen,Vihr.,Mikkeli,ylempi korkeakoulututkinto,1957,suomi,female,3,3,2,1,1,1,2,2,3,0,3,2,3,3,0,1,1,2,2,2,2,0,0,2,2
 Helen Kontturi,Kok.,Mikkeli,alempi korkeakoulututkinto,1979,suomi,female,1,2,2,3,2,1,2,3,1,1,1,1,3,2,0,2,1,2,1,3,1,1,2,2,2
 Anneli Korhonen,Liik.,Pieksämäki,alempi korkeakoulututkinto,1958,suomi,female,3,1,3,0,0,0,0,3,0,0,3,0,3,3,1,1,3,3,2,3,0,3,1,3,2
+Sanna Korhonen,Kesk.,Puumala,ylempi korkeakoulututkinto,1977,suomi,female,1,1,1,2,2,1,2,2,2,1,2,1,2,1,2,1,1,2,3,2,1,1,1,1,2
 Anna-Maria Kovanen,Kok.,Pieksämäki,ylempi korkeakoulututkinto,1982,suomi,female,1,1,2,2,1,1,3,2,1,2,3,0,2,2,2,1,2,1,2,2,0,1,2,1,3
 Kirsi Kultanen,Kok.,Mikkeli,alempi korkeakoulututkinto,1960,suomi,female,2,1,2,2,2,2,1,3,1,0,2,1,2,3,1,2,2,1,2,2,0,1,0,3,2
 Anne Kuoksa,PS,Pieksämäki,ylioppilas,1981,suomi,female,3,2,2,0,0,1,0,3,1,0,1,2,3,2,0,1,0,1,2,3,1,0,0,1,1
@@ -2421,11 +2477,13 @@ Mirka Pittman,PS,Rantasalmi,ammattitutkinto,1981,suomi,female,2,2,1,0,1,2,0,3,1,
 Liisa Pulliainen,Kesk.,Mikkeli,joku muu,1963,suomi,female,2,2,1,3,2,0,3,3,3,0,3,0,3,1,3,2,2,2,2,3,1,0,0,2,3
 Piritta Punnonen,SDP,Savonlinna,ammattitutkinto,1978,suomi,female,3,3,0,0,2,2,2,3,1,0,2,2,3,2,1,2,0,3,2,2,0,0,1,2,2
 Anne Puntanen,SDP,Mikkeli,ammattitutkinto,1959,suomi,female,3,2,0,2,3,2,2,3,3,0,2,2,3,2,2,0,2,3,3,3,1,1,0,2,3
+Titta Puustinen,VKK,Mikkeli,ammattitutkinto,1978,suomi,female,3,2,2,0,2,3,0,3,0,1,0,1,3,3,0,1,2,3,2,3,2,0,0,3,0
 Tanja Raivio,PS,Puumala,ylioppilas,1971,suomi,female,2,2,2,1,1,2,2,2,0,1,1,0,2,2,2,1,1,2,1,3,1,1,1,1,1
 Anni Rantalainen,Kok.,Mikkeli,ammattitutkinto,1982,suomi,female,2,0,2,2,2,1,2,3,1,2,2,1,3,2,2,2,1,1,1,2,0,1,2,1,1
 Nina Rasola,Kok.,Mikkeli,ylioppilas,1972,suomi,female,2,1,3,2,2,1,2,2,2,0,1,1,3,2,2,1,2,2,2,3,0,1,2,1,2
 Sari Rautiainen,SDP,Mikkeli,ammattitutkinto,1968,suomi,female,3,1,1,1,2,2,2,2,2,0,3,1,3,2,2,1,1,3,2,3,1,1,0,3,2
 Anna Ropponen,Kesk.,Mikkeli,alempi korkeakoulututkinto,1985,suomi,female,1,1,2,2,2,2,2,3,0,0,2,1,2,2,0,2,2,3,3,2,1,0,1,2,0
+Nina Ruuth,Kesk.,Mäntyharju,ammattitutkinto,1988,suomi,female,3,0,1,3,0,3,0,3,1,0,3,0,3,3,3,0,0,2,3,3,2,0,0,3,2
 Noora Ruuth,Kesk.,Mikkeli,alempi korkeakoulututkinto,1980,suomi,female,2,2,2,1,1,2,1,3,1,1,2,2,2,2,1,2,0,2,2,3,2,0,1,1,0
 Sari Räsänen,Liik.,Savonlinna,ylempi korkeakoulututkinto,1968,suomi,female,3,1,1,0,1,1,1,1,2,0,2,2,3,2,1,1,0,1,3,2,2,0,0,2,2
 Hellevi Saari,KD,Kangasniemi,alempi korkeakoulututkinto,1947,suomi,female,1,1,1,0,1,2,2,2,3,1,0,1,2,3,1,1,0,0,1,3,0,2,0,3,0
@@ -2463,6 +2521,7 @@ Matti Eskelinen,Kok.,Mikkeli,ylempi korkeakoulututkinto,1984,suomi,male,1,1,2,3,
 Jarmo Forselius,KD,Mikkeli,ylioppilas,1962,suomi,male,1,2,1,1,0,1,0,3,1,0,0,0,3,1,1,1,1,1,0,2,1,1,1,2,0
 Joona Forsgren,KD,Kangasniemi,ammattitutkinto,1998,suomi,male,2,1,2,3,1,0,1,3,2,2,0,0,1,1,2,2,2,2,2,2,0,3,3,1,2
 Reijo Grönlund,SDP,Mikkeli,alempi korkeakoulututkinto,1948,suomi,male,3,2,1,1,1,0,1,2,2,1,2,2,1,3,0,2,0,1,2,2,0,1,0,0,0
+Juha Hakkarainen,SDP,Mikkeli,ammattitutkinto,1959,suomi,male,3,2,0,0,1,2,3,3,2,0,2,2,3,2,2,1,0,3,2,3,0,2,0,2,2
 Mikko Haverinen,Kesk.,Mikkeli,ylempi korkeakoulututkinto,1990,suomi,male,1,1,2,2,2,1,3,2,2,1,2,0,3,1,3,1,1,1,0,2,0,0,1,0,2
 Raimo Heinänen,PS,Mikkeli,alempi korkeakoulututkinto,1949,suomi,male,2,1,2,2,2,1,2,2,2,1,1,1,2,2,1,2,2,2,2,2,1,1,1,1,1
 Kari Hintikka,PS,Pieksämäki,alempi korkeakoulututkinto,1961,suomi,male,1,1,2,1,1,1,1,3,0,1,1,1,2,3,2,1,0,1,3,3,0,3,0,1,0
@@ -2479,6 +2538,7 @@ Heikki Härkönen,Vihr.,Savonlinna,ylioppilas,1977,suomi,male,1,2,1,0,2,1,2,3,1,
 Kimmo Jaatila,KD,Savonlinna,ylempi korkeakoulututkinto,1978,suomi,male,2,2,2,0,2,2,2,2,2,0,0,0,2,2,2,2,1,3,0,3,0,3,0,3,2
 Tero Juuti,Vihr.,Savonlinna,ylempi korkeakoulututkinto,1987,suomi,male,2,1,1,0,1,2,3,1,2,0,3,1,2,2,1,1,2,2,3,1,1,3,0,3,3
 Raimo Jämsen,PS,Mikkeli,ammattitutkinto,1978,suomi,male,3,1,2,3,1,1,1,3,1,0,0,2,2,2,0,2,2,1,2,2,0,3,2,2,2
+Mika Jämsä,Vihr.,Pieksämäki,alempi korkeakoulututkinto,1970,suomi,male,3,2,2,1,1,2,3,3,1,0,3,2,2,3,2,2,0,1,3,3,0,2,1,3,2
 Markku Kakriainen,Kesk.,Mikkeli,alempi korkeakoulututkinto,1954,suomi,male,3,1,3,2,2,1,2,2,1,0,2,0,2,3,2,1,2,1,0,3,0,0,0,1,0
 Toni Kanerva,PS,Mikkeli,alempi korkeakoulututkinto,1986,suomi,male,3,2,1,2,2,2,1,3,0,1,1,1,3,2,1,2,1,2,2,2,0,1,1,3,1
 Matti Kauhanen,Kesk.,Pieksämäki,ammattitutkinto,1962,suomi,male,2,1,3,1,2,1,2,1,2,1,2,1,2,2,2,2,2,1,2,3,2,2,1,0,2
@@ -2542,6 +2602,7 @@ Arto Seppälä,SDP,Mikkeli,ammattitutkinto,1954,suomi,male,3,2,1,3,2,1,2,2,2,0,3
 Eero Sistonen,Kesk.,Rantasalmi,alempi korkeakoulututkinto,1985,suomi,male,2,2,3,0,2,2,2,2,1,1,2,0,2,2,2,2,2,1,0,3,1,0,0,1,0
 Jari Smedberg,Liik.,Savonlinna,ylempi korkeakoulututkinto,1978,suomi,male,2,3,3,0,0,2,2,3,2,0,3,1,3,3,1,1,1,2,3,3,0,3,0,3,2
 Miikka Snell,Vihr.,Savonlinna,ylioppilas,1976,suomi,male,2,3,2,0,2,1,2,2,3,0,2,1,3,2,2,1,0,1,2,3,1,2,0,2,3
+Kalle Miika Soini,Kesk.,Savonlinna,ammattitutkinto,1950,suomi,male,2,1,1,1,1,1,1,0,1,0,2,1,2,2,1,1,0,1,2,2,2,1,1,1,2
 Tuukka Suomalainen,Kesk.,Savonlinna,alempi korkeakoulututkinto,1989,suomi,male,2,2,2,0,0,3,2,3,1,0,1,1,3,2,1,2,0,2,0,3,0,1,0,2,1
 Kari Synberg,Vihr.,Kangasniemi,ylempi korkeakoulututkinto,1958,suomi,male,3,3,0,0,0,2,2,3,2,1,3,1,2,3,0,1,0,2,3,3,1,0,1,3,3
 Veikko Tanskanen,Vas.,Savonlinna,peruskoulu,1958,suomi,male,3,3,0,0,2,0,0,3,2,0,2,1,3,3,1,1,0,3,2,3,2,2,0,3,2
@@ -2615,7 +2676,7 @@ Jaana Kotkansalo,Sit,Kemi,ammattitutkinto,1973,suomi,female,3,3,1,0,2,1,2,2,3,0,
 Susanna Koutonen,Kesk.,Keminmaa,alempi korkeakoulututkinto,1972,suomi,female,3,1,2,0,0,1,2,3,1,0,3,2,3,3,0,1,1,2,2,3,0,1,0,3,3
 Elli-Maria Kultima,Kesk.,Enontekiö,ammattitutkinto,1956,suomi,female,1,2,1,1,1,1,1,3,0,0,2,0,3,3,1,1,2,1,2,3,0,2,0,3,0
 Marju Kumpulainen,Kok.,Rovaniemi,ylempi korkeakoulututkinto,1965,suomi,female,1,1,3,1,3,0,2,2,1,2,2,0,2,2,2,1,0,1,2,2,0,0,0,1,2
-Anne Kunnari,Sit,Rovaniemi,ylempi korkeakoulututkinto,1961,suomi,female,3,1,1,2,3,1,3,3,2,0,3,0,3,2,2,1,1,1,3,2,1,3,2,3,2
+Anne Kunnari,Sit,Rovaniemi,ylempi korkeakoulututkinto,1961,suomi,female,3,2,1,2,3,1,3,3,2,0,3,0,3,2,2,0,0,1,3,3,1,3,2,3,2
 Marja Kuusela,Kok.,Sodankylä,alempi korkeakoulututkinto,1968,suomi,female,2,2,2,2,2,1,2,2,2,1,2,2,2,2,1,1,2,1,2,3,0,2,0,3,2
 Sinikka Kähkönen,Sit,Kemijärvi,ammattitutkinto,1953,suomi,female,3,3,3,3,2,3,3,3,3,2,3,2,3,3,2,2,3,2,3,3,2,3,3,2,3
 Toini Kärenlampi,Kesk.,Tornio,ylempi korkeakoulututkinto,1953,suomi,female,3,1,2,1,2,1,1,3,1,1,2,1,1,2,2,1,1,1,3,2,1,2,1,3,2
@@ -2645,6 +2706,7 @@ Susanna Oksman,PS,Tornio,ammattitutkinto,1989,suomi,female,2,1,2,2,0,2,2,3,1,0,2
 Katja Paasivirta,SDP,Rovaniemi,ylempi korkeakoulututkinto,1973,suomi,female,2,1,1,1,2,1,2,3,2,0,2,1,3,3,0,1,0,2,3,3,2,0,2,2,2
 Terhi Pakarinen,Kesk.,Rovaniemi,ammattitutkinto,1968,suomi,female,1,2,2,1,1,1,2,2,2,0,2,1,3,2,3,1,0,1,3,3,1,0,1,2,1
 Jonna Pakisjärvi,Sit,Keminmaa,alempi korkeakoulututkinto,1976,suomi,female,3,3,0,0,1,0,1,3,0,0,2,0,3,3,1,2,0,3,3,3,0,1,0,3,2
+Leena Palojärvi,Sit,Enontekiö,ylioppilas,1965,suomi,female,3,1,2,2,0,2,2,0,2,0,2,1,2,3,0,1,0,2,2,3,1,2,0,3,1
 Laura Palokangas,Kesk.,Inari,ammattitutkinto,2001,suomi,female,3,3,2,0,0,3,1,3,2,0,3,3,3,3,0,1,0,0,3,3,2,2,1,1,1
 Mari Palolahti,Kesk.,Inari,ylempi korkeakoulututkinto,1971,suomi,female,2,1,2,0,2,2,2,2,1,0,2,0,2,2,2,2,2,2,2,3,1,1,0,1,2
 Ella Partanen,Vihr.,Rovaniemi,ylempi korkeakoulututkinto,1993,suomi,female,3,2,1,2,2,1,2,3,2,0,3,1,3,2,1,0,1,3,3,3,2,1,0,3,3
@@ -2689,16 +2751,19 @@ Miika Alajääskö,Kok.,Rovaniemi,ylempi korkeakoulututkinto,1997,suomi,male,2,1
 Timo Alaräisänen,KD,Kemijärvi,ylempi korkeakoulututkinto,1957,suomi,male,2,1,2,2,2,1,3,3,1,1,2,0,1,2,1,2,2,1,2,3,2,0,0,2,2
 Seppo Alatörmänen,Kesk.,Enontekiö,ammattitutkinto,1961,suomi,male,3,1,1,2,1,1,2,3,1,1,2,0,1,2,2,2,2,2,1,3,0,2,0,3,1
 Heikki Autto,Kok.,Rovaniemi,ylempi korkeakoulututkinto,1984,suomi,male,3,1,2,1,1,1,2,3,0,1,1,1,2,2,2,1,2,1,2,3,0,2,2,2,1
+Tapani Enbuske,RKP,Rovaniemi,alempi korkeakoulututkinto,1973,suomi,male,2,2,1,1,2,1,2,2,2,0,3,2,2,2,1,1,1,1,2,3,2,2,2,2,1
 Akseli Erkkilä,Kesk.,Kittilä,ylempi korkeakoulututkinto,1991,suomi,male,2,1,1,0,0,2,1,3,0,1,0,2,3,3,1,3,1,3,0,3,3,0,0,0,0
 Manu Friman,Vas.,Muonio,ylempi korkeakoulututkinto,1956,suomi,male,3,2,0,1,1,1,3,2,3,0,3,3,3,3,0,0,0,3,3,3,2,0,0,3,1
 Unto Friman,Sit,Kolari,ammattitutkinto,1957,suomi,male,3,3,2,1,0,2,2,2,1,1,1,0,3,3,0,1,0,2,1,3,3,3,0,2,0
 Jari Haavisto,Kok.,Sodankylä,ylempi korkeakoulututkinto,1963,suomi,male,3,1,3,1,2,3,3,2,2,0,2,0,3,2,3,1,3,1,3,2,2,3,2,3,1
 Mika Hannuksela,SDP,Kemi,ammattitutkinto,1978,suomi,male,3,3,0,0,0,0,2,2,0,1,2,0,3,2,0,0,0,2,3,3,0,2,0,3,1
 Jari Hast,PS,Tornio,ammattitutkinto,1974,suomi,male,1,1,2,1,0,0,1,3,0,0,0,0,3,3,2,1,2,3,1,3,0,2,2,0,0
+Hannu Helenius,PS,Kemijärvi,ammattitutkinto,1965,suomi,male,2,0,1,0,1,1,1,0,0,3,0,0,1,2,0,0,1,2,0,3,0,2,2,3,0
 Kalle Helske,Kok.,Kemi,ylempi korkeakoulututkinto,1973,suomi,male,3,1,2,0,1,2,3,1,1,2,1,1,2,2,2,2,1,1,2,2,0,3,1,2,1
 Pertti Hemminki,Vas.,Tervola,ylempi korkeakoulututkinto,1955,suomi,male,3,3,0,0,3,1,2,1,3,0,3,2,3,1,3,1,2,3,1,2,2,2,0,1,2
 Matti Henttunen,Kesk.,Rovaniemi,ammattitutkinto,1962,suomi,male,3,3,2,2,2,2,2,3,1,1,1,0,3,3,2,3,1,3,2,2,2,3,0,3,0
 Arto Hettula,SDP,Kittilä,ammattitutkinto,1967,suomi,male,2,2,1,2,1,1,1,2,1,0,2,1,3,3,0,1,0,2,3,3,2,0,0,1,1
+Matti Hietanen,PS,Kemijärvi,ammattitutkinto,1963,suomi,male,3,1,3,2,2,1,0,3,0,2,0,0,1,1,2,2,0,1,0,3,0,3,2,3,0
 Jarmo Huhtala,Vas.,Rovaniemi,ylempi korkeakoulututkinto,1962,suomi,male,3,3,0,0,0,0,2,3,3,0,3,0,3,3,0,2,0,3,3,3,3,1,0,3,3
 Erkki Hurtig,KD,Tornio,ylempi korkeakoulututkinto,1956,suomi,male,2,2,2,0,2,1,2,2,3,0,3,2,3,3,2,2,2,2,3,2,1,1,1,2,2
 Kalle Huusko,SDP,Kemi,ammattitutkinto,1979,suomi,male,3,2,1,0,1,2,1,2,1,0,1,0,3,3,2,1,1,2,2,2,1,3,0,2,1
@@ -2714,6 +2779,7 @@ Kari Juntura,PS,Tornio,ylioppilas,1999,suomi,male,3,3,1,0,0,2,0,3,0,2,0,1,3,1,1,
 Terje Juutilainen,Kok.,Rovaniemi,ylempi korkeakoulututkinto,1979,suomi,male,1,0,2,3,1,1,1,3,1,0,2,1,1,2,1,2,1,0,1,2,0,2,1,1,1
 Aarne Jänkälä,Kesk.,Rovaniemi,ammattitutkinto,1948,suomi,male,2,2,2,2,1,2,2,2,0,1,2,0,2,3,2,1,2,1,1,3,0,1,1,1,2
 Antti Jääskeläinen,SDP,Sodankylä,alempi korkeakoulututkinto,1975,suomi,male,3,3,0,0,3,0,3,3,1,0,0,0,3,3,0,2,2,3,3,2,2,2,0,3,1
+Antti Kaarlela,Kok.,Tornio,alempi korkeakoulututkinto,1971,suomi,male,3,2,3,0,2,2,2,2,1,1,1,0,2,1,2,2,1,0,1,2,0,2,1,1,2
 Petri Kaarninen,PS,Tornio,ammattitutkinto,1985,suomi,male,3,1,2,2,3,0,1,3,0,0,0,0,1,2,1,3,2,1,0,2,0,1,2,0,0
 Mikko Kaipainen,Kok.,Tornio,alempi korkeakoulututkinto,1976,suomi,male,2,1,2,2,3,1,2,2,0,2,0,0,3,2,3,2,1,1,2,3,0,3,3,2,2
 Jani Kalasniemi,SDP,Kemi,alempi korkeakoulututkinto,1976,suomi,male,3,3,1,0,2,2,1,3,3,0,2,0,3,3,2,0,0,3,3,3,0,3,0,3,3
@@ -2768,6 +2834,7 @@ Tuomas Paananen,Vas.,Kemi,peruskoulu,2005,suomi,male,3,3,0,0,0,1,2,3,2,0,2,1,3,3
 Janne Paksu,PS,Kittilä,alempi korkeakoulututkinto,1976,suomi,male,1,0,2,3,2,2,1,3,0,0,0,0,2,2,3,1,2,1,3,3,0,1,1,2,1
 Jari Paldán,SDP,Rovaniemi,alempi korkeakoulututkinto,1976,suomi,male,2,2,1,0,1,1,1,3,2,1,3,2,3,2,1,1,1,2,2,1,2,1,1,2,3
 Jimi Patrik Pallari,Kok.,Rovaniemi,peruskoulu,2006,suomi,male,2,1,2,2,2,2,3,3,1,1,2,1,2,2,2,2,2,1,3,3,1,2,1,1,2
+Samu Paulin,Kok.,Rovaniemi,alempi korkeakoulututkinto,1995,suomi,male,3,1,2,2,3,2,1,2,1,1,2,2,3,2,0,1,3,2,2,2,0,2,1,3,1
 Timo Peisa,Kesk.,Ranua,ylempi korkeakoulututkinto,1953,suomi,male,3,2,0,2,2,3,2,1,3,1,2,0,1,2,2,1,2,3,3,3,1,1,0,2,1
 Asko Peuraniemi,Kok.,Rovaniemi,ylempi korkeakoulututkinto,1958,suomi,male,0,0,3,3,2,0,3,2,2,1,3,0,3,3,2,2,0,1,2,2,0,3,3,0,0
 Hannu Peurasaari,PS,Kemi,ylioppilas,1961,suomi,male,2,2,2,0,0,1,2,3,0,1,0,0,3,2,2,1,0,3,0,3,2,2,0,1,0
@@ -2797,6 +2864,7 @@ Petteri Salmijärvi,Kesk.,Salla,alempi korkeakoulututkinto,1975,suomi,male,0,2,1
 Pasi Selkälä,SDP,Salla,alempi korkeakoulututkinto,1988,suomi,male,3,3,3,0,2,0,2,3,0,0,0,0,3,3,0,2,0,3,2,3,2,2,0,3,0
 Jarmo Siivikko,Vas.,Inari,ylioppilas,1958,suomi,male,3,3,1,0,0,0,1,2,2,0,2,1,3,3,0,2,0,2,1,3,3,2,0,3,1
 Timo Siivola,PS,Tornio,ammattitutkinto,1975,suomi,male,2,2,2,1,2,1,1,2,1,0,1,1,2,2,1,2,1,2,2,2,1,1,1,2,1
+Sakari Silen,SDP,Muonio,ammattitutkinto,1960,suomi,male,3,1,3,0,0,3,0,2,3,0,2,2,3,3,1,0,1,1,3,3,2,3,0,3,1
 Petri Sinda,Kok.,Rovaniemi,alempi korkeakoulututkinto,1961,suomi,male,1,1,3,3,2,1,1,3,1,1,2,1,1,3,1,2,2,0,2,2,0,2,2,1,1
 Olavi Stoor,Vas.,Tornio,ammattitutkinto,1947,suomi,male,2,3,0,0,1,1,1,2,1,1,2,2,2,2,1,1,1,1,2,2,3,1,0,2,1
 Kimmo Suopajärvi,Kok.,Rovaniemi,ylempi korkeakoulututkinto,1971,suomi,male,1,1,2,3,2,1,2,2,1,2,1,1,2,2,2,2,2,2,2,2,0,3,2,0,1
@@ -2807,6 +2875,7 @@ Pekka Tiitinen,SDP,Kemi,ylempi korkeakoulututkinto,1972,suomi,male,3,2,1,0,2,0,3
 Matti Tikkanen,Vas.,Kittilä,ylempi korkeakoulututkinto,1953,suomi,male,3,2,0,2,1,1,3,3,3,0,3,2,3,3,3,0,3,3,3,3,0,3,0,2,3
 Timo Tolonen,PS,Rovaniemi,ylioppilas,1968,suomi,male,2,2,2,3,3,1,1,3,0,3,1,0,3,2,2,2,1,3,0,3,1,3,0,0,0
 Vesa-matti Tolonen,SDP,Rovaniemi,ylempi korkeakoulututkinto,1966,suomi,male,2,3,2,1,2,1,2,1,1,0,2,0,2,3,2,2,2,1,2,2,0,1,0,2,1
+Paulus Toropainen,SDP,Rovaniemi,ylempi korkeakoulututkinto,1980,suomi,male,3,3,1,0,1,2,1,3,2,3,3,3,3,2,1,2,0,2,2,3,3,1,0,0,2
 Kimmo Tuhkala,Kesk.,Rovaniemi,alempi korkeakoulututkinto,1992,suomi,male,2,3,1,0,2,1,3,3,1,0,2,0,3,3,1,3,1,1,3,3,0,1,0,2,0
 Eero Tuokila,Kesk.,Kemi,alempi korkeakoulututkinto,1954,suomi,male,2,1,2,0,1,2,2,2,2,0,1,0,2,2,1,2,0,1,2,1,2,0,0,3,2
 Jyrki Törmänen,Sit,Tervola,alempi korkeakoulututkinto,1983,suomi,male,1,1,2,0,2,1,2,3,1,2,2,2,3,3,0,2,1,1,3,3,2,1,1,3,1
@@ -2820,12 +2889,13 @@ Hannu Väliahdet,PS,Rovaniemi,ammattitutkinto,1963,suomi,male,3,3,1,0,0,0,0,3,0,
 Antti Väänänen,SDP,Rovaniemi,ylempi korkeakoulututkinto,1972,suomi,male,3,3,1,1,2,3,2,3,2,0,3,1,2,2,1,1,1,2,3,3,1,2,0,2,2
 Aku Westerholm,Kok.,Rovaniemi,ylioppilas,2001,suomi,male,3,0,3,2,1,2,1,3,0,0,1,2,3,1,1,2,3,2,3,3,0,3,3,0,1
 Tuomo Ylikitti,PS,Tornio,alempi korkeakoulututkinto,1987,suomi,male,2,3,2,2,1,1,1,3,0,0,0,0,3,2,0,1,1,2,3,3,0,3,1,3,0
+Eero Ylitalo,Kesk.,Pello,ylempi korkeakoulututkinto,1956,suomi,male,3,1,2,0,2,0,2,2,3,1,2,1,2,3,2,2,0,2,3,3,1,1,0,3,2
 Veikka Ylitalo,Kok.,Kittilä,ammattitutkinto,1995,suomi,male,3,2,3,1,2,3,2,3,3,0,3,1,3,3,2,2,0,0,3,3,0,2,1,0,2
 Mari Ikonen,Vas.,Rovaniemi,alempi korkeakoulututkinto,1992,suomi,other,3,3,0,0,1,2,3,2,3,0,3,3,3,3,1,0,0,3,3,3,3,0,0,3,3
 Armi Smura,Vihr.,Rovaniemi,ylioppilas,2000,suomi,other,3,3,1,0,1,0,0,2,3,0,3,2,3,3,0,0,0,3,3,3,0,0,0,3,3
 Tarja Suopajärvi,Vihr.,Rovaniemi,alempi korkeakoulututkinto,1961,suomi,,1,1,1,1,2,2,2,1,2,0,3,1,3,3,2,1,2,2,2,2,2,1,1,3,3
-Rilla Talvio,Vihr.,Rovaniemi,alempi korkeakoulututkinto,2000,suomi,,3,3,1,0,2,1,3,2,3,0,3,2,3,3,1,0,1,2,3,3,3,2,0,3,3
 Meeri Linna,Kesk.,Pello,alempi korkeakoulututkinto,1959,suomi,,2,1,0,1,1,2,1,1,1,0,1,0,3,3,1,1,0,1,2,3,2,2,0,3,2
+Rilla Talvio,Vihr.,Rovaniemi,alempi korkeakoulututkinto,2000,suomi,,3,3,1,0,2,1,3,2,3,0,3,2,3,3,1,0,1,2,3,3,3,2,0,3,3
 Piia Aallonharja,PS,Kirkkonummi,alempi korkeakoulututkinto,1976,suomi,female,1,1,2,0,1,1,0,3,0,1,2,0,2,2,1,1,1,2,3,2,0,3,2,1,0
 Maija Aaltola,Kok.,Lohja,ylempi korkeakoulututkinto,1970,suomi,female,2,1,2,2,2,0,2,2,0,0,2,0,3,2,1,1,2,1,3,3,0,3,2,2,3
 Christel Abborre,Vihr.,Inkoo,alempi korkeakoulututkinto,1960,ruotsi,female,1,3,3,0,1,2,3,3,2,0,3,3,3,3,0,0,2,2,3,3,3,1,1,3,3
@@ -3091,6 +3161,7 @@ Paula Viljakainen,Kok.,Espoo,alempi korkeakoulututkinto,1944,suomi,female,2,1,2,
 Anne Villman,Kok.,Siuntio,ylempi korkeakoulututkinto,1975,suomi,female,2,0,2,3,1,1,2,3,1,0,3,0,3,3,2,2,3,1,3,3,0,0,2,3,2
 Irmeli Virkkula,SDP,Kauniainen,alempi korkeakoulututkinto,1950,suomi,female,3,3,1,2,0,2,2,3,2,0,3,1,3,3,1,1,0,2,1,1,1,2,1,3,3
 Maria Virtanen,Vas.,Espoo,ylempi korkeakoulututkinto,1994,suomi,female,3,1,1,1,2,1,1,2,1,0,2,2,1,2,0,1,1,2,3,2,3,0,1,2,2
+Merja Vuori,SDP,Espoo,ylempi korkeakoulututkinto,1953,suomi,female,2,2,1,2,2,1,3,2,3,1,2,2,2,3,1,0,0,3,3,3,1,1,0,2,2
 Hannele Väkinen-happonen,PS,Espoo,alempi korkeakoulututkinto,1964,suomi,female,3,0,3,0,0,3,0,3,0,3,0,0,3,3,2,0,0,3,0,3,0,0,2,0,3
 Johanna Värmälä,SDP,Espoo,ylempi korkeakoulututkinto,1970,suomi,female,3,2,1,0,1,1,1,3,2,1,1,2,3,3,1,2,1,2,3,3,2,2,1,3,2
 Maritta Wasström,Kesk.,Siuntio,ylempi korkeakoulututkinto,1974,suomi,female,3,1,1,1,1,1,2,3,1,0,1,1,3,3,1,1,0,2,2,2,1,0,0,3,2
@@ -3180,8 +3251,10 @@ Markus Kanerva,Vihr.,Espoo,ylempi korkeakoulututkinto,1979,suomi,male,3,3,2,0,3,
 Reijo Kangas,SDP,Raasepori,ammattitutkinto,1969,suomi,male,3,2,1,0,1,1,2,3,1,0,3,3,2,3,0,1,0,2,2,3,1,0,0,0,3
 Ville Kanniainen,SDP,Lohja,ammattitutkinto,1976,suomi,male,3,2,0,0,1,0,2,3,2,0,3,3,3,3,0,0,0,3,3,3,0,0,0,1,3
 Kim Kannussaari,Vas.,Espoo,alempi korkeakoulututkinto,1972,suomi,male,3,3,1,1,0,0,1,2,3,0,3,2,3,2,1,1,0,3,3,3,3,0,0,3,3
+Jukka Karhula,Vas.,Espoo,alempi korkeakoulututkinto,1954,suomi,male,3,3,2,0,0,3,3,3,3,0,3,1,3,3,1,0,0,3,3,3,3,0,0,2,3
 Robert Karlsson,Kesk.,Kirkkonummi,alempi korkeakoulututkinto,1964,ruotsi,male,3,1,1,3,1,1,2,3,0,0,0,3,3,2,2,2,0,2,0,3,2,3,1,2,0
 Jukka Karmala,Vas.,Espoo,alempi korkeakoulututkinto,1954,suomi,male,3,3,1,1,1,2,2,3,3,0,3,3,3,2,0,1,1,3,3,3,3,0,0,1,3
+Arto Kaukinen,Vas.,Lohja,joku muu,1964,suomi,male,3,2,0,0,0,0,1,3,0,1,1,3,2,1,0,3,0,3,0,3,1,0,0,3,1
 Juhani Kaukinen,Vas.,Lohja,ammattitutkinto,2002,suomi,male,3,3,3,2,1,3,0,2,0,1,0,2,3,2,1,2,0,3,2,2,1,2,1,3,0
 Kusti Kaukoniemi,SDP,Siuntio,ylempi korkeakoulututkinto,1979,suomi,male,3,3,1,1,1,2,2,3,2,1,3,2,3,3,1,1,0,3,3,3,3,1,1,3,2
 Mikki Kauste,Vihr.,Espoo,alempi korkeakoulututkinto,1971,suomi,male,2,2,1,1,1,1,1,2,2,0,3,1,3,3,2,1,2,3,3,2,3,3,0,2,2
@@ -3251,6 +3324,7 @@ Kristian Meurman,Kok.,Lohja,alempi korkeakoulututkinto,1979,ruotsi,male,3,1,2,0,
 Taisto Miettinen,PS,Kauniainen,ylempi korkeakoulututkinto,1965,suomi,male,3,1,2,1,2,1,1,3,0,1,2,0,2,1,2,1,1,1,1,3,1,2,2,1,2
 Markus Mikkonen,KD,Vihti,ylempi korkeakoulututkinto,1974,suomi,male,2,1,2,1,1,2,2,2,1,2,2,1,2,2,2,2,2,1,2,2,1,2,1,2,1
 Niko Mourujärvi,SDP,Espoo,alempi korkeakoulututkinto,1988,suomi,male,3,2,1,2,2,2,3,3,2,0,2,2,3,3,1,1,0,2,3,3,1,0,0,2,3
+Esa Mulari,Vas.,Lohja,peruskoulu,1962,suomi,male,3,3,0,0,0,0,2,3,2,0,2,3,3,3,0,2,0,2,3,3,0,0,0,3,1
 Saku Mäkinen,Kesk.,Vihti,ylempi korkeakoulututkinto,1967,suomi,male,1,1,2,0,2,3,1,3,1,0,1,0,3,3,2,2,3,3,0,2,0,2,0,3,3
 Johan George Mångård,Vas.,Raasepori,alempi korkeakoulututkinto,1954,ruotsi,male,3,3,3,0,0,3,2,3,3,0,3,3,3,3,0,0,0,3,3,3,0,0,0,3,3
 Ari Mönttinen,KD,Lohja,ylempi korkeakoulututkinto,1959,suomi,male,3,2,0,0,2,1,1,2,2,0,1,0,3,0,1,1,2,3,3,1,0,3,2,2,2
@@ -3267,6 +3341,7 @@ Juha Nurminen,PS,Kauniainen,joku muu,1961,suomi,male,2,2,2,2,1,1,1,2,0,2,1,1,1,2
 Martin Nybom,SDP,Raasepori,ylempi korkeakoulututkinto,1969,ruotsi,male,3,2,0,0,1,1,1,1,3,0,1,2,3,3,0,2,0,1,2,3,2,1,0,2,3
 Håkan Nyman,RKP,Espoo,alempi korkeakoulututkinto,1954,ruotsi,male,3,2,2,2,2,2,3,3,3,0,3,3,3,3,2,2,3,1,1,3,2,1,2,2,3
 Niko Ohvo,PS,Espoo,ylempi korkeakoulututkinto,1988,suomi,male,2,1,2,3,1,2,1,3,0,2,0,0,1,3,2,2,2,3,2,2,0,3,2,2,0
+Ville Ojanen,Vihr.,Espoo,ylempi korkeakoulututkinto,1971,suomi,male,1,1,2,2,2,1,2,1,2,1,2,1,2,1,2,2,2,1,2,2,2,2,1,2,2
 Elias Okkonen,KD,Espoo,alempi korkeakoulututkinto,1971,suomi,male,2,2,2,1,2,2,2,3,1,2,0,0,2,2,2,1,2,1,2,2,2,2,1,1,2
 Joonas Ollila,Kok.,Kauniainen,ylempi korkeakoulututkinto,1988,ruotsi,male,2,1,3,3,2,2,3,3,2,1,1,2,2,2,1,0,2,0,1,0,0,3,3,1,2
 Matias Ollila,Kesk.,Espoo,ylempi korkeakoulututkinto,1983,suomi,male,3,1,2,2,0,3,2,3,1,1,3,2,3,2,2,1,0,1,2,3,1,0,1,2,3
@@ -3293,7 +3368,7 @@ Roope Rasi,SDP,Kirkkonummi,ammattitutkinto,1995,suomi,male,3,2,0,1,1,1,0,3,0,0,0
 Otto Rask,SKP,Espoo,ylioppilas,1990,suomi,male,3,3,0,1,3,3,2,2,3,0,3,1,3,3,0,1,0,3,3,3,3,0,0,3,3
 Kari Rastas,PS,Vihti,joku muu,1961,suomi,male,3,2,3,1,1,1,1,3,0,1,0,1,3,3,2,1,1,1,1,2,0,1,1,1,0
 Pekka Riihimäki,Kok.,Lohja,alempi korkeakoulututkinto,1966,suomi,male,3,2,3,3,3,3,3,3,0,2,3,0,3,3,2,0,0,3,3,3,2,3,1,3,0
-Paavo Riihitammela,SDP,Kirkkonummi,ylioppilas,1956,suomi,male,3,3,1,0,1,1,0,3,0,1,2,2,3,2,1,1,2,3,0,3,1,0,0,3,2
+Paavo Riihitammela,SDP,Kirkkonummi,ylioppilas,1956,suomi,male,3,3,1,0,1,1,1,3,0,1,2,2,3,2,1,1,2,2,0,3,1,0,0,3,2
 Jooa Rissanen,Vihr.,Inkoo,alempi korkeakoulututkinto,1986,suomi,male,3,1,1,1,0,1,1,1,1,1,2,2,1,2,1,0,1,2,2,3,2,1,0,2,3
 Arto Ritari,Kesk.,Espoo,ylempi korkeakoulututkinto,1971,suomi,male,3,3,2,2,2,3,3,2,1,0,3,3,3,3,2,2,1,2,3,3,2,1,1,2,3
 Peter Rolin,RKP,Espoo,ylempi korkeakoulututkinto,1968,ruotsi,male,2,2,1,1,2,1,1,2,1,1,2,2,3,2,1,1,2,2,2,2,2,2,1,1,1
@@ -3360,6 +3435,7 @@ Joel Vanhanen,Kok.,Espoo,alempi korkeakoulututkinto,2001,suomi,male,2,1,3,2,3,1,
 Sami Villa,Kok.,Kauniainen,ylempi korkeakoulututkinto,1969,suomi,male,1,1,3,2,1,1,1,2,1,3,1,0,1,2,2,1,1,1,2,1,0,3,2,3,0
 Tommi Virtanen,Kesk.,Espoo,ylempi korkeakoulututkinto,1967,suomi,male,3,1,1,1,2,1,2,3,1,1,1,1,3,2,1,2,1,2,2,2,0,2,0,2,1
 Henrik Vuornos,Kok.,Espoo,ylioppilas,1993,suomi,male,3,1,2,1,2,2,3,2,1,1,2,1,3,2,2,1,2,1,2,2,0,3,3,2,2
+Harri Vähä,KD,Vihti,alempi korkeakoulututkinto,1975,suomi,male,2,2,3,1,1,1,3,3,0,2,1,2,3,2,1,0,2,1,1,1,0,0,2,3,3
 Sami Wacklin,PS,Espoo,ylioppilas,1972,suomi,male,2,1,3,2,2,2,0,3,0,1,0,0,2,2,2,2,2,3,2,2,0,3,2,2,0
 Ville Walden,PS,Vihti,ammattitutkinto,1973,suomi,male,1,2,2,0,0,2,1,3,0,1,0,0,2,2,0,1,3,0,0,1,0,2,2,3,0
 Mika-Erik Walls,Vas.,Espoo,ylempi korkeakoulututkinto,1966,ruotsi,male,3,3,1,0,0,1,2,3,2,0,1,1,3,3,1,0,0,3,2,2,2,3,0,3,2
@@ -3370,15 +3446,16 @@ Leif Wirtanen,RKP,Lohja,ylempi korkeakoulututkinto,1969,ruotsi,male,3,3,1,0,1,1,
 Zabi Yawari,SDP,Espoo,alempi korkeakoulututkinto,1990,jokin muu,male,3,2,2,2,2,2,2,3,3,1,3,2,2,2,1,2,1,1,2,2,1,1,0,2,1
 Harry Yltävä,Vas.,Raasepori,alempi korkeakoulututkinto,1950,suomi,male,3,3,0,0,0,2,2,3,3,0,3,3,3,3,0,1,1,3,3,3,3,3,0,3,3
 Waqar Zafar,SDP,Espoo,ylempi korkeakoulututkinto,1989,jokin muu,male,3,0,0,1,2,2,2,3,1,3,0,1,1,1,0,2,1,3,1,3,1,1,1,3,2
+Niclas Zweigberg,RKP,Raasepori,ylempi korkeakoulututkinto,1987,ruotsi,male,3,2,2,0,0,1,2,3,3,0,1,2,3,3,1,0,1,1,2,3,2,1,0,1,2
 Miika Ihonen,Vas.,Espoo,ylempi korkeakoulututkinto,1985,suomi,other,3,3,0,0,0,1,2,3,3,0,3,3,3,3,0,1,1,3,3,3,3,0,0,1,3
 Annu Ituarte,Vas.,Kirkkonummi,ylempi korkeakoulututkinto,1982,suomi,other,2,3,1,0,2,2,1,3,2,0,3,2,3,2,1,1,1,2,3,2,2,1,0,2,2
 Jiri Keronen,PS,Espoo,ylioppilas,1984,suomi,other,3,2,2,3,0,0,0,3,0,3,0,0,1,3,0,3,3,3,3,2,0,3,0,0,0
 Ilkka Valta,Vas.,Espoo,ylempi korkeakoulututkinto,1977,suomi,other,3,3,0,0,0,1,2,2,3,0,3,2,3,3,1,0,0,3,3,3,3,1,0,3,3
+Sonja Peschkow,Vihr.,Espoo,ylempi korkeakoulututkinto,1968,suomi,,2,1,1,0,1,1,1,1,2,0,3,1,3,2,0,1,2,2,3,2,3,2,0,2,3
+Juha Kajander,Vihr.,Kirkkonummi,ylempi korkeakoulututkinto,1955,ruotsi,,2,2,2,0,2,1,2,3,2,1,2,3,2,2,2,2,2,2,2,2,2,1,1,2,3
 Edla Niemi,Vas.,Kirkkonummi,alempi korkeakoulututkinto,1987,suomi,,3,1,0,0,1,0,0,3,2,0,3,1,3,3,0,1,2,3,3,3,3,0,0,3,2
 Antti Vuolanne,SDP,Espoo,ylempi korkeakoulututkinto,1967,suomi,,3,3,2,0,2,3,3,3,2,0,3,3,3,3,2,1,1,2,3,3,2,2,1,2,2
 Rami Palhovaara,KD,Vihti,ammattitutkinto,1973,suomi,,3,1,3,1,2,2,1,2,2,0,2,2,3,2,0,2,0,2,3,3,2,2,1,1,3
-Sonja Peschkow,Vihr.,Espoo,ylempi korkeakoulututkinto,1968,suomi,,2,1,1,0,1,1,1,1,2,0,3,1,3,2,0,1,2,2,3,2,3,2,0,2,3
-Juha Kajander,Vihr.,Kirkkonummi,ylempi korkeakoulututkinto,1955,ruotsi,,2,2,2,0,2,1,2,3,2,1,2,3,2,2,2,2,2,2,2,2,2,1,1,2,3
 Pauliina Aalto,SDP,Eurajoki,alempi korkeakoulututkinto,1987,suomi,female,2,2,0,1,0,2,1,3,1,0,2,1,1,3,0,2,0,2,1,2,1,0,0,1,0
 Johanna Aho,Kok.,Kankaanpää,alempi korkeakoulututkinto,1980,suomi,female,3,1,2,1,1,2,1,2,1,1,1,1,2,3,2,1,1,1,2,2,2,2,1,3,1
 Eija Ainasoja,Kok.,Rauma,ylempi korkeakoulututkinto,1964,suomi,female,3,1,3,3,2,1,2,3,2,1,2,0,1,2,2,0,0,1,1,3,0,3,2,1,2
@@ -3406,6 +3483,7 @@ Maria Hollmén,Kok.,Eurajoki,ylempi korkeakoulututkinto,1973,suomi,female,2,1,3,
 Soile Holmström,Kesk.,Eurajoki,alempi korkeakoulututkinto,1981,suomi,female,2,2,0,3,3,0,1,3,1,0,3,2,1,3,2,0,0,1,2,3,0,0,0,2,2
 Sini Horttanainen,SDP,Pori,alempi korkeakoulututkinto,1979,suomi,female,3,2,1,1,3,2,1,3,2,0,3,2,3,2,0,1,2,3,3,2,3,0,1,2,3
 Susanna Horttanainen,Vas.,Pori,ammattitutkinto,1977,suomi,female,3,3,1,3,0,2,1,2,2,0,2,2,3,3,1,2,0,3,3,2,2,0,1,2,2
+Tiina Huhtala,KD,Pori,ammattitutkinto,1963,suomi,female,1,2,2,1,1,2,1,2,1,1,1,1,2,2,1,2,2,2,2,2,0,2,1,1,1
 Laura Huuhka,Vas.,Pori,ammattitutkinto,1995,suomi,female,2,3,1,3,0,1,1,2,3,0,3,2,3,3,0,0,0,3,3,3,0,0,0,2,2
 Taru Hyrkäs .SIT,Vihr.,Pori,alempi korkeakoulututkinto,1996,suomi,female,1,1,3,3,3,2,2,1,1,0,2,1,3,3,1,1,2,0,3,3,0,2,1,1,2
 Auli Härkälä,Kesk.,Kokemäki,alempi korkeakoulututkinto,1963,suomi,female,2,1,2,2,2,1,2,3,2,0,2,2,3,3,1,1,2,1,1,3,1,2,0,1,2
@@ -3422,6 +3500,7 @@ Marketta Juntunen,KD,Pori,ylempi korkeakoulututkinto,1950,suomi,female,2,1,2,1,1
 Eija Järvinen,Liik.,Pori,ammattitutkinto,1974,suomi,female,2,2,2,1,1,2,1,2,2,1,2,1,2,2,1,2,2,1,2,2,2,1,1,2,1
 Emilia Järvinen,Kok.,Pori,ylioppilas,2003,suomi,female,3,0,3,2,3,1,3,3,0,0,1,0,2,1,2,2,3,1,2,3,0,0,3,0,1
 Eeva Kalli,Kesk.,Eura,ylempi korkeakoulututkinto,1981,suomi,female,3,2,1,3,0,2,2,3,2,0,2,0,3,2,1,1,0,2,2,3,0,0,0,2,2
+Sari Kalliokorpi,PS,Nakkila,ammattitutkinto,1965,suomi,female,2,2,1,3,1,2,1,3,0,2,1,0,2,3,1,0,2,2,1,3,0,2,0,2,1
 Pauliina Kari,Vas.,Huittinen,alempi korkeakoulututkinto,1992,suomi,female,3,3,1,3,0,2,2,3,1,0,3,1,3,3,2,0,2,3,3,3,0,0,0,3,2
 Milja Karjalainen,SDP,Nakkila,ylempi korkeakoulututkinto,1980,suomi,female,3,2,1,1,1,1,2,2,2,0,2,1,3,3,2,0,1,2,2,2,1,0,0,1,2
 Mari Kaunistola,Kok.,Pori,ylempi korkeakoulututkinto,1979,suomi,female,2,1,3,3,2,2,2,3,1,0,1,1,3,2,2,2,2,1,2,2,0,1,2,1,2
@@ -3476,6 +3555,7 @@ Janiina Nurmoranta,Kesk.,Pori,ammattitutkinto,1989,suomi,female,2,1,2,1,2,2,1,2,
 Sanna Nylander,Vas.,Rauma,ammattitutkinto,1978,suomi,female,3,3,1,1,1,1,1,3,2,0,3,1,3,3,0,0,0,3,3,3,3,0,1,1,3
 Enni Näveri,Kesk.,Rauma,ylempi korkeakoulututkinto,1985,suomi,female,3,1,2,2,0,2,1,3,1,0,2,0,3,3,1,0,0,3,2,3,0,1,1,1,1
 Soile Ojala-seppä,PS,Kokemäki,ylempi korkeakoulututkinto,1964,suomi,female,2,2,2,2,1,2,1,3,1,1,2,1,2,3,2,2,2,1,1,2,1,1,2,2,2
+Juuli Ojansuu,Vihr.,Pori,ylempi korkeakoulututkinto,1991,suomi,female,3,2,1,3,2,1,3,3,2,0,3,2,3,2,2,2,1,2,3,3,2,2,0,2,2
 Helena Ollila,Kesk.,Rauma,ylioppilas,1965,suomi,female,2,2,1,2,1,1,2,3,2,0,1,1,3,2,1,1,1,2,2,3,0,0,0,1,2
 Marianne Ostamo,PS,Pori,ylempi korkeakoulututkinto,1984,suomi,female,3,2,2,2,1,3,0,3,0,2,0,0,1,3,1,1,2,1,2,2,0,0,1,1,0
 Jaana Pelamo,SDP,Rauma,alempi korkeakoulututkinto,1968,suomi,female,3,3,1,2,0,0,0,1,1,0,2,3,3,2,1,0,0,0,3,3,0,1,0,1,2
@@ -3641,6 +3721,7 @@ Jukka Palkki,PS,Rauma,ylioppilas,1970,suomi,male,2,2,2,0,0,1,1,2,0,0,1,0,2,2,1,1
 Jouni Palojoki,PS,Pori,alempi korkeakoulututkinto,1971,suomi,male,3,1,0,1,1,1,0,3,0,3,1,2,3,3,2,2,2,2,0,3,1,2,2,3,1
 Markku Palomäki,PS,Pori,joku muu,1962,suomi,male,1,1,2,2,2,1,1,3,1,2,1,1,2,3,1,2,1,1,1,2,0,2,0,0,0
 Tuomas Pekkola,PS,Pori,alempi korkeakoulututkinto,1985,suomi,male,1,1,2,2,1,1,1,3,0,2,0,0,2,2,2,2,2,2,1,2,0,3,2,1,0
+Kaarlo Peltomaa,Kesk.,Pomarkku,ylempi korkeakoulututkinto,1983,suomi,male,1,2,2,3,1,1,2,3,0,3,1,1,3,2,2,3,2,1,0,3,1,0,0,0,0
 Mikko Peltonen,PS,Eurajoki,ammattitutkinto,1988,suomi,male,1,2,2,1,2,1,0,3,2,1,1,1,1,2,1,2,3,2,2,2,1,0,2,2,1
 Arto Perttula,PS,Kokemäki,ylempi korkeakoulututkinto,1983,suomi,male,2,1,2,3,0,2,0,3,0,2,0,1,1,3,1,2,0,1,0,3,0,0,0,3,1
 Jere Perävainio,PS,Rauma,ammattitutkinto,1992,suomi,male,2,0,2,0,2,2,1,3,0,0,0,0,3,2,0,2,2,0,2,3,0,3,2,3,0
@@ -3693,6 +3774,7 @@ Markus Vandell,Vas.,Pori,ammattitutkinto,1984,suomi,male,2,3,1,3,0,0,0,2,2,0,2,1
 Rauno Vesivalo,SDP,Pori,alempi korkeakoulututkinto,1955,suomi,male,3,3,1,3,2,1,1,3,3,0,2,2,2,2,1,2,1,2,3,3,2,2,1,3,3
 Niko Viinamäki,Kesk.,Pori,ammattitutkinto,1985,suomi,male,3,1,2,1,0,3,0,3,0,3,3,2,3,3,0,0,0,1,2,3,0,0,0,3,1
 Jarkko Viljanen,SDP,Ulvila,alempi korkeakoulututkinto,1988,suomi,male,3,2,1,3,2,1,1,3,2,0,3,1,3,3,1,1,0,1,2,3,1,0,0,2,2
+Jarkko Virtanen,PS,Nakkila,ammattitutkinto,1994,suomi,male,2,0,1,3,3,2,0,2,0,3,0,1,1,1,3,3,3,1,0,3,1,2,3,3,0
 Kauno Voutilainen,KD,Eurajoki,ylempi korkeakoulututkinto,1967,suomi,male,2,2,2,2,1,1,1,3,0,2,0,0,3,2,1,2,0,2,1,3,1,2,1,1,0
 Teemu Voutilainen,Kesk.,Ulvila,ammattitutkinto,2000,suomi,male,3,3,1,2,1,2,1,3,0,0,2,2,3,2,1,2,0,1,0,3,0,0,0,3,0
 Niklas Vähä-Ettala,Kesk.,Rauma,ylioppilas,1988,suomi,male,2,1,2,1,1,2,1,2,1,1,1,1,2,2,1,2,0,1,2,3,1,1,1,2,1
@@ -3725,6 +3807,7 @@ Irmeli Elo,Kesk.,Janakkala,ylempi korkeakoulututkinto,1959,suomi,female,2,1,2,1,
 Eliisa Erkamo,Vihr.,Hämeenlinna,ammattitutkinto,1961,suomi,female,2,2,1,1,2,1,2,2,2,0,3,1,2,2,2,1,1,2,2,3,2,1,0,3,2
 Salla Fagerström,SDP,Hausjärvi,alempi korkeakoulututkinto,1980,viittomakieli,female,3,1,2,3,1,1,1,3,2,1,2,2,3,2,2,1,1,1,3,3,1,1,1,2,2
 Tarja Filatov,SDP,Hämeenlinna,joku muu,1963,suomi,female,3,2,1,3,1,1,2,3,2,0,3,0,3,2,0,1,2,2,2,2,0,0,0,2,3
+Rita Granat,Vas.,Hämeenlinna,ylempi korkeakoulututkinto,1961,suomi,female,3,3,0,2,2,1,2,3,3,0,3,1,3,3,1,0,1,3,3,3,3,2,0,3,3
 Susanna Halonen,Vihr.,Hämeenlinna,ylempi korkeakoulututkinto,1982,suomi,female,3,3,0,3,2,2,2,3,3,0,3,3,3,2,2,0,1,3,3,3,3,1,1,3,3
 Ulla Halonen,Vas.,Forssa,alempi korkeakoulututkinto,1964,suomi,female,3,2,0,2,0,1,1,2,2,0,2,1,3,2,1,1,0,2,2,2,1,0,0,1,2
 Erica Haltia,Liik.,Hämeenlinna,alempi korkeakoulututkinto,1978,suomi,female,3,1,2,1,1,1,1,3,1,0,2,2,3,3,0,2,0,2,3,3,0,2,1,3,1
@@ -3738,8 +3821,10 @@ Satu Hietanen,PS,Hausjärvi,joku muu,1966,suomi,female,1,2,2,3,0,0,1,3,0,3,1,0,3
 Pirita Hipp-koskenoja,PS,Forssa,alempi korkeakoulututkinto,1975,suomi,female,2,2,1,1,0,1,0,3,0,2,1,2,2,3,1,0,1,2,1,3,0,2,1,3,0
 Erja Hirviniemi,Vas.,Riihimäki,alempi korkeakoulututkinto,1956,suomi,female,3,2,1,2,2,1,2,2,3,0,3,2,3,3,2,1,0,2,3,2,2,0,0,1,2
 Tiina Hofström,Vihr.,Hämeenlinna,ylempi korkeakoulututkinto,1966,suomi,female,1,1,1,1,2,1,3,1,3,1,2,1,3,2,1,1,1,1,3,1,3,1,1,2,3
+Meiju Honkavuori,Kok.,Hämeenlinna,alempi korkeakoulututkinto,1958,suomi,female,1,1,3,2,2,2,2,3,1,2,1,1,2,2,0,2,2,1,1,1,0,1,1,3,0
 Johanna Häggman,Kesk.,Forssa,alempi korkeakoulututkinto,1971,suomi,female,3,2,1,2,0,1,1,3,0,0,1,2,3,2,1,1,0,3,1,3,0,0,0,1,1
 Hanna Hänninen,Vas.,Riihimäki,ylempi korkeakoulututkinto,1978,suomi,female,3,3,1,3,3,2,1,3,3,0,3,1,3,2,2,2,1,3,3,1,3,1,0,1,3
+Raakel Iskanius,KD,Hämeenlinna,ammattitutkinto,1989,suomi,female,2,1,0,2,1,1,0,2,0,2,1,1,3,2,0,3,3,2,1,2,1,1,2,2,1
 Hanna-leena Islander,Vihr.,Janakkala,ylempi korkeakoulututkinto,1976,suomi,female,3,2,1,2,1,1,2,2,2,0,2,1,3,3,0,1,1,2,3,2,2,1,1,3,3
 Merja Isotalo,Vihr.,Forssa,ylempi korkeakoulututkinto,1953,suomi,female,3,1,2,0,1,1,2,1,2,1,3,1,2,2,0,2,0,3,2,2,2,2,0,3,3
 Emma Ivanoff,Vas.,Hämeenlinna,ylioppilas,1987,suomi,female,3,2,0,0,1,1,1,2,3,0,3,3,3,2,0,2,0,2,3,3,1,1,0,2,3
@@ -3807,6 +3892,7 @@ Miia Nahkuri,SDP,Riihimäki,alempi korkeakoulututkinto,1986,suomi,female,3,2,1,2
 Sini Niittykukka,Vas.,Hämeenlinna,ammattitutkinto,1991,suomi,female,3,3,2,1,2,1,2,3,3,0,3,2,3,3,1,0,0,3,3,2,2,1,1,1,3
 Silja Nurmi,SDP,Riihimäki,alempi korkeakoulututkinto,1995,suomi,female,3,3,1,3,2,1,2,3,3,0,3,2,3,3,3,1,1,2,3,3,0,0,1,2,3
 Soila Nyholm,SDP,Hämeenlinna,alempi korkeakoulututkinto,1983,suomi,female,3,2,1,0,2,0,0,3,1,0,2,3,3,3,1,1,0,0,3,2,3,0,0,2,3
+Kaisa Nyström,Sit,Tammela,ammattitutkinto,1972,suomi,female,2,2,2,1,1,1,0,3,0,1,0,2,3,2,1,1,1,3,2,3,1,2,0,2,0
 Aino Närkki,Kok.,Riihimäki,ylempi korkeakoulututkinto,1956,suomi,female,1,0,3,3,1,1,3,2,0,0,2,1,1,2,3,1,2,0,2,3,0,2,3,2,3
 Elise Oikari,KD,Hattula,ylempi korkeakoulututkinto,1987,suomi,female,1,1,2,3,1,1,2,3,1,1,2,1,3,1,1,1,0,3,3,2,0,1,2,1,1
 Minna-Mari Ojamäki-Salminen,SDP,Hämeenlinna,alempi korkeakoulututkinto,1977,suomi,female,3,2,1,1,0,2,1,2,1,0,2,2,3,3,0,1,0,1,3,3,1,1,0,2,2
@@ -3846,12 +3932,14 @@ Henna-leena Savolainen,PS,Hämeenlinna,ammattitutkinto,1983,suomi,female,3,3,3,3
 Satu Silta,SDP,Janakkala,ylioppilas,1963,suomi,female,3,1,0,1,2,2,1,2,2,0,3,2,2,3,1,1,0,1,3,3,1,1,0,1,2
 Mirka Soinikoski,Vihr.,Hämeenlinna,ylempi korkeakoulututkinto,1975,suomi,female,3,2,1,3,2,1,2,3,2,0,3,0,3,1,2,2,1,3,3,2,3,2,0,2,3
 Jessica Sonko,Kok.,Riihimäki,ylempi korkeakoulututkinto,1998,suomi,female,1,1,2,2,2,2,3,2,1,0,2,2,2,1,1,1,2,1,3,2,0,2,2,2,2
+Leena Suojala,Kesk.,Hämeenlinna,ylempi korkeakoulututkinto,1960,suomi,female,2,2,1,2,1,1,1,2,2,1,2,1,2,2,1,1,0,1,2,3,1,2,0,1,1
 Saara Suutarla,Vas.,Hämeenlinna,ammattitutkinto,1978,suomi,female,2,3,1,0,2,1,3,2,3,0,3,3,3,3,1,1,2,1,3,3,2,1,1,1,3
 Tiia Syrjälä,SDP,Hämeenlinna,alempi korkeakoulututkinto,1986,suomi,female,3,3,0,0,0,1,1,3,3,0,3,3,3,3,0,0,0,2,3,3,0,0,0,1,3
 Vuokko Syväntö,KD,Hämeenlinna,ylempi korkeakoulututkinto,1966,suomi,female,2,2,2,0,0,1,1,2,1,2,0,1,3,3,2,3,0,2,1,3,0,3,0,2,0
 Kirsi Särkkä,PS,Hämeenlinna,ylioppilas,1964,suomi,female,1,1,0,0,1,2,1,3,1,2,1,1,2,3,1,2,0,2,2,3,0,1,1,2,1
 Irma Taavela,SDP,Hämeenlinna,ylempi korkeakoulututkinto,1975,suomi,female,3,0,1,2,1,1,0,3,3,0,3,1,3,3,0,1,1,3,3,3,1,0,0,0,3
 Satu Taiveaho,SDP,Riihimäki,ylempi korkeakoulututkinto,1976,suomi,female,2,2,1,1,2,2,2,3,2,1,3,2,3,3,1,1,0,2,3,2,2,2,0,2,2
+Merja Taponen,Kesk.,Janakkala,ylempi korkeakoulututkinto,1957,suomi,female,2,1,0,3,0,1,2,3,2,0,3,1,3,1,1,1,0,2,2,3,3,0,0,1,2
 Niina Tofferi,Kesk.,Riihimäki,alempi korkeakoulututkinto,1983,suomi,female,2,1,1,2,1,1,1,2,1,2,1,1,2,2,2,1,1,1,2,2,1,1,2,1,2
 Liinu Torkkel,Kok.,Forssa,ylioppilas,2003,suomi,female,1,1,3,1,1,1,2,3,1,0,3,0,3,1,1,2,1,0,2,2,0,3,3,0,1
 Neea Tuokko,Kok.,Loppi,ammattitutkinto,1997,suomi,female,3,1,2,0,0,1,1,3,0,2,0,1,3,3,0,2,0,2,2,3,0,1,1,1,0
@@ -3864,12 +3952,14 @@ Anniina Vinkki,Vihr.,Forssa,ammattitutkinto,1982,suomi,female,3,3,1,1,0,1,1,3,3,
 Kati Voutilainen,Kok.,Hämeenlinna,ylempi korkeakoulututkinto,1985,suomi,female,2,1,2,1,1,2,2,2,1,1,1,1,2,2,1,2,2,1,2,2,1,1,1,1,2
 Anna-liisa Vuorinen,Kok.,Janakkala,alempi korkeakoulututkinto,1970,suomi,female,1,1,2,3,1,1,2,3,1,0,3,1,3,3,1,1,0,1,3,2,0,2,1,1,2
 Leena Weckroth,Vas.,Hämeenlinna,ammattitutkinto,1979,suomi,female,3,3,0,0,0,1,1,3,2,0,2,2,3,3,1,1,0,3,3,3,1,0,0,3,2
+Johanna Wiisak,Kesk.,Forssa,joku muu,1982,suomi,female,3,2,1,0,1,0,1,2,1,0,3,0,2,3,2,0,0,2,3,3,0,0,0,2,2
 Pia Yli-Pirilä,Kok.,Hattula,alempi korkeakoulututkinto,1956,suomi,female,3,1,2,3,2,0,3,3,2,0,3,0,3,3,2,1,2,1,1,3,0,2,2,3,3
 Meri Yli-kahrakuusi,Kok.,Jokioinen,ammattitutkinto,2002,suomi,female,3,2,2,0,1,1,1,3,2,0,3,1,3,2,1,2,0,0,2,3,0,0,2,2,2
 Sirpa Ylikerälä,Vas.,Hattula,ylempi korkeakoulututkinto,1967,suomi,female,3,3,0,3,2,0,2,2,3,0,3,2,3,2,1,0,2,3,1,3,3,0,0,3,2
 Anne Ylitalo,Kesk.,Tammela,ammattitutkinto,1964,suomi,female,2,2,2,1,0,1,1,3,0,0,2,2,3,3,0,1,0,2,1,3,1,1,0,2,3
 Mika Aarrelinna,PS,Forssa,ammattitutkinto,1966,suomi,male,0,1,2,3,2,1,2,1,0,1,0,0,2,2,1,2,2,1,2,2,0,1,2,3,0
 Ehab Abouessa,SDP,Hämeenlinna,alempi korkeakoulututkinto,1981,suomi,male,3,1,2,0,2,2,1,1,2,3,1,2,3,2,0,3,3,2,3,2,0,1,0,1,2
+Matti Alanko,Kesk.,Ypäjä,ammattitutkinto,1967,suomi,male,3,1,1,1,0,2,2,3,1,2,1,1,2,2,1,2,0,1,2,3,2,1,0,3,1
 Seppo Anttila,Kok.,Hämeenlinna,ylempi korkeakoulututkinto,1965,suomi,male,0,1,2,2,1,2,1,2,1,1,1,1,1,3,1,1,0,2,2,2,2,3,0,2,1
 Mika Apell,Kesk.,Hausjärvi,alempi korkeakoulututkinto,1988,suomi,male,2,3,1,1,3,1,2,2,1,0,2,2,3,1,1,2,0,3,3,2,0,0,0,2,2
 Mikko Arminen,SDP,Riihimäki,alempi korkeakoulututkinto,1981,suomi,male,3,1,1,3,2,1,3,1,1,1,3,0,3,3,2,1,2,2,3,2,3,1,1,1,3
@@ -3899,6 +3989,7 @@ Matias Huhtala,PS,Hämeenlinna,alempi korkeakoulututkinto,1997,suomi,male,3,0,1,
 Simeon Huttu,Kok.,Hämeenlinna,ylioppilas,2004,suomi,male,3,1,2,1,3,2,2,3,1,2,1,0,3,1,3,2,1,0,1,2,2,1,2,0,0
 Mika Huuskonen,Kesk.,Janakkala,alempi korkeakoulututkinto,1976,suomi,male,2,1,1,0,1,0,3,3,2,1,3,1,3,3,2,1,1,2,2,3,1,0,0,2,2
 Mikko Ilmén,Vas.,Forssa,ammattitutkinto,1973,suomi,male,2,2,1,1,1,1,1,3,2,1,2,0,1,2,2,2,1,2,3,2,2,1,1,3,1
+Juha Iso-aho,Kesk.,Tammela,ylempi korkeakoulututkinto,1981,suomi,male,3,1,0,2,1,1,2,3,2,0,2,2,3,2,1,2,2,2,2,3,2,0,0,1,1
 Juha Isosuo,Kok.,Hämeenlinna,ylempi korkeakoulututkinto,1957,suomi,male,0,0,2,3,2,1,3,2,1,1,2,0,3,0,2,1,3,1,1,2,0,0,3,2,2
 Antti Jetsu,Kok.,Riihimäki,alempi korkeakoulututkinto,1975,suomi,male,2,1,2,2,1,2,1,3,0,1,0,0,2,2,2,2,2,1,1,2,1,3,2,3,1
 Arttu Jokikota,Vas.,Hämeenlinna,ammattitutkinto,1990,suomi,male,2,3,0,1,2,0,1,3,3,0,3,0,3,3,0,0,1,3,3,3,0,0,0,1,3
@@ -3915,6 +4006,7 @@ Kimmo Kautio,VL,Hämeenlinna,ylioppilas,1982,suomi,male,3,1,2,1,0,2,1,3,0,1,0,0,
 Mikko Kautto,Kesk.,Janakkala,alempi korkeakoulututkinto,1967,suomi,male,1,1,1,1,1,1,2,3,1,3,1,2,3,2,2,2,2,2,0,2,1,0,0,1,1
 Anssi Kemppi,Kesk.,Riihimäki,ylempi korkeakoulututkinto,1966,suomi,male,2,2,0,2,1,1,2,3,1,1,1,2,2,3,2,1,2,2,2,2,3,1,0,2,1
 Markus Keskitalo,PS,Hämeenlinna,ammattitutkinto,1997,suomi,male,3,2,0,1,2,2,1,3,0,3,0,2,3,2,0,2,1,3,0,3,0,3,2,3,0
+Sauli Kettunen,PS,Hämeenlinna,ammattitutkinto,1957,suomi,male,1,2,3,2,3,1,1,3,0,3,1,0,3,3,1,3,0,2,2,3,0,3,3,3,0
 Sami Kindt,PS,Loppi,ammattitutkinto,1966,suomi,male,3,1,0,3,0,2,0,3,2,2,0,0,3,1,1,2,2,2,2,3,0,3,1,3,0
 Leo Koivula,Sit,Hämeenlinna,ylioppilas,1960,suomi,male,1,2,2,1,2,1,2,2,0,1,2,2,2,2,0,2,1,1,0,2,0,1,1,0,0
 Mika Koivuniemi,KD,Riihimäki,ammattitutkinto,1973,suomi,male,3,2,2,1,0,1,1,3,0,1,0,0,3,3,2,2,1,1,2,3,2,2,1,2,1
@@ -3968,6 +4060,7 @@ Antti Piirainen,Kok.,Hämeenlinna,ylempi korkeakoulututkinto,1962,suomi,male,1,1
 Jussi Pullinen,PS,Hausjärvi,ammattitutkinto,1972,suomi,male,3,3,2,1,2,1,0,3,1,2,0,3,2,3,2,1,1,2,1,3,0,2,1,0,1
 Teijo Pullinen,PS,Hämeenlinna,joku muu,1957,suomi,male,3,2,3,0,2,3,2,3,0,2,2,1,3,3,0,3,2,3,1,3,1,1,1,3,1
 Veli-pekka Pöystilä,PS,Hämeenlinna,ylempi korkeakoulututkinto,1964,suomi,male,2,2,2,1,0,3,0,3,0,0,1,1,2,3,0,0,0,1,0,3,1,3,1,2,0
+Sakari Raiskio,Kesk.,Jokioinen,ylempi korkeakoulututkinto,1962,suomi,male,2,1,1,1,1,1,1,2,1,1,2,1,2,2,2,2,1,2,1,3,2,1,0,1,1
 Prabhakaran Ranjith kumar,SDP,Hämeenlinna,alempi korkeakoulututkinto,1974,jokin muu,male,3,3,1,1,2,2,2,2,2,0,2,2,2,2,1,2,1,3,2,2,2,0,1,2,2
 Tomi Ranta-kahila,SDP,Hämeenlinna,ammattitutkinto,1974,suomi,male,3,2,0,0,2,1,2,2,2,0,3,2,3,3,2,0,0,1,3,2,1,1,1,2,3
 Aapo Reima,Vas.,Hämeenlinna,ylioppilas,2001,suomi,male,3,3,1,2,3,1,2,3,3,0,3,1,3,2,1,0,1,3,3,3,3,2,0,3,2
@@ -4012,10 +4105,10 @@ Pasi Väre,SDP,Forssa,peruskoulu,1971,suomi,male,2,1,2,1,2,2,1,3,1,1,1,1,1,3,0,1
 Mika Walkamo,Kok.,Hämeenlinna,ammattitutkinto,1962,suomi,male,3,1,2,1,1,2,2,2,1,1,1,1,2,2,2,2,2,1,2,2,0,2,1,2,2
 Sami Ylitalo,SDP,Janakkala,ylempi korkeakoulututkinto,1973,suomi,male,3,2,1,2,2,1,2,3,2,1,1,0,3,2,2,1,2,2,3,2,2,1,1,3,2
 Teemu Äikäs,SDP,Forssa,ylioppilas,1982,suomi,male,3,2,1,3,0,2,3,2,2,1,2,3,3,3,1,3,0,1,3,3,2,1,1,1,3
+Timo Jussila,Kesk.,Hausjärvi,ammattitutkinto,1968,suomi,,2,2,2,2,2,1,2,3,1,1,2,1,2,2,1,2,1,1,2,2,2,2,2,2,1
 Maija Kontturi,Kok.,Hämeenlinna,ylempi korkeakoulututkinto,1985,suomi,,1,2,2,3,3,1,2,2,3,1,3,2,2,1,2,1,3,1,3,2,0,3,2,2,2
 Noora Mäkilä,Vas.,Hämeenlinna,ylempi korkeakoulututkinto,1982,suomi,,3,2,1,2,1,1,2,2,3,0,2,2,3,3,3,0,1,2,3,2,2,0,0,1,3
 Kyösti Kekki,Liik.,Janakkala,alempi korkeakoulututkinto,1958,suomi,,0,0,3,2,0,3,3,3,0,1,0,2,2,2,0,0,0,0,2,2,0,3,0,3,0
-Timo Jussila,Kesk.,Hausjärvi,ammattitutkinto,1968,suomi,,2,2,2,2,2,1,2,3,1,1,2,1,2,2,1,2,1,1,2,2,2,2,2,2,1
 Hanna-lea Ahlskog,KD,Kokkola,ylempi korkeakoulututkinto,1983,suomi,female,2,1,2,3,3,2,1,3,0,1,0,1,2,2,1,1,2,2,1,2,1,0,1,1,1
 Kaisa Ala-Leppilampi,Kesk.,Toholampi,joku muu,1960,suomi,female,3,1,2,2,0,2,2,3,2,1,2,2,2,3,0,1,1,1,2,3,1,0,0,3,1
 Ilona Alatalo,PS,Perho,alempi korkeakoulututkinto,1983,suomi,female,2,2,2,2,0,1,0,3,0,2,0,0,2,3,0,1,1,1,0,3,1,2,1,2,0
@@ -4048,6 +4141,7 @@ Anette Johansson,Vas.,Kokkola,alempi korkeakoulututkinto,1985,suomi,female,3,3,0
 Camilla Jokela,Vas.,Kokkola,ylempi korkeakoulututkinto,1992,suomi,female,3,3,1,3,2,2,1,2,3,0,3,0,3,3,2,1,1,2,3,3,3,0,0,2,3
 Anne Jussila,Kesk.,Kokkola,ammattitutkinto,1970,suomi,female,3,1,1,3,1,2,2,2,2,0,2,3,3,3,2,1,2,3,1,3,2,2,0,2,1
 Katja-Maaria Kaakinen,KD,Kokkola,ylempi korkeakoulututkinto,1976,suomi,female,1,2,2,3,1,0,1,3,0,0,0,1,3,2,3,2,1,2,3,2,0,0,2,2,2
+Marita Kaakinen,Kok.,Kokkola,alempi korkeakoulututkinto,1976,suomi,female,2,1,2,3,0,1,1,2,1,1,3,2,3,3,2,1,0,1,1,2,1,0,1,2,2
 Heidi Kainu,Vas.,Veteli,alempi korkeakoulututkinto,1979,suomi,female,2,2,2,2,2,2,2,2,2,0,2,1,2,2,1,2,1,2,3,2,2,1,1,2,2
 Jasmiina Kangas,SDP,Kokkola,alempi korkeakoulututkinto,1992,suomi,female,3,2,1,0,2,1,1,3,3,0,3,3,3,3,1,2,1,2,3,3,0,0,0,3,2
 Heidi Kant,SDP,Kokkola,alempi korkeakoulututkinto,1985,suomi,female,3,2,0,2,0,1,1,2,3,0,2,2,3,3,1,1,1,2,3,3,0,0,0,3,2
@@ -4058,6 +4152,7 @@ Kaarina Koivisto,KD,Halsua,ammattitutkinto,1971,suomi,female,3,1,2,2,1,2,1,2,1,1
 Sanna Koivisto,SDP,Kokkola,ylempi korkeakoulututkinto,1977,suomi,female,2,2,0,2,3,1,3,2,3,0,3,1,2,3,2,1,2,2,3,1,2,1,0,1,2
 Minna Koskela,PS,Kokkola,alempi korkeakoulututkinto,1986,suomi,female,2,2,2,2,2,2,0,3,0,1,1,1,3,3,1,2,1,2,2,3,0,1,2,2,1
 Maitta Kotaniemi,Kok.,Kokkola,ylempi korkeakoulututkinto,1962,suomi,female,3,0,3,1,2,0,2,2,2,3,2,2,3,3,1,2,0,1,3,1,0,3,1,3,1
+Satu Kuivaniemi,SDP,Lestijärvi,alempi korkeakoulututkinto,1982,suomi,female,3,2,1,3,0,2,0,3,2,1,1,1,3,3,2,1,0,1,2,3,2,0,0,2,1
 Johanna Laakso,Vihr.,Kokkola,alempi korkeakoulututkinto,1974,suomi,female,3,3,1,3,2,2,0,3,2,0,3,0,3,3,2,0,3,3,3,3,3,0,0,3,2
 Miia Laakso,Kok.,Toholampi,ylempi korkeakoulututkinto,1980,suomi,female,1,1,0,2,1,1,2,2,1,1,1,0,1,2,1,1,0,1,2,3,0,1,1,2,2
 Pia Leinonen,Vas.,Kokkola,alempi korkeakoulututkinto,1980,suomi,female,3,3,1,2,1,2,3,2,3,0,3,2,3,3,1,0,1,3,3,2,3,0,0,3,3
@@ -4082,6 +4177,7 @@ Pia Sillanpää,PS,Kokkola,alempi korkeakoulututkinto,1978,suomi,female,2,2,2,3,
 Catarina Silvander,RKP,Kokkola,ammattitutkinto,1963,ruotsi,female,3,0,2,2,1,2,2,3,3,0,3,2,2,2,2,1,2,1,2,3,0,0,2,2,2
 Tina Sulkakoski,PS,Kaustinen,ammattitutkinto,1972,ruotsi,female,3,1,2,3,1,2,1,3,0,2,2,2,2,3,1,3,0,0,2,3,1,1,0,2,0
 Emilia Teerikangas,SDP,Kokkola,ylempi korkeakoulututkinto,1979,suomi,female,2,1,1,3,2,1,1,2,2,0,3,1,1,3,1,0,2,2,3,2,2,0,0,1,2
+Kristiina Teerikangas,SDP,Kokkola,ylioppilas,1954,suomi,female,3,3,1,3,2,1,2,3,2,0,3,1,3,3,0,1,0,2,3,3,1,0,0,2,3
 Satu Tervola,SDP,Kannus,ammattitutkinto,1963,suomi,female,3,2,1,3,1,1,2,3,3,0,3,1,3,2,2,1,0,2,2,2,0,0,1,1,2
 Marja Tiala,Kesk.,Lestijärvi,alempi korkeakoulututkinto,1971,suomi,female,3,1,2,3,1,2,1,2,2,0,1,1,3,3,2,1,2,2,1,3,2,0,1,0,2
 Annika Timonen,SDP,Kaustinen,ylempi korkeakoulututkinto,1987,suomi,female,2,2,1,2,1,1,2,2,3,0,3,3,2,2,1,1,0,2,2,2,2,0,1,1,2
@@ -4092,6 +4188,7 @@ Anja Törmä,Kesk.,Kannus,ammattitutkinto,1952,suomi,female,3,1,0,3,0,0,3,3,2,0,
 Camilla Ventus,Kok.,Kokkola,alempi korkeakoulututkinto,1976,ruotsi,female,2,1,1,3,3,1,2,3,2,2,0,0,2,2,0,1,0,1,1,2,0,0,2,3,3
 Heli Vuorela,Vas.,Kokkola,ammattitutkinto,1989,suomi,female,3,3,0,2,2,1,1,3,2,0,3,2,3,2,1,1,1,2,3,2,2,1,0,3,2
 Sari-kaarina Vähämäki,SDP,Kokkola,ylempi korkeakoulututkinto,1978,suomi,female,3,1,1,3,2,2,2,2,1,2,1,1,2,3,1,0,0,2,0,2,1,1,0,1,1
+Hanna Vähäniemi,Vas.,Kokkola,alempi korkeakoulututkinto,1984,suomi,female,3,2,1,1,1,2,2,2,2,0,3,1,3,2,1,1,1,3,2,2,2,1,0,2,3
 Tanja Witick,RKP,Kokkola,ylempi korkeakoulututkinto,1971,ruotsi,female,3,1,2,3,3,1,2,3,2,0,3,1,2,3,2,1,2,1,3,2,2,0,1,2,3
 Jani Andersson,KD,Kokkola,ammattitutkinto,1973,suomi,male,2,1,2,2,1,2,2,2,1,2,1,3,2,2,2,2,1,1,1,3,0,1,1,1,1
 Göran Björkgård,KD,Kokkola,alempi korkeakoulututkinto,1957,ruotsi,male,3,2,2,3,1,2,2,2,2,2,1,2,2,2,0,2,1,1,2,2,2,1,1,3,1
@@ -4106,6 +4203,7 @@ Tapani Hankaniemi,Kesk.,Kokkola,ammattitutkinto,1945,suomi,male,3,2,2,3,2,2,2,2,
 Oskari Hannula,SDP,Kokkola,ylempi korkeakoulututkinto,1981,suomi,male,3,2,0,3,2,2,3,2,2,0,3,0,3,2,2,1,3,2,3,2,2,1,1,3,2
 Jukka Haukka,PS,Kokkola,ammattitutkinto,2000,suomi,male,3,2,1,3,0,2,2,2,1,0,2,1,3,3,0,2,2,1,2,3,1,2,2,1,1
 Jonas Heinola,Kok.,Kokkola,ylempi korkeakoulututkinto,1992,ruotsi,male,2,0,3,3,3,2,2,2,1,3,1,2,2,2,1,1,3,0,1,2,1,3,2,2,1
+Reino Herlevi,Kesk.,Kokkola,ammattitutkinto,1974,suomi,male,2,2,2,3,1,1,2,3,0,0,1,0,3,1,2,2,2,3,1,3,3,0,0,1,0
 Mikko Hietaharju,Kok.,Kokkola,ammattitutkinto,1979,suomi,male,2,1,2,2,1,1,1,3,1,0,1,1,3,2,1,2,1,2,3,2,1,1,1,1,1
 Ville Hirvikoski,Kesk.,Toholampi,ylempi korkeakoulututkinto,1993,suomi,male,2,2,1,3,1,2,1,3,1,1,2,1,3,3,2,2,1,2,3,3,1,1,1,1,2
 Jarmo Humalajoki,PS,Kokkola,alempi korkeakoulututkinto,1988,suomi,male,2,1,3,3,2,1,1,3,0,0,0,1,2,1,2,2,2,2,0,1,1,2,1,2,1
@@ -4116,6 +4214,7 @@ Niko Ilola,SDP,Kokkola,peruskoulu,1996,suomi,male,3,3,0,3,0,0,2,3,3,0,3,3,3,3,0,
 Janne Isopahkala,Kesk.,Toholampi,joku muu,1974,suomi,male,3,2,2,3,1,1,2,2,2,0,1,2,3,3,1,2,0,2,2,3,1,0,0,0,1
 Marko Jokela,PS,Kokkola,ammattitutkinto,1988,suomi,male,2,1,2,2,3,2,0,3,1,0,1,2,3,2,2,2,2,1,1,3,1,1,1,2,1
 Yassine Jouahri,Vas.,Kokkola,ylempi korkeakoulututkinto,1984,jokin muu,male,2,1,2,1,1,1,2,3,3,0,3,2,3,3,0,0,1,3,3,2,0,0,0,3,2
+Janne Jukkola,Kok.,Kokkola,ammattitutkinto,1977,suomi,male,3,1,2,3,2,2,2,2,0,1,0,0,2,2,2,2,3,1,1,3,0,0,2,2,0
 Jani Jumppanen,SDP,Kokkola,ammattitutkinto,1975,suomi,male,3,2,2,2,2,2,2,3,1,1,2,2,1,2,2,1,0,3,2,2,1,0,1,2,2
 Ilkka Jäntti,Kesk.,Kokkola,ylempi korkeakoulututkinto,1977,suomi,male,3,3,2,3,2,2,2,3,0,1,1,0,3,3,1,2,1,3,3,3,0,1,2,0,2
 Heikki Järvi,KD,Kokkola,ylempi korkeakoulututkinto,1956,suomi,male,2,1,2,2,1,2,1,1,0,2,0,0,2,3,3,2,2,2,1,1,2,0,1,2,1
@@ -4130,6 +4229,7 @@ Simo Kattilakoski,Kesk.,Kokkola,ylempi korkeakoulututkinto,1953,suomi,male,2,1,1
 Pekka Kauppi,Kok.,Kokkola,ylempi korkeakoulututkinto,1980,suomi,male,2,2,1,3,3,0,1,2,1,1,3,0,3,2,2,1,2,2,2,3,0,1,0,0,0
 Marko Kautto,SDP,Kokkola,peruskoulu,1966,suomi,male,3,3,2,3,1,1,3,2,3,0,3,0,3,3,1,0,0,1,3,3,1,0,0,3,1
 Niko Keränen,PS,Kokkola,ylioppilas,1971,suomi,male,2,1,2,1,2,1,1,2,0,1,1,0,1,2,2,1,1,2,2,2,0,2,1,0,0
+Olli-Pekka Kinnunen,PS,Kokkola,ammattitutkinto,1978,suomi,male,1,1,2,3,3,1,1,3,0,1,2,0,0,3,0,3,3,2,2,3,0,0,3,3,0
 Hannu Kippo,KD,Kokkola,alempi korkeakoulututkinto,1954,suomi,male,2,2,2,2,1,1,2,2,1,2,1,0,2,2,1,2,0,2,1,2,0,0,2,1,1
 Tomi Kivelä,PS,Kokkola,ylioppilas,1982,suomi,male,1,1,2,3,2,1,0,3,0,1,0,1,3,2,2,1,0,2,1,3,1,0,2,2,0
 Kauko Kivilehto,Kok.,Kokkola,ammattitutkinto,1946,suomi,male,3,1,2,2,2,2,2,3,1,1,3,2,3,3,2,1,2,1,1,2,0,1,2,3,2
@@ -4141,6 +4241,7 @@ Risto Koljonen,SDP,Kokkola,ylempi korkeakoulututkinto,1971,ruotsi,male,3,1,1,3,2
 Jaakko Kolppanen,PS,Kannus,ammattitutkinto,1975,suomi,male,1,2,3,1,0,1,2,3,0,2,1,1,2,2,2,1,1,2,2,3,0,1,1,1,1
 Toni Korkiala,Kesk.,Kokkola,alempi korkeakoulututkinto,1983,suomi,male,3,2,1,3,3,1,0,3,0,0,1,2,3,0,3,1,0,3,3,3,2,0,0,0,2
 Teemu Koskela,PS,Kokkola,ammattitutkinto,1987,suomi,male,2,2,2,1,3,2,0,3,1,0,1,1,3,3,1,2,0,1,2,2,1,0,2,2,0
+Joni Kotanen,Kok.,Kokkola,alempi korkeakoulututkinto,1981,suomi,male,2,2,2,2,2,1,1,1,0,2,1,1,3,2,2,1,2,2,1,2,1,1,1,1,1
 Erkki Kuismin,Kesk.,Kokkola,ammattitutkinto,1949,suomi,male,3,0,1,3,1,1,0,3,0,0,2,0,3,3,1,1,3,0,2,3,0,0,0,3,3
 Sampsa Kujala,Vas.,Kaustinen,alempi korkeakoulututkinto,1990,suomi,male,3,3,0,3,1,1,2,3,3,0,3,2,3,3,1,0,1,3,3,2,2,0,0,3,3
 Jussi Känsälä,PS,Kokkola,ammattitutkinto,1982,suomi,male,0,3,2,3,2,2,0,3,0,3,0,0,3,2,0,2,3,1,0,3,0,2,3,3,0
@@ -4155,6 +4256,7 @@ Miska Lindberg,Kok.,Kokkola,ammattitutkinto,1994,suomi,male,3,0,2,1,2,0,0,0,1,2,
 Tenho Lindström,SDP,Kokkola,alempi korkeakoulututkinto,1978,suomi,male,3,2,1,2,1,1,2,2,2,1,1,1,3,3,1,1,2,1,2,2,2,1,0,2,1
 Marko Malvisto,KD,Halsua,alempi korkeakoulututkinto,1983,suomi,male,2,2,2,3,0,2,2,3,0,1,0,0,2,3,2,1,0,2,0,3,0,1,1,2,0
 Antti Maunula,PS,Kokkola,peruskoulu,1975,suomi,male,1,1,2,3,2,1,1,3,0,2,0,1,2,2,0,3,2,1,2,3,0,1,1,0,0
+Janne Mild,SDP,Kokkola,ammattitutkinto,1978,suomi,male,1,1,1,3,1,1,1,2,2,1,1,1,3,3,0,2,0,1,1,3,2,1,1,2,1
 Jan Molander,Vas.,Kokkola,joku muu,1967,ruotsi,male,2,2,0,3,2,1,1,3,3,0,3,2,3,2,1,1,0,2,3,3,3,0,0,3,3
 Eliot Myllykoski,Kok.,Kokkola,ylioppilas,2005,suomi,male,3,0,2,3,1,2,2,3,0,3,0,2,3,2,0,2,3,1,3,2,0,3,2,3,2
 Benjamin Mäkelä,PS,Kokkola,ammattitutkinto,1998,suomi,male,3,1,3,2,1,2,1,3,0,1,0,2,3,1,2,2,0,1,0,3,0,0,2,2,0
@@ -4182,6 +4284,7 @@ Timo Pärkkä,Kesk.,Halsua,ylempi korkeakoulututkinto,1968,suomi,male,1,2,1,3,0,
 Hannu Rekilä,PS,Kokkola,alempi korkeakoulututkinto,1962,suomi,male,3,1,2,1,2,1,2,1,0,0,1,1,1,2,1,2,1,2,2,3,1,2,3,3,0
 Sakari Ruisaho,SDP,Kokkola,alempi korkeakoulututkinto,1967,suomi,male,3,3,0,3,2,1,2,2,3,0,3,2,3,3,2,1,2,3,3,3,3,0,1,3,3
 Dennis Rönnkvist,SDP,Kokkola,ylioppilas,1972,suomi,male,2,2,1,3,2,2,0,3,0,1,2,1,3,3,2,2,3,1,2,3,0,0,1,3,1
+Esa Saari,Kesk.,Kokkola,ammattitutkinto,1962,suomi,male,2,2,2,3,2,1,1,2,1,1,2,1,3,3,2,2,1,1,2,3,1,1,0,1,2
 Samu Salmenaho,PS,Kokkola,ammattitutkinto,1998,suomi,male,3,2,3,2,2,3,0,3,0,3,0,1,2,2,2,2,0,3,1,3,0,2,2,0,0
 Alpo Sammalkangas,PS,Kokkola,ammattitutkinto,1983,suomi,male,1,1,1,1,1,0,1,1,0,2,1,0,1,1,1,2,1,2,0,1,0,2,2,1,0
 Jani Sandkvist,PS,Kokkola,ammattitutkinto,1986,suomi,male,3,1,1,3,3,1,0,1,0,2,0,0,1,2,1,1,3,1,0,1,0,2,3,2,0
@@ -4339,6 +4442,7 @@ Pekka Haaja,KD,Kouvola,ylempi korkeakoulututkinto,1963,suomi,male,2,2,0,0,3,1,2,
 Antti Haarala,Vihr.,Kotka,ammattitutkinto,1975,suomi,male,3,3,0,1,1,2,3,2,2,0,3,1,3,2,1,0,0,3,3,3,2,1,1,3,3
 Karo Halme,SDP,Kouvola,ylempi korkeakoulututkinto,1979,suomi,male,3,2,2,1,1,0,1,3,1,2,2,0,3,3,0,1,1,2,1,3,1,2,0,3,2
 Jarkko Harjumaaskola,SDP,Hamina,ammattitutkinto,1968,suomi,male,2,1,2,2,2,2,2,2,2,1,2,1,1,2,2,2,2,2,2,2,1,1,1,2,2
+Reijo Heikkinen,Kok.,Kouvola,ylempi korkeakoulututkinto,1956,suomi,male,2,1,3,0,2,0,1,3,2,1,2,3,1,3,2,2,3,0,3,1,0,3,2,1,0
 Tommi Helkala,SDP,Kouvola,ammattitutkinto,1985,suomi,male,2,1,2,1,2,2,1,3,2,0,2,1,2,2,1,2,2,2,2,2,1,1,1,3,1
 Jani Hellberg,SDP,Kouvola,ammattitutkinto,1981,suomi,male,3,2,1,0,1,2,2,3,1,0,2,1,3,2,0,2,2,2,3,3,2,1,0,1,2
 Eetu Hietamies,VL,Kouvola,peruskoulu,1994,suomi,male,3,2,0,3,0,2,1,3,0,0,0,3,3,3,0,2,0,2,3,3,0,1,0,0,0
@@ -4351,6 +4455,7 @@ Mikko Jaanu,KD,Kouvola,ammattitutkinto,1975,suomi,male,3,2,1,1,1,2,0,3,0,1,1,0,2
 Timo Jansson,Kesk.,Kouvola,peruskoulu,1955,suomi,male,3,3,3,1,0,2,2,3,2,3,2,2,2,3,1,1,1,1,1,3,1,3,3,3,2
 Pasi Jokela,Sit,Hamina,ammattitutkinto,1969,suomi,male,2,2,2,0,1,2,2,3,1,0,1,1,3,3,2,2,1,1,3,2,2,1,1,3,1
 Hannu Järvinen,SDP,Hamina,ammattitutkinto,1955,suomi,male,2,2,2,0,1,2,2,2,3,0,2,2,2,2,0,2,1,1,2,2,1,1,1,2,1
+Jorma Kaario,KD,Kouvola,ylempi korkeakoulututkinto,1940,suomi,male,1,1,3,3,2,1,0,3,0,3,0,2,1,1,2,2,2,0,1,3,0,3,2,3,1
 Jari Kaleton,PS,Kouvola,ammattitutkinto,1959,suomi,male,3,3,3,0,0,2,1,3,0,0,1,2,3,3,0,2,2,3,3,3,0,0,2,3,0
 Teijo Kallioniemi,PS,Kotka,ammattitutkinto,1971,suomi,male,3,1,2,2,2,2,1,2,0,2,0,1,2,2,1,1,2,1,0,2,1,2,2,1,1
 Tapio Karvonen,Kok.,Kouvola,ylempi korkeakoulututkinto,1954,suomi,male,2,1,2,0,2,1,2,3,1,0,1,1,2,2,2,0,2,3,2,2,0,1,1,1,2
@@ -4498,6 +4603,7 @@ Marianne Kemppainen,Kesk.,Saarijärvi,ylioppilas,1990,suomi,female,3,1,3,1,0,2,2
 Aino Kenttälä,Vas.,Jyväskylä,ylioppilas,2000,suomi,female,3,3,0,1,1,2,2,2,3,0,3,2,3,2,1,0,0,2,3,2,3,2,0,2,3
 Eija Kiljala,Kesk.,Pihtipudas,ylempi korkeakoulututkinto,1955,suomi,female,0,2,1,3,0,3,3,3,0,0,2,0,2,3,1,2,3,2,3,3,1,0,0,2,3
 Hanna Kiviranta,Kok.,Jyväskylä,ylempi korkeakoulututkinto,1978,suomi,female,3,1,2,2,2,1,2,2,1,0,2,1,2,2,2,2,2,2,3,2,1,2,1,2,2
+Piritta Kohvakka,VKK,Jyväskylä,ylioppilas,1976,suomi,female,2,2,2,1,1,0,0,3,1,1,0,0,2,2,0,3,0,3,2,3,1,3,1,3,0
 Mari Koistinen,Vas.,Äänekoski,ylempi korkeakoulututkinto,1978,suomi,female,3,3,2,2,1,1,2,3,3,0,3,1,3,3,2,1,1,2,3,2,1,2,1,2,3
 Asta Koivikko,Kok.,Muurame,alempi korkeakoulututkinto,1957,suomi,female,3,1,3,3,1,2,3,3,2,2,3,0,3,3,3,2,0,1,0,2,0,2,3,0,3
 Sari Kokko,Vihr.,Jyväskylä,ylempi korkeakoulututkinto,1983,suomi,female,3,3,1,3,2,1,1,1,2,0,3,1,2,3,2,0,2,2,3,2,3,3,1,2,2
@@ -4566,6 +4672,7 @@ Kristiina Ranta,KD,Viitasaari,ylempi korkeakoulututkinto,1952,suomi,female,2,1,2
 Otteliina Rantanen,SDP,Jyväskylä,alempi korkeakoulututkinto,1991,suomi,female,3,2,1,2,1,1,1,3,2,1,3,2,3,3,0,1,0,2,3,3,1,2,0,2,2
 Taina Rantanen,Vas.,Luhanka,ylempi korkeakoulututkinto,1959,suomi,female,3,2,0,0,0,1,1,2,2,0,3,1,2,3,0,1,0,2,3,3,1,3,0,0,3
 Jenny Riivali,Vas.,Jyväskylä,ylempi korkeakoulututkinto,1993,suomi,female,3,3,0,1,1,2,3,2,3,0,3,1,3,3,1,1,1,3,3,2,3,1,0,3,3
+Taija Rossi,Kesk.,Saarijärvi,ylempi korkeakoulututkinto,1977,suomi,female,2,1,2,1,0,0,1,3,0,1,2,1,3,2,2,1,2,1,1,3,1,1,2,3,0
 Anniina Runtuvuori-salmela,Kok.,Jyväskylä,ylempi korkeakoulututkinto,1987,suomi,female,2,2,1,2,2,1,1,2,1,0,2,1,2,2,1,0,1,1,2,2,0,0,2,0,2
 Katri Ruth,Kesk.,Jyväskylä,ylempi korkeakoulututkinto,1974,suomi,female,2,2,1,1,2,2,2,2,1,0,2,1,2,2,2,1,1,2,2,2,1,0,1,1,1
 Pirkko Ruuska,PS,Hankasalmi,ammattitutkinto,1962,suomi,female,2,2,3,2,2,2,2,3,0,1,0,1,3,2,1,2,0,1,0,3,0,3,2,3,0
@@ -4615,6 +4722,7 @@ Saeed Däman,Vas.,Jyväskylä,ammattitutkinto,1985,suomi,male,3,3,3,2,1,1,3,3,3,
 Akseli Ekola,Vas.,Jyväskylä,ylempi korkeakoulututkinto,1994,suomi,male,3,3,1,1,3,2,1,3,3,0,3,1,3,2,0,1,2,3,3,3,3,1,0,3,3
 Eerik Ekström,Kok.,Jyväskylä,ylempi korkeakoulututkinto,1991,suomi,male,1,1,2,2,2,2,1,2,1,1,1,1,2,2,1,1,2,1,2,2,1,2,2,3,1
 Vili Eskelinen,PS,Jyväskylä,ylioppilas,1999,suomi,male,0,0,2,1,3,1,0,3,0,3,0,0,0,1,2,2,3,1,0,1,2,3,3,3,0
+Samuel Florin,KD,Jyväskylä,ammattitutkinto,1988,suomi,male,2,2,2,2,2,1,2,3,1,1,1,1,3,2,0,2,1,1,1,3,1,1,1,2,1
 Jouni Flyktman,Kok.,Jyväskylä,ylempi korkeakoulututkinto,1981,suomi,male,2,1,2,2,2,1,2,3,1,0,2,1,2,2,2,1,2,1,2,2,0,2,2,1,1
 Caius Forsberg,Kok.,Jyväskylä,ylempi korkeakoulututkinto,1983,suomi,male,2,1,2,2,3,1,2,3,1,1,2,1,2,1,2,2,2,2,2,1,0,2,3,3,3
 Akseli Haanpää,Vas.,Jyväskylä,ylioppilas,1998,suomi,male,3,3,0,0,2,0,3,2,3,0,3,2,3,3,0,1,0,3,3,2,3,0,0,1,3
@@ -4630,6 +4738,7 @@ Joni Heino,VL,Jyväskylä,ammattitutkinto,1986,suomi,male,3,0,2,3,0,2,1,3,0,2,0,
 Mikko Hiironen,Lib.,Jyväskylä,alempi korkeakoulututkinto,1987,suomi,male,3,2,2,2,1,2,1,1,0,2,1,0,2,1,2,1,3,1,3,1,2,1,1,2,2
 Teuvo Hiltunen,PS,Äänekoski,ammattitutkinto,1976,suomi,male,3,2,3,3,2,2,2,3,0,1,0,0,3,2,2,2,1,1,0,3,0,3,2,3,0
 Harri Hokkanen,Kesk.,Laukaa,ammattitutkinto,1983,suomi,male,2,2,2,1,1,3,2,2,2,1,2,1,3,2,1,1,0,2,2,3,1,1,0,3,1
+Kari Hokkanen,PS,Jyväskylä,ammattitutkinto,1957,suomi,male,2,1,2,1,2,1,1,2,0,1,1,2,2,2,0,1,0,1,2,2,0,2,1,1,1
 Severi Hokkeri,Kok.,Laukaa,ylempi korkeakoulututkinto,1985,suomi,male,2,1,2,1,1,2,2,2,1,2,2,1,2,2,1,1,3,1,3,3,0,3,1,3,1
 Nico Holmberg,Vihr.,Jyväskylä,ammattitutkinto,1971,suomi,male,3,2,1,2,1,1,2,2,2,0,3,1,3,3,1,1,1,2,3,3,1,1,1,1,2
 Juha Honkamäki,KD,Muurame,alempi korkeakoulututkinto,1968,suomi,male,2,1,2,1,2,1,1,3,0,1,1,2,3,3,1,3,2,2,2,3,3,1,1,3,1
@@ -4659,9 +4768,11 @@ Kasper Kaipainen,SDP,Jyväskylä,alempi korkeakoulututkinto,1996,suomi,male,3,3,
 Saku Kaistinen,Kesk.,Joutsa,alempi korkeakoulututkinto,1980,suomi,male,2,2,2,1,2,1,2,3,1,1,1,1,3,2,1,2,1,2,2,2,1,1,1,3,1
 Jorma Kallio,SDP,Jyväskylä,ylempi korkeakoulututkinto,1955,suomi,male,0,2,1,1,1,1,2,3,3,0,2,1,1,3,1,1,0,2,2,1,3,1,0,3,3
 Olli Kalliokoski,Kok.,Laukaa,alempi korkeakoulututkinto,1983,suomi,male,1,1,2,3,0,1,1,3,0,1,2,0,2,2,2,2,2,1,2,3,0,3,2,3,3
+Tuomo Kalliomäki,Kok.,Jyväskylä,ylempi korkeakoulututkinto,1986,suomi,male,0,0,2,3,0,1,1,2,0,2,0,0,1,1,2,2,3,1,0,1,0,1,0,1,0
 Oopi Kaltila,Vas.,Jyväskylä,alempi korkeakoulututkinto,1985,suomi,male,3,3,0,3,3,3,3,3,3,0,3,0,3,3,0,1,1,3,3,3,2,0,0,2,3
 Toimi Kankaanniemi,PS,Jyväskylä,alempi korkeakoulututkinto,1950,suomi,male,2,2,2,1,1,1,1,3,1,2,1,1,3,3,2,1,1,1,1,3,1,2,0,2,1
 Markku Kankainen,Vas.,Jämsä,ammattitutkinto,1958,suomi,male,3,3,1,1,2,2,0,1,2,0,2,2,3,3,0,1,1,3,2,3,2,0,1,3,3
+Kauko Karivuo,Kesk.,Jyväskylä,alempi korkeakoulututkinto,1977,suomi,male,3,3,2,1,1,2,2,3,1,0,3,2,3,3,1,1,1,3,3,2,1,1,1,3,2
 Karli Kelk,SDP,Jyväskylä,ylempi korkeakoulututkinto,1979,jokin muu,male,3,2,1,1,1,1,2,3,2,0,3,2,3,2,2,1,2,2,3,2,2,1,1,1,3
 Jarno Kemiläinen,SDP,Jyväskylä,ammattitutkinto,1975,suomi,male,3,3,0,2,0,1,2,3,3,0,3,2,3,2,0,1,1,2,3,2,0,0,3,1,3
 Tarmo Ketola,Vihr.,Petäjävesi,ylempi korkeakoulututkinto,1977,suomi,male,2,1,2,3,1,2,2,2,2,0,3,1,3,2,2,1,2,2,2,2,1,3,2,3,2
@@ -4755,7 +4866,6 @@ Leevi Ruotsalainen,PS,Jyväskylä,ammattitutkinto,1981,suomi,male,3,1,0,1,1,0,0,
 Seppo Ruotsalainen,SDP,Äänekoski,ammattitutkinto,1962,suomi,male,3,3,0,3,0,1,0,3,3,0,3,0,3,3,0,1,2,1,3,3,0,0,0,2,3
 Seppojuhani Ruotsalainen,SDP,Jyväskylä,alempi korkeakoulututkinto,1948,suomi,male,3,2,2,1,2,2,3,2,1,0,2,2,3,2,1,2,1,1,3,3,2,2,1,2,2
 Janne Ruuth,Vihr.,Jyväskylä,ylempi korkeakoulututkinto,1984,suomi,male,3,2,0,1,1,1,2,1,2,0,3,1,3,2,3,3,0,2,3,3,2,3,0,0,3
-Petri Räihä,KD,Jyväskylä,ylempi korkeakoulututkinto,1974,suomi,male,3,1,2,0,2,2,2,3,2,1,1,1,3,2,1,2,1,2,1,2,0,1,1,1,2
 Arsi Saarijärvi,PS,Keuruu,alempi korkeakoulututkinto,1974,suomi,male,3,2,2,2,0,2,2,3,0,3,0,1,2,2,0,3,0,1,2,3,0,3,1,2,0
 Jussi Saarinen,PS,Kyyjärvi,ammattitutkinto,1985,suomi,male,2,1,2,0,0,2,0,3,1,0,0,1,2,2,0,0,0,3,2,3,0,0,0,1,0
 Ilkka Salminen,PS,Jämsä,ylempi korkeakoulututkinto,1967,suomi,male,1,1,3,3,1,2,1,2,1,2,2,1,2,2,1,2,2,3,2,2,0,3,2,3,1
@@ -4793,8 +4903,8 @@ Jouni Vuori,PS,Saarijärvi,ammattitutkinto,1969,suomi,male,3,2,2,2,0,0,0,2,0,0,0
 Petri Vähäkangas,Vihr.,Jyväskylä,ylempi korkeakoulututkinto,1969,suomi,male,3,2,1,2,2,1,2,2,2,0,2,0,3,3,3,1,2,3,3,2,2,3,0,0,3
 Risto Ylönen,Vas.,Jyväskylä,alempi korkeakoulututkinto,1951,suomi,male,3,3,0,1,2,1,2,2,3,0,3,1,3,3,1,1,0,3,3,3,3,2,0,3,3
 Arto Åkerman,PS,Laukaa,peruskoulu,1959,suomi,male,2,0,3,3,2,0,0,3,0,3,0,0,2,3,1,0,2,1,0,3,0,3,3,3,0
-Tero Hakkarainen,PS,Jyväskylä,ammattitutkinto,1983,suomi,,2,3,2,1,0,1,0,3,1,2,0,3,3,3,0,2,0,2,3,3,1,0,1,2,0
 Jyri Väisänen,Vas.,Jyväskylä,alempi korkeakoulututkinto,1994,suomi,,3,3,0,0,2,0,2,1,2,0,3,3,3,3,0,1,2,3,3,3,2,0,0,2,3
+Tero Hakkarainen,PS,Jyväskylä,ammattitutkinto,1983,suomi,,2,3,2,1,0,1,0,3,1,2,0,3,3,3,0,2,0,2,3,3,1,0,1,2,0
 Riikka Rantanen,SDP,Jyväskylä,ylempi korkeakoulututkinto,1985,suomi,,3,2,1,2,2,1,2,3,3,0,3,2,3,2,1,1,1,2,3,2,1,1,0,2,3
 Teija Alanen,Vihr.,Joensuu,ylempi korkeakoulututkinto,1981,suomi,female,1,2,0,3,2,1,1,2,2,1,3,1,3,3,1,2,2,3,3,3,3,0,0,2,3
 Helena Artell,KD,Liperi,ammattitutkinto,1965,suomi,female,1,2,1,3,0,1,1,3,0,2,0,2,3,3,0,0,2,2,1,3,0,2,1,0,1
@@ -4817,11 +4927,14 @@ Hilkka Hiltunen,Kesk.,Liperi,alempi korkeakoulututkinto,1978,suomi,female,2,1,0,
 Minna Hoffren,SDP,Joensuu,ylempi korkeakoulututkinto,1983,suomi,female,3,2,1,2,2,1,1,2,2,0,3,1,2,3,2,0,0,2,3,3,0,0,0,1,3
 Arja Holopainen,Kok.,Joensuu,ylempi korkeakoulututkinto,1958,suomi,female,2,2,2,1,2,2,2,3,2,2,2,1,3,3,2,1,2,2,1,2,1,2,1,2,1
 Anu Honkanen,SDP,Joensuu,ylempi korkeakoulututkinto,1979,suomi,female,3,2,1,2,2,2,2,2,1,0,3,1,2,2,1,1,2,2,2,3,1,1,1,2,2
+Eeva Huikuri,Kesk.,Liperi,ammattitutkinto,1951,suomi,female,3,1,1,2,2,2,1,3,1,1,2,1,3,2,1,2,2,1,2,2,1,1,2,2,2
 Sari Huovinen,Kesk.,Joensuu,ylempi korkeakoulututkinto,1965,suomi,female,3,0,2,2,3,2,2,2,1,0,2,0,3,3,1,1,0,1,2,2,0,0,0,3,2
 Anu Hyppönen,Vas.,Joensuu,ylempi korkeakoulututkinto,1972,suomi,female,2,3,1,3,2,1,1,3,2,0,3,1,2,3,1,0,1,3,3,3,2,1,0,2,2
 Tarja Hyykky,Kesk.,Juuka,ylempi korkeakoulututkinto,1966,suomi,female,2,2,2,3,1,1,2,3,1,1,1,0,3,3,1,1,0,1,1,3,1,0,0,1,1
 Sirpa Hyökki,SDP,Joensuu,ylempi korkeakoulututkinto,1971,suomi,female,3,3,3,3,2,1,0,3,2,1,1,1,3,3,0,0,1,1,3,3,3,0,0,3,2
 Tarja Itkonen,KD,Joensuu,ylempi korkeakoulututkinto,1963,suomi,female,2,2,0,0,0,0,1,3,3,3,1,3,3,3,0,2,0,3,3,3,0,0,0,3,2
+Merja Jaaranen,KD,Nurmes,ammattitutkinto,1956,suomi,female,3,2,2,2,2,0,2,3,2,2,1,1,3,2,0,1,0,2,2,3,0,1,1,1,1
+Veronika Jouhki,KD,Liperi,ammattitutkinto,1981,jokin muu,female,3,3,1,2,3,2,2,2,3,0,3,3,3,2,0,2,0,0,0,1,1,0,2,2,2
 Minna Jäppinen,SDP,Liperi,ylempi korkeakoulututkinto,1974,suomi,female,2,2,0,2,2,1,3,2,3,0,3,1,1,2,0,0,2,3,3,1,2,1,0,1,3
 Anni Järvinen,Vas.,Joensuu,ylempi korkeakoulututkinto,1982,suomi,female,3,3,0,0,1,1,3,2,3,0,3,3,3,3,0,1,0,3,3,3,3,0,0,3,3
 Karita Kaita,Kok.,Joensuu,alempi korkeakoulututkinto,1984,suomi,female,2,1,3,3,2,2,2,3,1,0,2,1,2,3,1,2,2,2,3,3,1,1,1,2,2
@@ -4861,6 +4974,7 @@ Liisa Mononen,Kesk.,Ilomantsi,alempi korkeakoulututkinto,1966,suomi,female,1,1,2
 Kati Mukkala,Kesk.,Joensuu,ylempi korkeakoulututkinto,1977,suomi,female,3,2,0,1,2,1,2,1,2,0,2,1,3,3,2,1,2,3,3,3,2,0,0,3,2
 Sonja Mutanen,Sit,Polvijärvi,ylempi korkeakoulututkinto,1990,suomi,female,3,2,2,3,1,1,2,3,2,0,3,2,3,2,0,1,0,1,2,3,0,0,1,2,2
 Sari Myllynen,PS,Lieksa,ammattitutkinto,1965,suomi,female,3,1,2,2,0,0,1,3,0,2,1,0,3,3,2,2,0,3,0,3,0,1,1,3,0
+Anne Mäki,KD,Joensuu,ammattitutkinto,1975,suomi,female,3,1,2,1,2,3,2,3,2,2,0,0,3,2,0,3,1,2,1,2,1,1,2,2,1
 Merja Mäkisalo-ropponen,SDP,Joensuu,ylempi korkeakoulututkinto,1958,suomi,female,3,3,1,3,3,1,2,3,3,0,2,1,3,3,1,1,2,2,3,3,1,0,0,1,3
 Reetta Nenonen,SDP,Juuka,alempi korkeakoulututkinto,1983,suomi,female,3,3,3,0,0,3,3,3,2,0,3,3,3,3,0,2,0,0,3,3,3,1,0,1,2
 Aila Nieminen,Vas.,Joensuu,ammattitutkinto,1955,suomi,female,2,1,0,2,0,2,2,3,2,1,3,2,3,3,1,2,0,2,3,3,2,0,0,2,3
@@ -4895,6 +5009,7 @@ Kristiina Seppälä,KD,Liperi,peruskoulu,1956,suomi,female,2,1,3,0,0,0,3,3,1,0,1
 Aulikki Sihvonen,Kok.,Kontiolahti,ylempi korkeakoulututkinto,1964,suomi,female,2,1,2,3,2,2,2,3,1,0,2,1,3,2,1,2,2,1,3,2,0,3,1,1,2
 Maija Silvennoinen,KD,Liperi,ylempi korkeakoulututkinto,1978,suomi,female,2,2,2,2,3,1,3,3,0,1,0,1,2,2,1,2,2,3,3,3,0,2,1,0,1
 Ritva Simonen,PS,Tohmajärvi,ammattitutkinto,1964,suomi,female,2,3,2,2,0,2,1,3,0,3,1,0,3,2,0,0,0,2,0,3,0,0,0,2,0
+Piia Siponen,Sit,Joensuu,alempi korkeakoulututkinto,1978,suomi,female,3,1,1,3,0,2,2,3,1,2,1,2,2,3,1,1,2,1,1,2,1,1,0,2,2
 Sari Sirkkiä,Kesk.,Nurmes,ylempi korkeakoulututkinto,1971,suomi,female,2,1,2,3,1,1,2,3,1,0,2,1,2,2,1,2,1,2,0,2,1,0,1,2,1
 Irmeli Stenberg-Louko,SDP,Joensuu,ylempi korkeakoulututkinto,1973,suomi,female,2,2,2,1,2,1,2,2,2,1,2,1,2,2,2,1,2,2,2,2,1,1,1,1,2
 Maria Styr,Vihr.,Liperi,ylempi korkeakoulututkinto,1972,suomi,female,3,2,1,3,0,2,2,2,3,0,3,2,3,3,1,0,0,3,3,3,3,1,0,0,3
@@ -4914,6 +5029,7 @@ Päivi Väänänen,SDP,Joensuu,ammattitutkinto,1972,suomi,female,3,3,2,1,2,2,2,3
 Eija Westerman,Vas.,Joensuu,alempi korkeakoulututkinto,1958,suomi,female,3,3,1,0,2,1,1,2,2,0,3,2,3,2,1,1,0,3,3,2,2,0,0,1,3
 Kathryn White,Vas.,Joensuu,ammattitutkinto,1962,jokin muu,female,3,3,0,0,0,0,3,2,3,0,3,2,3,3,0,0,0,3,3,2,3,0,0,1,3
 Eeva Ylikoski,Vihr.,Joensuu,ylioppilas,2002,suomi,female,3,3,2,1,1,1,2,2,3,0,3,2,3,3,0,1,0,2,3,2,0,2,0,2,3
+Pekka Ahlholm,Kok.,Kontiolahti,alempi korkeakoulututkinto,1965,suomi,male,2,1,2,2,1,2,2,2,1,1,1,1,2,2,2,2,2,1,2,2,0,2,2,2,1
 Timo Ilkka Antikainen,KD,Joensuu,ylempi korkeakoulututkinto,1969,suomi,male,2,1,1,2,2,2,2,2,1,2,0,1,2,3,1,2,1,2,2,2,1,1,1,2,2
 Teemu Arponen,PS,Joensuu,alempi korkeakoulututkinto,1970,suomi,male,3,2,2,0,2,2,0,3,0,1,1,0,2,2,0,3,1,1,0,3,0,1,1,3,1
 Heikki Arppi,Kok.,Kontiolahti,ylioppilas,1957,suomi,male,1,1,2,2,1,1,2,3,1,1,1,0,2,2,1,1,1,1,2,2,1,2,1,2,1
@@ -4923,6 +5039,7 @@ Timo Elo,Kok.,Joensuu,ylioppilas,1962,suomi,male,1,1,3,2,2,1,3,2,1,1,2,1,2,2,2,2
 Jari Eskelinen,SDP,Lieksa,ylempi korkeakoulututkinto,1976,suomi,male,3,3,0,2,0,1,2,3,3,0,3,3,3,3,1,2,0,1,3,3,0,0,0,0,3
 Aku Haikala,Vas.,Joensuu,alempi korkeakoulututkinto,2001,suomi,male,3,2,3,2,3,0,1,3,3,0,2,0,3,3,2,0,1,3,3,3,2,1,0,1,3
 Samu Hallivuo,Vas.,Joensuu,ylioppilas,1997,suomi,male,3,3,0,1,0,1,1,3,3,0,2,1,2,3,1,1,1,3,3,2,2,0,0,2,1
+Jani Halonen,Kok.,Juuka,ammattitutkinto,1981,suomi,male,3,2,2,2,1,0,2,2,1,3,2,1,3,3,1,1,0,2,2,3,0,0,1,2,1
 Esa Hautanen,Vihr.,Joensuu,alempi korkeakoulututkinto,1985,suomi,male,1,2,1,3,3,0,0,3,0,0,2,1,2,2,0,0,3,1,1,1,2,1,2,2,2
 Mikko Heickell,Kesk.,Kitee,alempi korkeakoulututkinto,1976,suomi,male,2,1,3,2,1,2,3,3,1,1,2,1,2,3,2,2,2,2,1,3,1,2,2,2,1
 Arto Heikkinen,KD,Nurmes,ylempi korkeakoulututkinto,1955,suomi,male,2,2,2,3,1,2,3,3,1,3,1,0,1,2,1,1,1,1,2,3,1,1,1,3,2
@@ -4964,10 +5081,12 @@ Juha Kontturi,SDP,Kontiolahti,ylempi korkeakoulututkinto,1984,suomi,male,3,2,1,1
 Jari Korhonen,PS,Joensuu,ammattitutkinto,1967,suomi,male,2,1,2,1,1,1,0,3,0,2,0,0,2,2,1,2,0,2,1,3,0,2,1,2,0
 Paavo Korhonen,Kesk.,Nurmes,alempi korkeakoulututkinto,2001,suomi,male,2,1,1,2,1,1,2,3,1,0,2,1,3,2,0,2,0,1,3,3,1,0,1,1,1
 Jukka Korpela,Kok.,Joensuu,joku muu,1957,suomi,male,1,2,2,3,2,2,2,1,2,2,2,1,2,2,2,0,3,0,2,1,1,3,2,3,0
+Harri Koskela,Sit,Joensuu,joku muu,1959,suomi,male,1,1,2,1,2,0,3,3,1,0,1,1,2,2,2,1,2,2,0,2,0,1,1,2,1
 Marko Koskelo,Kesk.,Joensuu,joku muu,1990,suomi,male,1,2,2,1,2,0,2,3,2,1,2,2,1,2,1,2,2,2,2,3,3,2,0,3,1
 Matti Kuittinen,Kesk.,Tohmajärvi,ylempi korkeakoulututkinto,1981,suomi,male,1,0,0,2,0,2,3,1,0,1,1,0,2,3,2,1,2,2,1,3,0,0,0,1,1
 Antti Kuivalainen,Kok.,Polvijärvi,alempi korkeakoulututkinto,1961,suomi,male,2,1,3,2,2,2,2,3,1,0,2,0,2,1,2,2,1,1,2,3,0,0,1,1,2
 Ville-petteri Kujansuu,PS,Joensuu,ylempi korkeakoulututkinto,1994,suomi,male,3,2,0,3,0,0,1,3,0,0,0,0,1,3,2,2,2,2,0,2,0,3,1,3,0
+Juha Kukkonen,PS,Joensuu,ylempi korkeakoulututkinto,1958,suomi,male,2,1,3,2,2,1,1,3,0,2,0,1,1,1,2,2,2,1,0,2,0,3,3,2,0
 Kari Kulmala,Kok.,Rääkkylä,ylempi korkeakoulututkinto,1965,suomi,male,2,2,2,2,2,1,2,3,1,1,1,2,2,2,1,2,2,0,2,3,0,1,2,2,1
 Vesa Kuronen,SDP,Kontiolahti,alempi korkeakoulututkinto,1956,suomi,male,3,2,1,2,2,1,3,2,3,1,3,2,3,2,2,0,2,1,2,2,0,0,0,3,3
 Mika Kärkkäinen,Kesk.,Lieksa,alempi korkeakoulututkinto,1972,suomi,male,3,2,0,3,0,1,2,3,2,0,2,2,3,3,2,3,0,1,2,3,1,0,0,2,2
@@ -5020,6 +5139,7 @@ Juha-pekka Reijonen,Vas.,Joensuu,alempi korkeakoulututkinto,1984,suomi,male,3,3,
 Erik Reinikka,Kesk.,Nurmes,ylempi korkeakoulututkinto,1989,suomi,male,2,1,1,2,1,2,3,3,1,2,2,1,3,3,2,2,2,3,2,3,2,0,1,1,2
 Toivo Rissanen,SDP,Outokumpu,ylempi korkeakoulututkinto,1945,suomi,male,3,2,0,3,2,1,3,2,1,0,3,1,2,2,2,0,2,3,2,1,2,2,2,2,3
 Mikko Ronkainen,Kesk.,Nurmes,alempi korkeakoulututkinto,1966,suomi,male,3,2,1,0,1,3,3,2,2,0,1,1,3,3,1,1,0,2,1,3,2,0,0,1,1
+Auvo Rouvinen,Vas.,Kitee,ammattitutkinto,1962,suomi,male,2,2,1,1,1,2,1,2,2,1,2,1,2,2,1,1,1,2,2,2,2,3,1,1,2
 Leo Ryynänen,KD,Juuka,alempi korkeakoulututkinto,1957,suomi,male,2,2,2,2,1,1,1,3,2,2,1,2,2,2,1,1,1,2,1,3,0,1,0,3,1
 Esa Räty,Kok.,Kontiolahti,ylempi korkeakoulututkinto,1971,suomi,male,2,1,2,3,0,2,2,3,2,0,3,1,3,3,0,0,2,2,2,2,0,1,1,0,2
 Antti Saarelainen,Vas.,Joensuu,ylempi korkeakoulututkinto,1989,suomi,male,3,3,0,2,2,1,1,2,3,0,3,2,3,3,1,1,1,2,3,2,3,1,0,3,3
@@ -5054,8 +5174,8 @@ Jussi Wihonen,PS,Joensuu,ylempi korkeakoulututkinto,1963,suomi,male,2,3,2,3,3,2,
 Juuso Ylönen,SDP,Liperi,ylempi korkeakoulututkinto,1983,suomi,male,1,3,1,2,1,1,2,2,3,0,2,3,3,3,1,0,2,3,3,3,2,0,0,1,3
 Miikku Häkki,Vas.,Joensuu,ylioppilas,1999,jokin muu,other,3,3,0,0,2,0,1,2,3,0,3,2,3,3,0,0,0,3,3,3,2,0,0,3,3
 Heikki Piirainen,Vas.,Joensuu,ylioppilas,1968,suomi,other,3,3,0,0,1,2,2,2,3,0,3,1,3,3,0,0,1,3,3,2,2,1,0,2,3
-Jade Pellikka,Vas.,Joensuu,peruskoulu,2003,suomi,,3,3,2,3,1,1,1,3,2,0,2,2,2,3,0,1,1,3,3,2,1,1,1,1,2
 Riitta Katajamäki,Vas.,Joensuu,ylempi korkeakoulututkinto,1956,suomi,,3,3,0,0,1,1,3,2,2,0,3,1,3,3,0,0,1,3,3,3,3,0,0,3,3
+Jade Pellikka,Vas.,Joensuu,peruskoulu,2003,suomi,,3,3,2,3,1,1,1,3,2,0,2,2,2,3,0,1,1,3,3,2,1,1,1,1,2
 Marja Ahava,Kok.,Vantaa,ylempi korkeakoulututkinto,1972,suomi,female,3,2,2,3,0,0,2,3,1,0,2,0,2,2,1,2,2,2,3,2,0,3,1,1,2
 Kata Ahlberg,PS,Vantaa,ammattitutkinto,1969,suomi,female,3,1,2,1,1,2,1,3,0,0,2,1,3,3,0,0,0,1,3,3,2,0,0,2,1
 Siri Ahokas,Kok.,Vantaa,ylempi korkeakoulututkinto,1974,suomi,female,2,0,3,2,1,0,3,3,0,2,3,1,3,2,1,1,1,2,3,3,0,1,3,0,2
@@ -5064,7 +5184,7 @@ Jenni Alasuutari,Vihr.,Vantaa,ylempi korkeakoulututkinto,1975,suomi,female,3,1,2
 Anni Alatalo,Vas.,Kerava,alempi korkeakoulututkinto,1981,suomi,female,3,3,1,0,1,3,2,2,3,0,3,2,3,3,1,0,0,3,3,3,2,0,1,2,3
 Heidi Anttila,Vihr.,Vantaa,ylempi korkeakoulututkinto,1966,suomi,female,3,2,1,3,0,2,3,3,3,0,3,1,3,3,3,0,0,3,3,2,1,2,0,2,3
 Tiina Anttonen,SDP,Vantaa,ammattitutkinto,1964,suomi,female,3,2,3,0,2,2,3,2,3,0,3,3,3,3,0,1,0,3,3,3,1,0,0,3,2
-Saara Antturi,Vas.,Vantaa,alempi korkeakoulututkinto,1990,suomi,female,3,2,0,0,0,1,0,3,3,0,3,3,3,1,0,3,2,3,3,2,2,2,0,3,3
+Saara Antturi,Vas.,Vantaa,alempi korkeakoulututkinto,1990,suomi,female,3,2,0,0,1,1,0,3,3,0,3,3,3,1,0,3,2,3,3,2,2,2,0,3,3
 Tiina Arlin,Kesk.,Vantaa,joku muu,1964,suomi,female,2,2,2,1,1,2,1,3,0,1,1,1,2,3,1,1,1,1,2,2,0,2,0,2,1
 Gashaw Bibani,Vas.,Vantaa,alempi korkeakoulututkinto,1987,jokin muu,female,3,3,0,1,0,2,1,3,3,0,3,3,3,3,0,1,0,3,3,3,2,1,0,3,3
 Heidi Blomberg,Vihr.,Vantaa,ylempi korkeakoulututkinto,1987,suomi,female,3,2,1,1,1,1,2,2,2,0,3,2,2,2,1,1,1,2,3,2,2,1,1,3,3
@@ -5084,7 +5204,7 @@ Säde Evilä,Vihr.,Kerava,alempi korkeakoulututkinto,1950,suomi,female,2,2,1,2,1
 Frida Forsblom-Prittinen,RKP,Vantaa,ylempi korkeakoulututkinto,1986,ruotsi,female,2,1,2,3,0,1,3,3,3,0,3,3,3,3,1,1,2,2,3,3,3,1,1,1,3
 Nina Graves,SDP,Kerava,ylempi korkeakoulututkinto,1967,suomi,female,3,2,1,2,1,1,1,2,2,1,2,2,2,3,1,1,1,2,2,3,2,1,1,1,2
 Roosa Haapalainen,Kok.,Vantaa,alempi korkeakoulututkinto,1993,suomi,female,1,0,2,3,2,2,2,3,1,0,2,1,3,1,2,1,2,2,3,2,0,3,2,0,2
-Tuija Haapalainen,SDP,Vantaa,alempi korkeakoulututkinto,1958,suomi,female,3,2,1,3,2,2,2,3,1,0,3,2,2,2,1,0,1,3,3,2,0,1,1,0,3
+Tuija Haapalainen,SDP,Vantaa,alempi korkeakoulututkinto,1958,suomi,female,3,2,0,3,2,1,2,3,2,0,3,2,3,3,1,0,1,3,3,2,0,1,1,0,3
 Virva Haikonen,Vihr.,Kerava,alempi korkeakoulututkinto,1979,suomi,female,2,2,1,1,0,1,1,2,1,0,3,1,2,2,1,2,1,2,2,2,2,2,1,3,2
 Heli Hakala,Kok.,Vantaa,ylempi korkeakoulututkinto,1974,suomi,female,2,0,2,2,2,2,2,2,2,1,1,1,2,2,2,2,2,2,1,1,1,2,2,1,2
 Anu Hall,SDP,Vantaa,alempi korkeakoulututkinto,1965,suomi,female,3,2,0,0,0,1,2,3,2,1,2,2,3,3,1,1,1,1,3,2,1,1,1,2,2
@@ -5182,6 +5302,7 @@ Sari Paukku-sani,Kok.,Vantaa,ylempi korkeakoulututkinto,1967,suomi,female,1,2,2,
 Nelli Pennanen,SDP,Vantaa,alempi korkeakoulututkinto,1989,suomi,female,3,2,1,1,1,1,1,3,2,0,2,2,2,2,1,2,0,2,2,3,1,1,1,2,2
 Sirpa Peura,Kok.,Vantaa,ylempi korkeakoulututkinto,1962,suomi,female,2,1,3,0,0,1,3,2,1,2,1,1,1,3,2,1,2,0,3,1,2,3,0,2,1
 Aive Pietilä,PS,Vantaa,ylempi korkeakoulututkinto,1967,jokin muu,female,2,2,1,1,1,0,0,3,0,0,1,0,2,1,1,2,1,2,1,2,0,2,1,1,0
+Marjo Piilo,Vihr.,Vantaa,alempi korkeakoulututkinto,1960,suomi,female,3,2,1,2,1,1,1,3,2,0,3,2,3,3,2,1,0,1,3,2,2,3,1,2,3
 Lona Poropudas,Vas.,Vantaa,alempi korkeakoulututkinto,1984,suomi,female,3,3,0,0,0,1,1,1,1,1,1,2,3,3,0,2,0,3,3,2,1,0,0,3,3
 Petriina Punna,Vas.,Vantaa,ylempi korkeakoulututkinto,1973,suomi,female,2,2,2,1,2,1,1,1,2,2,2,1,2,2,1,2,1,2,1,2,2,1,1,2,2
 Sari Purmonen,Kok.,Vantaa,alempi korkeakoulututkinto,1977,suomi,female,3,1,2,1,1,1,2,3,0,1,1,0,3,2,2,1,1,1,2,2,1,2,1,2,3
@@ -5225,6 +5346,7 @@ Kati Tyystjärvi,Vas.,Vantaa,ylempi korkeakoulututkinto,1958,suomi,female,3,3,0,
 Ritva Törmä,PS,Vantaa,alempi korkeakoulututkinto,1969,suomi,female,1,2,2,3,2,1,0,3,2,0,1,0,3,1,2,1,0,2,3,1,0,3,3,3,1
 Marja Uistola,Kok.,Vantaa,ylempi korkeakoulututkinto,1962,suomi,female,2,1,2,2,2,1,2,2,1,1,1,1,2,2,2,1,2,1,2,1,0,3,1,1,1
 Niina Uskali,Kok.,Vantaa,ylempi korkeakoulututkinto,1977,suomi,female,2,1,2,3,2,2,1,3,1,1,2,1,0,2,2,1,3,2,3,3,0,3,1,3,2
+Marjo Vacker,Kok.,Vantaa,alempi korkeakoulututkinto,1978,suomi,female,2,1,3,2,2,2,2,3,1,1,2,2,3,3,1,2,0,1,3,3,0,3,1,1,1
 Maarit Vainio,PS,Kerava,ylioppilas,1967,suomi,female,1,1,2,3,0,3,1,3,0,1,0,0,3,2,2,1,0,2,2,2,0,0,2,3,1
 Heidi Valo,Vihr.,Kerava,ylempi korkeakoulututkinto,1986,suomi,female,2,1,0,2,0,1,2,3,2,0,2,0,3,3,1,0,1,2,3,2,2,2,1,3,3
 Tiia Valta,Kesk.,Vantaa,ammattitutkinto,1979,suomi,female,1,1,2,3,1,1,1,3,0,0,2,0,3,1,2,2,0,1,2,1,0,1,1,2,2
@@ -5232,7 +5354,7 @@ Hanna Valtanen,Vihr.,Vantaa,ylempi korkeakoulututkinto,1965,suomi,female,3,3,1,2
 Merja-Liisa Vasarainen,Kok.,Vantaa,alempi korkeakoulututkinto,1953,suomi,female,2,1,3,2,1,2,2,2,1,1,2,1,2,2,2,1,2,1,2,2,0,3,2,0,1
 Sari Viinikainen,SDP,Vantaa,ylempi korkeakoulututkinto,1976,suomi,female,3,2,1,1,2,1,2,2,3,0,3,1,3,2,1,0,0,2,3,2,1,0,0,2,2
 Sari Virrankari,Kesk.,Vantaa,ylempi korkeakoulututkinto,1969,suomi,female,1,2,0,3,2,1,2,2,1,1,2,1,2,3,2,1,1,2,2,2,0,1,1,2,1
-Roosa Wallius,PS,Vantaa,ammattitutkinto,1991,suomi,female,3,3,0,0,1,2,0,3,0,0,1,1,3,3,0,0,1,2,3,3,0,3,1,2,1
+Roosa Wallius,PS,Vantaa,ammattitutkinto,1991,suomi,female,3,3,0,0,1,1,0,3,0,0,1,0,3,3,0,1,1,2,3,3,0,3,0,2,1
 Jonna Weckström,Vas.,Kerava,alempi korkeakoulututkinto,1984,suomi,female,3,3,0,0,1,2,1,3,2,0,2,1,3,3,0,1,1,3,3,3,0,0,0,2,3
 Otto Aalto,Kok.,Vantaa,ylempi korkeakoulututkinto,1966,suomi,male,1,1,2,3,1,2,2,2,1,1,1,1,3,1,2,1,3,2,2,1,0,3,0,0,1
 Jooel-pekka Aaltonen,Vas.,Vantaa,ammattitutkinto,1993,suomi,male,3,3,0,1,0,2,2,2,3,0,3,3,3,2,1,1,0,3,3,3,3,0,0,3,3
@@ -5323,6 +5445,7 @@ Jyrki Kivistö,Liik.,Vantaa,ammattitutkinto,1974,suomi,male,3,2,3,3,0,1,2,2,1,0,
 Lauri Kohtala,Lib.,Kerava,ylioppilas,1991,suomi,male,3,1,3,3,2,2,1,3,1,0,1,1,1,1,3,2,2,1,1,2,0,3,2,3,2
 Risto Kohva,PS,Vantaa,joku muu,1967,suomi,male,0,0,1,3,1,0,1,3,0,3,0,0,3,2,2,1,2,2,2,2,0,3,3,2,0
 Tero Koivisto,PS,Vantaa,alempi korkeakoulututkinto,1980,suomi,male,3,1,1,2,2,1,1,3,2,1,1,1,3,2,1,1,2,2,2,3,0,1,1,2,1
+Marko Koivu,VL,Vantaa,ammattitutkinto,1971,suomi,male,3,3,1,0,0,1,0,3,0,3,2,1,3,3,0,2,3,0,1,3,2,0,1,3,3
 Antti Korhonen,Kok.,Vantaa,ylempi korkeakoulututkinto,1978,suomi,male,1,1,3,2,2,1,2,2,1,1,2,1,2,1,2,2,2,0,2,3,0,1,2,0,1
 Stefan-erik Korhonen,Vihr.,Vantaa,alempi korkeakoulututkinto,1977,suomi,male,3,3,1,1,2,2,2,2,2,0,2,2,3,3,3,1,1,2,3,3,3,0,1,3,3
 Jani Koskinen,Vas.,Vantaa,ylempi korkeakoulututkinto,1988,suomi,male,3,3,0,2,0,1,1,3,3,0,3,3,3,3,1,0,0,3,3,3,3,1,0,1,3
@@ -5345,6 +5468,7 @@ Elias Lahtinen,Vas.,Vantaa,ylioppilas,2004,suomi,male,2,2,3,2,2,2,2,2,2,0,2,3,3,
 Samuli Lahtinen,Vas.,Vantaa,ammattitutkinto,1973,suomi,male,3,3,3,2,1,3,2,1,2,1,3,2,3,2,0,1,1,2,2,2,3,1,1,2,1
 Pertti Laine,Vas.,Vantaa,alempi korkeakoulututkinto,1962,suomi,male,3,3,0,1,0,1,1,2,2,0,3,2,3,3,1,1,0,3,3,3,3,0,0,2,3
 Peter Lammenranta,PS,Vantaa,ammattitutkinto,1971,suomi,male,2,1,1,1,1,2,2,2,0,1,1,1,3,3,2,1,2,2,2,2,0,3,2,2,1
+Veikko Lamminsalo,Vihr.,Vantaa,alempi korkeakoulututkinto,1962,suomi,male,2,2,1,1,2,1,3,3,3,0,2,3,3,3,1,1,0,2,3,3,1,1,0,3,3
 Simo Lappalainen,Vas.,Vantaa,ammattitutkinto,1958,suomi,male,3,1,0,1,0,2,2,3,2,0,3,1,3,2,1,1,0,3,3,3,1,1,0,0,2
 Jari Laukia,SDP,Kerava,ylempi korkeakoulututkinto,1958,suomi,male,2,2,2,2,1,1,2,3,2,1,2,2,2,2,2,1,1,1,2,3,1,1,1,2,3
 Timo Lehtovirta,Kesk.,Vantaa,alempi korkeakoulututkinto,1975,suomi,male,2,1,2,0,1,1,1,3,2,0,1,1,2,1,2,2,1,2,2,3,0,2,1,2,1
@@ -5388,7 +5512,6 @@ Jiri Mäntysalo,SKP,Vantaa,ammattitutkinto,2000,ruotsi,male,3,3,0,2,0,1,1,3,3,0,
 Markku Naumanen,PS,Vantaa,ammattitutkinto,1960,suomi,male,3,3,3,1,0,1,1,0,0,0,0,0,3,3,0,3,2,0,0,2,0,3,0,3,0
 Tuomo Niemi,Vas.,Vantaa,alempi korkeakoulututkinto,1982,suomi,male,2,1,0,1,1,1,1,2,2,1,2,2,3,2,1,1,1,0,2,3,2,1,1,2,2
 Sami Petteri Nieminen,Vihr.,Vantaa,ylempi korkeakoulututkinto,1972,suomi,male,2,1,2,1,1,1,2,2,2,1,2,1,2,2,1,1,1,2,2,1,1,2,1,1,3
-Mika Niikko,PS,Vantaa,ammattitutkinto,1967,suomi,male,3,3,3,3,0,3,1,3,0,3,0,0,3,3,0,0,0,3,3,3,0,3,0,1,0
 Mikael Nikander,Liik.,Vantaa,ylioppilas,1993,suomi,male,3,1,2,3,2,2,2,2,1,1,1,1,1,2,1,2,2,1,2,2,0,3,1,1,0
 Otto Nummi,PS,Vantaa,ylioppilas,1995,suomi,male,3,2,1,0,2,2,0,3,0,0,2,2,3,2,1,2,0,3,3,3,0,0,0,3,0
 Jari Nymark,PS,Kerava,ammattitutkinto,1984,suomi,male,1,2,2,3,0,1,0,2,0,2,0,0,3,2,2,2,0,2,0,3,1,1,1,3,3
@@ -5471,14 +5594,16 @@ Markus Vähälä,Vihr.,Vantaa,ammattitutkinto,1974,suomi,male,3,3,0,3,0,2,3,2,3,
 Markku Weckman,PS,Vantaa,ammattitutkinto,1944,suomi,male,3,3,2,1,2,1,2,3,1,0,1,1,3,3,1,2,2,1,2,1,0,3,2,3,2
 Pekka Äikäs,Kok.,Vantaa,alempi korkeakoulututkinto,1964,suomi,male,3,1,2,2,1,1,2,3,1,1,2,1,1,2,1,0,1,3,2,2,0,3,1,3,2
 Heidi Kuusisto,Vas.,Vantaa,ammattitutkinto,1990,suomi,other,3,3,0,2,0,2,2,3,3,0,3,2,3,3,1,1,0,3,3,3,3,0,0,2,3
-Kari Haltsonen,KD,Kerava,alempi korkeakoulututkinto,1946,suomi,,2,1,1,2,1,1,1,2,1,3,0,1,1,2,1,2,2,3,0,1,1,2,2,3,1
 Sami Linkovesi,Kok.,Kerava,alempi korkeakoulututkinto,1975,suomi,,2,1,2,2,1,2,1,2,0,2,1,2,2,2,1,1,1,2,1,1,1,2,2,2,1
+Kari Haltsonen,KD,Kerava,alempi korkeakoulututkinto,1946,suomi,,2,1,1,2,1,1,1,2,1,3,0,1,1,2,1,2,2,3,0,1,1,2,2,3,1
 Pia Ahonen,Kok.,Sotkamo,ylempi korkeakoulututkinto,1966,suomi,female,2,1,2,3,2,1,3,3,1,0,2,0,2,1,2,2,3,2,2,3,0,3,2,3,2
 Sari Alakurtti,Vihr.,Sotkamo,alempi korkeakoulututkinto,1985,suomi,female,3,2,2,3,2,1,2,2,2,0,2,2,3,2,1,1,0,1,3,3,2,0,0,3,2
 Amelia Eskelinen,Vas.,Kajaani,ammattitutkinto,1983,suomi,female,3,3,0,1,2,1,3,3,3,0,3,1,3,2,0,1,0,3,3,3,2,0,0,2,2
 Peppiina Hakkarainen,Vas.,Kajaani,alempi korkeakoulututkinto,1992,suomi,female,2,3,0,3,2,1,3,2,2,0,3,2,3,2,1,1,1,3,3,3,2,1,1,3,2
 Mette Hartonen,Vihr.,Sotkamo,ammattitutkinto,2001,suomi,female,2,1,0,3,2,1,1,1,2,0,3,1,1,1,2,1,2,2,2,2,2,0,0,3,3
 Johanna Heikkilä,Vihr.,Kajaani,ylempi korkeakoulututkinto,1989,suomi,female,2,2,1,3,1,2,2,2,2,0,3,2,2,2,2,0,2,1,3,3,1,1,0,1,3
+Mirva Heikkinen,Sit,Sotkamo,alempi korkeakoulututkinto,1973,suomi,female,2,2,1,3,1,1,2,3,1,0,2,0,3,3,0,2,0,2,3,3,0,1,1,1,2
+Riikka Heikkinen,PS,Kuhmo,ammattitutkinto,1978,suomi,female,3,2,1,1,1,2,1,3,1,0,0,1,1,3,0,2,1,1,1,3,1,1,1,1,0
 Tea Heikkinen,Kok.,Kajaani,ylempi korkeakoulututkinto,1990,suomi,female,3,1,2,3,2,1,1,2,0,1,0,0,3,2,2,1,2,2,2,3,0,1,1,0,0
 Anne Holappa,SDP,Suomussalmi,ammattitutkinto,1979,suomi,female,3,3,2,1,1,2,1,3,1,0,2,2,3,3,0,1,0,2,2,3,0,1,1,1,2
 Riikka Huotari,Kok.,Sotkamo,ylempi korkeakoulututkinto,1976,suomi,female,2,2,2,3,2,1,3,2,1,2,2,0,2,2,1,1,2,1,2,3,1,1,2,2,2
@@ -5488,6 +5613,7 @@ Minna Jäppinen,Kesk.,Paltamo,ylempi korkeakoulututkinto,1982,suomi,female,2,2,3
 Marjo Kangasharju,SDP,Kajaani,alempi korkeakoulututkinto,1972,suomi,female,3,3,2,3,2,2,3,3,3,0,3,2,3,3,2,2,0,3,3,3,0,0,0,0,3
 Anni Karhu,Kok.,Puolanka,ylempi korkeakoulututkinto,1998,suomi,female,3,1,3,2,2,2,2,3,1,0,2,3,2,3,0,1,3,2,3,2,0,2,2,1,2
 Marjaana Karjalainen,Kesk.,Kajaani,ylempi korkeakoulututkinto,1958,suomi,female,2,2,2,2,2,3,3,3,3,0,3,2,3,3,1,2,1,0,2,3,1,1,1,3,3
+Suvi Karjalainen,Kok.,Kajaani,ylempi korkeakoulututkinto,1979,suomi,female,2,2,2,2,2,1,2,2,1,1,2,1,2,2,2,2,2,1,2,2,0,1,1,1,2
 Mari Kela,Sit,Suomussalmi,alempi korkeakoulututkinto,1981,suomi,female,3,1,1,2,0,1,2,3,1,1,2,1,3,3,1,1,0,3,2,3,1,1,1,1,1
 Tuovi Kemppainen,Kesk.,Suomussalmi,alempi korkeakoulututkinto,1969,suomi,female,3,1,2,3,1,1,2,2,1,0,2,1,3,3,1,1,1,1,3,3,0,0,0,1,2
 Silja Keränen,Vihr.,Kajaani,ylempi korkeakoulututkinto,1983,suomi,female,3,2,1,3,2,2,3,2,2,0,3,2,3,2,2,1,2,2,3,3,2,0,0,2,3
@@ -5514,6 +5640,7 @@ Kirsi Moisanen,Kesk.,Sotkamo,ylempi korkeakoulututkinto,1973,suomi,female,3,2,2,
 Janette Mälkiä,Vas.,Kajaani,peruskoulu,2006,suomi,female,2,2,1,1,0,1,2,2,3,0,2,2,2,2,0,0,0,1,3,2,1,1,1,2,2
 Anneli Määttä,Kesk.,Kajaani,ammattitutkinto,1959,suomi,female,3,1,2,3,0,2,2,3,1,0,3,3,3,3,3,0,2,1,3,3,0,3,2,3,3
 Nina Määttä,PS,Sotkamo,alempi korkeakoulututkinto,1975,suomi,female,2,1,2,3,0,2,2,3,0,0,0,0,3,3,1,1,1,2,2,3,0,1,2,0,0
+Karoliina Niskanen,Vas.,Kajaani,ylempi korkeakoulututkinto,1987,suomi,female,3,3,0,2,1,2,2,2,3,0,3,3,3,3,1,0,0,3,3,3,2,0,0,2,3
 Kaisa Oinas-Panuma,Kesk.,Kuhmo,ylempi korkeakoulututkinto,1996,suomi,female,3,2,1,2,1,2,2,2,1,0,3,2,2,2,1,2,0,1,3,3,1,0,0,1,2
 Outi Penttinen,Kok.,Sotkamo,alempi korkeakoulututkinto,1975,suomi,female,2,1,2,3,2,1,1,3,1,1,1,0,2,2,1,3,1,2,2,3,0,1,1,1,1
 Salla Petäjäjärvi,Kesk.,Kajaani,alempi korkeakoulututkinto,1966,suomi,female,3,1,1,3,1,1,1,3,1,0,2,2,3,3,2,1,2,1,3,3,2,0,0,3,3
@@ -5535,6 +5662,7 @@ Leena Törrö,SDP,Kajaani,ammattitutkinto,1952,suomi,female,2,3,1,1,1,2,2,2,2,1,
 Minna Väisänen,Vihr.,Kajaani,alempi korkeakoulututkinto,1995,suomi,female,3,2,1,3,1,2,3,3,3,0,3,0,3,3,1,1,2,2,3,3,3,0,0,2,2
 Kaisu Ärväs,KD,Kajaani,alempi korkeakoulututkinto,1994,suomi,female,2,2,2,0,0,2,1,2,1,0,1,2,3,2,1,1,0,1,3,3,1,1,1,2,2
 Venla Österberg,Kesk.,Kajaani,peruskoulu,2006,suomi,female,3,2,1,2,2,2,3,3,2,1,2,2,3,1,0,3,1,2,3,3,1,0,1,3,2
+Heikki Aaltonen,Kok.,Kajaani,ylempi korkeakoulututkinto,1957,suomi,male,3,2,0,3,3,1,2,2,2,0,2,0,3,2,1,2,3,2,0,2,1,2,3,1,2
 Kalle Aaltonen,Vas.,Kajaani,alempi korkeakoulututkinto,1990,suomi,male,3,3,2,1,2,2,1,3,2,0,3,2,3,2,1,2,2,3,3,2,2,0,0,3,1
 Timo Aho,Kok.,Sotkamo,joku muu,1966,suomi,male,2,2,2,3,2,1,2,3,1,0,3,0,2,2,3,1,2,1,2,3,0,0,2,2,2
 Esa Ahonen,Kesk.,Kajaani,ylempi korkeakoulututkinto,1954,suomi,male,2,1,1,3,2,1,2,2,2,1,2,1,2,2,2,2,2,3,2,2,1,0,1,3,2
@@ -5547,6 +5675,7 @@ Toni Haapala,PS,Ristijärvi,alempi korkeakoulututkinto,1982,suomi,male,1,1,3,3,2
 Juha-Matti Halonen,Vas.,Sotkamo,ylioppilas,1984,suomi,male,3,3,1,3,1,1,2,3,3,0,3,2,3,3,1,1,1,3,3,2,2,0,0,2,3
 Juho Hannikainen,Vas.,Kajaani,alempi korkeakoulututkinto,1985,suomi,male,3,2,2,2,3,2,3,3,3,0,3,2,3,3,2,1,1,2,3,3,3,1,1,2,3
 Esa Heikkinen,VKK,Hyrynsalmi,alempi korkeakoulututkinto,1954,suomi,male,3,3,1,2,2,2,1,3,1,3,1,0,3,3,0,1,0,3,2,2,1,1,1,3,1
+Jouni Heikkinen,PS,Sotkamo,ammattitutkinto,1954,suomi,male,3,3,2,2,1,1,2,2,0,1,2,0,3,3,1,1,0,2,2,3,1,0,1,3,0
 Kari Heikkinen,Vas.,Suomussalmi,ammattitutkinto,1952,suomi,male,3,3,0,2,0,3,2,2,3,0,3,2,3,3,0,0,0,3,3,3,2,0,0,3,3
 Matti Heikkinen,Kok.,Kajaani,ylempi korkeakoulututkinto,1982,suomi,male,2,3,3,3,3,1,3,3,0,0,1,1,2,1,3,2,3,1,3,2,0,3,2,3,3
 Tomi Heikkinen,Kok.,Kajaani,ylempi korkeakoulututkinto,1979,suomi,male,3,1,2,2,1,2,2,3,2,0,3,3,3,2,2,2,1,2,3,3,2,2,1,2,3
@@ -5558,6 +5687,7 @@ Pekka Huttu-Hiltunen,Vihr.,Kuhmo,joku muu,1954,suomi,male,3,2,0,2,2,1,2,2,3,0,3,
 Pentti Huttunen,Kesk.,Sotkamo,ylempi korkeakoulututkinto,1952,suomi,male,3,1,2,3,2,1,3,2,2,0,3,0,2,3,0,1,3,0,2,3,0,0,2,3,2
 Oskari Huusko,Vihr.,Kajaani,ylioppilas,1985,suomi,male,2,1,1,3,2,2,2,1,1,1,2,1,2,2,1,1,1,2,3,3,2,1,0,2,0
 Kari Hyvönen,Kok.,Kajaani,ylempi korkeakoulututkinto,1975,suomi,male,3,1,3,3,2,2,3,2,2,0,1,1,3,1,1,1,0,1,2,3,1,2,2,1,2
+Mika Hyvönen,Kok.,Sotkamo,alempi korkeakoulututkinto,1977,suomi,male,2,0,3,3,1,1,3,2,0,2,2,0,2,3,2,2,2,2,2,3,0,0,1,3,1
 Mikko Juntunen,Kesk.,Suomussalmi,joku muu,1951,suomi,male,3,2,2,3,1,2,2,2,2,1,3,1,3,3,1,2,0,3,2,3,1,2,1,3,3
 Tero Kainlauri,VL,Kajaani,ylempi korkeakoulututkinto,1975,suomi,male,1,2,2,3,3,1,0,3,3,0,1,2,3,3,1,1,3,1,3,3,0,0,1,3,0
 Jarmo Kaivo-oja,Vihr.,Kajaani,ylempi korkeakoulututkinto,1966,suomi,male,3,2,1,3,2,2,2,3,2,0,3,3,3,3,1,1,3,3,3,3,2,0,1,2,2
@@ -5570,8 +5700,11 @@ Heimo Keränen,Kesk.,Hyrynsalmi,ylempi korkeakoulututkinto,1959,suomi,male,2,1,3
 Paavo Keränen,Vas.,Kajaani,ylempi korkeakoulututkinto,1952,suomi,male,3,3,0,2,2,1,3,2,2,0,2,0,3,3,0,0,1,3,2,3,1,1,0,3,2
 Mika Kettunen,Vas.,Kajaani,ammattitutkinto,1997,suomi,male,3,3,0,1,0,3,3,3,2,0,3,2,3,3,0,2,0,3,3,3,3,0,0,3,3
 Sami Kilpeläinen,KD,Sotkamo,ylempi korkeakoulututkinto,1977,suomi,male,3,1,1,3,1,1,1,3,0,2,0,0,2,2,0,2,1,2,0,3,0,0,0,1,0
+Kari-antti Kitunen,Kesk.,Kuhmo,ylempi korkeakoulututkinto,1982,suomi,male,2,1,2,3,2,2,3,1,3,0,3,0,2,2,1,2,0,1,3,3,1,1,1,0,2
 Jari Komulainen,Kesk.,Kajaani,ylempi korkeakoulututkinto,1993,suomi,male,2,2,2,2,2,1,3,1,2,1,2,2,2,2,1,2,1,2,1,3,0,1,1,3,1
 Jouko Korhonen,Vas.,Sotkamo,joku muu,1960,suomi,male,3,3,1,3,2,1,2,3,2,0,2,1,2,2,2,1,1,2,2,3,2,0,0,2,2
+Vesa Korhonen,Kesk.,Kajaani,ylioppilas,1987,suomi,male,3,2,2,2,1,2,1,3,1,0,1,1,2,2,2,2,1,2,2,3,0,0,0,1,2
+Juha Kortelainen,Vas.,Hyrynsalmi,peruskoulu,1958,suomi,male,2,2,1,3,1,2,2,2,2,1,2,1,3,3,2,2,0,1,2,3,0,1,0,2,2
 Miikka Kortelainen,Vas.,Kajaani,alempi korkeakoulututkinto,1993,suomi,male,3,3,0,3,3,2,2,3,3,0,3,0,3,3,2,0,2,3,3,3,3,0,0,3,3
 Kimmo Kumpulainen,Vihr.,Kajaani,ylempi korkeakoulututkinto,1967,suomi,male,3,1,2,2,2,3,3,3,2,0,3,1,3,3,0,2,2,1,3,2,0,2,1,2,3
 Jami Kähkönen,KD,Sotkamo,alempi korkeakoulututkinto,1990,suomi,male,3,2,0,0,0,1,0,3,0,3,0,0,3,2,0,1,2,3,3,3,2,1,0,0,0
@@ -5580,6 +5713,7 @@ Markus Leinonen,Kok.,Kajaani,ylempi korkeakoulututkinto,1978,suomi,male,2,1,3,3,
 Jari Lindh,Vas.,Kajaani,ylempi korkeakoulututkinto,1966,suomi,male,3,3,1,3,2,1,2,2,3,0,3,1,3,3,0,0,0,3,3,3,1,0,0,3,3
 Pentti Malinen,Kesk.,Kajaani,ylempi korkeakoulututkinto,1956,suomi,male,2,1,1,3,2,1,3,2,1,0,1,0,1,2,1,1,0,1,1,1,0,0,0,2,2
 Hannu Matero,Vas.,Suomussalmi,ammattitutkinto,1965,suomi,male,3,3,1,2,1,1,2,3,2,1,1,2,3,2,0,1,2,2,2,2,1,0,1,1,2
+Petteri Matero,PS,Suomussalmi,ammattitutkinto,1973,suomi,male,2,2,2,2,1,2,1,3,1,1,1,0,3,2,0,1,0,2,0,3,0,1,2,1,1
 Heimo Moilanen,PS,Hyrynsalmi,alempi korkeakoulututkinto,1958,suomi,male,1,2,1,3,1,2,1,3,0,1,1,2,2,2,1,2,0,3,1,3,0,0,1,3,1
 Pentti Moilanen,Kesk.,Suomussalmi,ammattitutkinto,1952,suomi,male,2,2,2,3,0,1,2,2,2,1,2,0,2,3,2,2,0,2,2,3,0,0,0,3,1
 Ville Moilanen,Vas.,Kajaani,alempi korkeakoulututkinto,1990,suomi,male,2,1,2,3,1,2,1,2,2,0,2,3,3,3,1,2,1,1,3,3,2,1,1,2,2
@@ -5587,6 +5721,7 @@ Vesa Mäkipää,Kok.,Sotkamo,alempi korkeakoulututkinto,1965,suomi,male,2,1,2,3,
 Pertti Määttä,Kesk.,Kajaani,ylempi korkeakoulututkinto,1968,suomi,male,3,2,2,3,2,2,2,2,1,0,2,2,3,3,2,2,1,2,3,3,0,0,1,0,2
 Teemu Niva,PS,Kajaani,ylioppilas,1979,suomi,male,1,1,2,3,2,1,3,2,1,3,1,1,2,2,1,2,2,1,2,2,0,1,2,0,1
 Valeri Ojavuo,PS,Kajaani,ammattitutkinto,1972,suomi,male,3,3,1,0,2,1,0,1,1,0,2,1,3,3,0,1,0,2,2,3,1,0,1,2,0
+Jari Paasovaara,Kesk.,Suomussalmi,alempi korkeakoulututkinto,1968,suomi,male,2,2,3,1,1,2,1,1,1,1,2,1,2,2,2,1,0,2,2,3,0,1,1,3,2
 Tommi Partanen,Kok.,Kajaani,ammattitutkinto,1972,suomi,male,2,2,2,2,1,1,2,2,1,0,2,1,2,3,0,1,0,1,2,3,0,0,1,0,1
 Jaakko Perhovaara,Kok.,Kajaani,ylempi korkeakoulututkinto,1965,suomi,male,3,1,3,3,2,1,3,3,0,0,2,2,3,3,2,2,0,0,3,2,0,1,1,0,1
 Lasse Pikkarainen,Kok.,Kajaani,alempi korkeakoulututkinto,1982,suomi,male,0,2,3,3,3,1,3,3,2,1,2,3,1,1,2,1,3,0,3,3,0,3,2,3,1
@@ -5619,6 +5754,7 @@ Mikko Tolonen,Kesk.,Suomussalmi,alempi korkeakoulututkinto,1962,suomi,male,2,1,1
 Joel Tuhkanen,PS,Kajaani,ammattitutkinto,2002,suomi,male,2,1,2,2,2,1,1,3,0,2,0,0,1,2,1,3,1,3,1,3,0,1,2,1,1
 Kari Tuononen,SDP,Kuhmo,ammattitutkinto,1960,suomi,male,3,2,2,2,1,1,2,2,2,1,2,1,3,2,1,1,1,2,2,3,1,1,1,2,2
 Pekka Turunen,Vas.,Kajaani,ylioppilas,1987,suomi,male,3,3,0,2,2,2,2,2,2,0,2,2,3,3,1,0,0,3,3,2,2,1,1,3,3
+Juha Urpilainen,SDP,Kajaani,ylempi korkeakoulututkinto,1959,suomi,male,0,3,1,3,2,2,2,3,3,0,3,3,3,3,2,2,0,3,3,3,1,0,0,3,2
 Valtteri Veiskola-Pääkkönen,Vas.,Kajaani,alempi korkeakoulututkinto,1999,suomi,male,3,3,3,2,2,2,3,2,3,0,3,2,3,3,0,2,1,3,3,2,3,0,1,2,3
 Jouko Viholainen,Vas.,Sotkamo,ammattitutkinto,1956,suomi,male,3,3,1,2,1,1,0,3,2,0,2,1,3,3,2,1,0,3,3,3,2,0,0,2,2
 Unto Väisänen,Kok.,Sotkamo,ylempi korkeakoulututkinto,1959,suomi,male,3,1,2,3,2,1,2,3,1,0,2,1,2,1,2,2,0,2,3,2,0,1,1,1,2
@@ -5639,7 +5775,6 @@ Andeliina Cieslak,Kok.,Hyvinkää,alempi korkeakoulututkinto,1991,suomi,female,2
 Taru Deniz,Vihr.,Järvenpää,alempi korkeakoulututkinto,1990,suomi,female,2,2,1,3,2,1,2,2,3,0,3,2,3,3,1,1,1,2,3,2,2,1,0,2,3
 Jaana Diakite,Kok.,Nurmijärvi,ylempi korkeakoulututkinto,1970,suomi,female,2,2,2,3,1,2,1,2,0,0,2,1,3,3,2,1,0,3,3,2,0,2,0,3,2
 Sinikka Ekonen,Kesk.,Mäntsälä,ylempi korkeakoulututkinto,1966,suomi,female,2,1,1,2,0,1,2,1,2,1,2,1,2,2,1,1,2,2,2,2,1,1,1,1,1
-Erja Erja,Kesk.,Tuusula,ammattitutkinto,1958,suomi,female,2,1,2,1,1,1,2,2,1,1,1,1,2,2,2,2,1,1,2,2,0,1,0,2,1
 Paula Eskelinen,Vas.,Hyvinkää,ylioppilas,1956,suomi,female,3,3,0,1,0,3,0,3,3,0,3,3,3,3,0,0,0,3,3,3,3,0,0,3,3
 Hanna Graeffe,Vihr.,Järvenpää,ylempi korkeakoulututkinto,1969,suomi,female,3,2,0,3,2,2,3,2,3,0,3,2,3,2,2,2,2,2,3,2,3,2,0,2,3
 Satu Haaparanta,Kesk.,Järvenpää,alempi korkeakoulututkinto,1974,suomi,female,3,3,1,3,1,1,1,3,0,3,2,1,3,2,1,1,1,2,2,3,0,2,1,2,1
@@ -5760,6 +5895,7 @@ Taru Salmivuori,SDP,Järvenpää,ylempi korkeakoulututkinto,1988,suomi,female,2,
 Katja Salo,SDP,Hyvinkää,ammattitutkinto,1979,suomi,female,3,3,1,3,2,2,2,2,2,0,2,2,3,2,1,1,1,2,3,2,1,1,1,1,2
 Tuuli Sandelin,SDP,Nurmijärvi,alempi korkeakoulututkinto,1978,suomi,female,3,3,0,3,2,1,1,3,0,0,3,1,3,3,2,1,1,3,3,3,2,2,0,3,2
 Saana Sandholm,SDP,Tuusula,ylempi korkeakoulututkinto,1969,suomi,female,3,2,1,2,0,1,2,2,3,0,3,1,3,3,0,0,2,3,3,3,1,0,0,0,2
+Erja Sarenius-Salmenkivi,Kesk.,Tuusula,ammattitutkinto,1958,suomi,female,2,1,2,1,1,1,2,2,1,1,1,1,2,2,2,2,1,1,2,2,0,1,0,2,1
 Fehime Seifulla,Kok.,Hyvinkää,joku muu,1980,suomi,female,3,1,2,2,1,1,1,2,1,0,2,1,2,2,1,2,2,1,2,2,1,2,1,2,1
 Sari Silventoinen,Kok.,Järvenpää,ylempi korkeakoulututkinto,1969,suomi,female,2,1,2,3,2,1,2,3,2,0,1,1,2,2,2,2,2,2,3,2,2,0,0,3,1
 Johanna Sipiläinen,PS,Tuusula,ammattitutkinto,1978,suomi,female,3,3,2,2,1,2,0,3,0,2,0,0,3,3,0,1,1,3,2,3,0,0,1,3,0
@@ -5846,9 +5982,9 @@ Janne Hermunen,PS,Tuusula,joku muu,1971,suomi,male,3,1,2,2,1,3,1,3,0,0,0,3,1,3,2
 Anton Hietsilta,Kok.,Hyvinkää,ylioppilas,2002,suomi,male,2,1,3,1,3,2,3,2,1,0,2,2,3,2,3,2,3,1,2,2,1,3,2,2,2
 Taisto Hujala,SDP,Tuusula,ylempi korkeakoulututkinto,1950,suomi,male,3,1,2,2,3,3,3,3,1,0,2,0,2,3,1,1,3,2,2,2,0,0,0,2,2
 Pasi Huuhtanen,Kok.,Tuusula,alempi korkeakoulututkinto,1965,suomi,male,2,1,2,1,1,1,2,2,0,1,1,1,1,1,2,1,2,1,2,2,1,2,1,1,0
-Antton Hägglund,Kesk.,Hyvinkää,ylempi korkeakoulututkinto,1953,suomi,male,2,3,2,0,1,2,2,3,2,0,3,1,3,3,1,3,0,2,2,2,1,2,0,3,2
 Raimo Hämäläinen,PS,Järvenpää,alempi korkeakoulututkinto,1963,suomi,male,1,1,2,2,2,1,2,3,3,2,0,2,3,2,0,2,0,2,2,3,0,3,1,3,0
 Vesa Hänninen,PS,Tuusula,ammattitutkinto,1973,suomi,male,3,1,2,3,1,1,2,2,0,1,1,0,1,2,1,2,1,2,2,2,0,2,1,2,0
+Ilkka Ihalainen,Sit,Hyvinkää,alempi korkeakoulututkinto,1985,suomi,male,2,3,2,2,1,2,2,3,3,0,2,2,3,3,1,1,1,3,3,3,3,1,0,3,3
 Antti Iiskola,Vihr.,Tuusula,alempi korkeakoulututkinto,1977,suomi,male,3,2,1,0,1,1,1,3,1,0,3,2,3,2,2,1,1,2,2,2,2,0,0,2,3
 Kalle Ikkelä,Kok.,Tuusula,ylempi korkeakoulututkinto,1976,suomi,male,2,1,2,2,1,2,2,2,1,1,2,1,2,2,2,2,2,1,1,1,0,2,1,1,1
 Janne Ikonen,Vihr.,Mäntsälä,ammattitutkinto,1979,suomi,male,3,1,1,0,1,3,2,2,2,0,2,3,3,2,1,1,0,2,2,3,2,2,0,2,3
@@ -6085,8 +6221,10 @@ Taru Lindholm,Vihr.,Kuopio,ylempi korkeakoulututkinto,1999,suomi,female,3,2,1,1,
 Harriet Lonka,Kesk.,Kuopio,ylempi korkeakoulututkinto,1964,suomi,female,2,3,1,3,0,0,3,3,3,0,3,0,2,2,0,0,2,3,3,3,3,0,0,3,3
 Tytti Luoma,SDP,Kuopio,ylempi korkeakoulututkinto,1979,suomi,female,3,3,2,0,2,1,3,3,2,0,3,2,3,3,2,1,0,0,3,3,3,3,0,0,3
 Helka Luttinen,Kesk.,Vieremä,ylempi korkeakoulututkinto,1965,suomi,female,2,2,2,1,0,1,2,2,0,0,1,0,2,2,1,2,0,1,0,2,2,2,1,2,2
+Sanna Markkanen,KD,Suonenjoki,ammattitutkinto,1982,suomi,female,3,2,0,1,1,1,2,3,2,0,1,2,3,2,0,2,1,1,3,3,1,0,0,2,2
 Salla Martikainen,Vihr.,Kuopio,ylioppilas,2001,suomi,female,3,3,1,0,1,0,3,1,3,0,3,3,3,2,1,2,0,3,3,3,3,2,0,2,3
 Tuija Martikainen,Kok.,Kuopio,alempi korkeakoulututkinto,1977,suomi,female,2,1,2,2,2,1,2,1,1,1,2,1,3,1,2,1,1,2,2,2,1,2,1,2,2
+Marja Matilainen,Vas.,Suonenjoki,ylioppilas,1969,suomi,female,3,1,0,0,2,2,3,3,3,0,3,2,3,3,1,1,1,2,3,3,1,3,0,3,2
 Pia Matinen,Kok.,Siilinjärvi,ylempi korkeakoulututkinto,1972,suomi,female,2,2,2,1,1,1,2,3,2,0,2,1,2,2,3,2,1,2,1,3,0,1,0,1,2
 Laura Meriluoto,Vas.,Kuopio,ylempi korkeakoulututkinto,1985,suomi,female,3,3,1,3,1,2,2,2,3,0,3,3,3,3,1,0,0,3,3,3,3,1,0,2,3
 Taija Miettinen,Vas.,Kuopio,alempi korkeakoulututkinto,1992,suomi,female,2,3,1,1,1,1,2,3,3,0,2,0,2,3,0,1,0,3,3,3,2,1,0,3,3
@@ -6095,7 +6233,7 @@ Virpi Montonen,Vas.,Joroinen,ylempi korkeakoulututkinto,1973,suomi,female,2,2,1,
 Hanna Mustonen,Vihr.,Kaavi,joku muu,1977,suomi,female,3,3,2,2,1,2,2,3,2,1,3,3,2,2,2,2,1,1,1,3,2,3,1,2,3
 Johanna Mähönen,SDP,Sonkajärvi,ylempi korkeakoulututkinto,1975,suomi,female,3,3,1,0,0,1,2,3,3,0,3,1,3,3,2,0,2,2,3,3,1,1,0,2,3
 Eeva Mäkinen,Kok.,Kuopio,ylempi korkeakoulututkinto,1956,suomi,female,1,1,2,2,2,1,3,2,1,0,3,1,1,3,2,1,1,1,2,2,0,3,2,2,2
-Mia Niemelä-tiilikainen,Kok.,Kuopio,alempi korkeakoulututkinto,1992,suomi,female,3,2,2,2,2,1,2,2,2,0,2,2,3,2,2,2,2,1,2,2,0,2,2,2,2
+Mia Niemelä-Tiilikainen,Kok.,Kuopio,alempi korkeakoulututkinto,1992,suomi,female,3,2,2,2,2,1,2,2,2,0,2,2,3,2,2,2,2,1,2,2,0,2,2,2,2
 Tiina Niskanen,Vas.,Sonkajärvi,ylempi korkeakoulututkinto,1981,suomi,female,3,3,1,0,2,2,2,3,2,0,3,1,3,2,2,1,2,2,2,3,3,1,0,3,3
 Eija Nissinen,KD,Leppävirta,ammattitutkinto,1961,suomi,female,1,2,1,1,1,1,1,3,2,1,2,1,3,3,2,1,0,2,1,2,0,1,1,0,2
 Saija Nivamo,Kok.,Kuopio,ylioppilas,1976,suomi,female,3,1,3,1,0,2,1,3,2,0,3,1,3,3,0,2,1,0,2,2,1,2,1,2,1
@@ -6250,6 +6388,7 @@ Arttu Leppäkynnäs,Kok.,Kuopio,ylempi korkeakoulututkinto,1997,suomi,male,2,3,0
 Vesa Linnanmäki,Kesk.,Kuopio,ylempi korkeakoulututkinto,1972,suomi,male,3,1,2,2,1,1,2,3,1,3,0,1,3,2,1,2,2,2,1,2,0,1,1,2,1
 Jouni Lintunen,Kok.,Kuopio,ylioppilas,1965,suomi,male,2,2,2,1,1,1,2,3,1,0,2,1,3,2,1,0,1,1,1,3,1,3,1,2,2
 Jukka Littunen,PS,Kuopio,joku muu,1975,suomi,male,1,1,0,0,1,1,1,1,1,0,1,2,2,3,0,1,1,2,2,2,0,1,0,3,1
+Kari Loponen,Kesk.,Kuopio,ylempi korkeakoulututkinto,1952,suomi,male,3,2,2,0,0,1,2,1,2,0,2,1,2,3,1,1,0,1,1,3,1,2,0,1,2
 Ville Lätti,PS,Kuopio,alempi korkeakoulututkinto,1980,suomi,male,2,2,1,2,2,1,1,3,0,1,0,0,2,2,1,1,2,2,2,1,1,1,1,2,1
 Vesa Lötjönen,Kok.,Kuopio,ylempi korkeakoulututkinto,1959,suomi,male,2,2,2,2,2,1,2,2,1,1,2,2,2,2,2,1,1,1,2,1,0,1,2,2,1
 Jouni Majala,KD,Lapinlahti,ammattitutkinto,1967,suomi,male,2,2,2,2,0,2,2,2,1,1,1,1,3,3,2,2,1,2,2,2,0,2,1,1,1
@@ -6266,6 +6405,7 @@ Raimo Mäki,PS,Vesanto,alempi korkeakoulututkinto,1980,jokin muu,male,1,1,2,2,0,
 Hannu Mönkkönen,Kesk.,Siilinjärvi,ylempi korkeakoulututkinto,1974,suomi,male,3,1,2,2,2,2,3,2,2,1,2,1,3,2,2,2,1,2,3,2,1,2,1,1,1
 Kalle Mönkkönen,Kok.,Kuopio,ylempi korkeakoulututkinto,1958,suomi,male,1,1,1,3,2,1,2,2,1,1,1,0,1,2,1,1,2,2,2,2,0,3,2,1,1
 Matti Nieminen,Kesk.,Varkaus,ylempi korkeakoulututkinto,1964,suomi,male,2,2,1,3,0,0,3,3,3,0,3,1,3,3,0,0,0,2,3,3,1,0,0,3,3
+Juho-pekka Nykänen,Kesk.,Kuopio,ammattitutkinto,1988,suomi,male,3,2,1,1,2,2,2,3,2,0,2,0,2,2,0,1,0,2,2,3,1,1,1,1,1
 Tapani Oittinen,SDP,Vesanto,ammattitutkinto,1962,suomi,male,3,3,3,0,0,3,2,3,3,0,3,3,3,3,0,2,1,3,3,3,0,0,0,3,2
 Kari Ojala,Kok.,Siilinjärvi,ylempi korkeakoulututkinto,1957,suomi,male,2,2,3,3,3,2,2,2,0,2,1,1,1,0,2,1,0,2,3,2,0,3,2,0,1
 Raimo Ojala,Vihr.,Kuopio,ylempi korkeakoulututkinto,1961,suomi,male,2,1,1,2,2,1,2,2,1,1,2,1,2,1,2,2,1,2,2,2,1,1,1,2,3
@@ -6291,6 +6431,7 @@ Mikko Rajamäki,Kok.,Iisalmi,ylempi korkeakoulututkinto,1961,suomi,male,2,1,2,1,
 Martti Rantakylä,KD,Kuopio,ammattitutkinto,1962,suomi,male,2,2,2,2,1,2,2,2,3,1,2,2,3,3,1,2,0,1,2,2,1,1,1,1,1
 Ossi Rantonen,KD,Kuopio,joku muu,1962,suomi,male,1,2,1,2,0,2,1,2,1,0,1,1,2,2,0,1,1,3,2,2,0,0,0,1,1
 Muhammad Rasheed,Vihr.,Kuopio,ylempi korkeakoulututkinto,1989,jokin muu,male,2,1,0,0,1,0,3,3,3,0,3,2,2,2,0,0,0,1,2,3,0,1,0,2,3
+Vellu Rautaparta,Vihr.,Iisalmi,ammattitutkinto,1959,suomi,male,3,2,2,0,1,1,2,3,2,0,3,1,3,3,2,1,0,0,3,3,1,1,0,0,3
 Kari Riihola,Kok.,Iisalmi,alempi korkeakoulututkinto,1967,suomi,male,3,2,2,1,1,2,1,2,1,2,1,1,3,0,1,1,1,2,2,3,0,1,1,2,2
 Antti Rimpineva,SDP,Kuopio,ylempi korkeakoulututkinto,1981,suomi,male,3,3,2,1,3,1,3,3,3,0,3,3,3,3,2,2,0,3,3,3,3,3,0,0,3
 Tuomo Rissanen,Kesk.,Kuopio,ylempi korkeakoulututkinto,1990,suomi,male,2,2,1,0,2,0,2,3,0,2,2,3,2,2,2,2,0,2,3,3,0,1,0,1,1
@@ -6510,6 +6651,7 @@ Vesa Kokkonen,SDP,Ruokolahti,peruskoulu,1962,suomi,male,3,2,2,3,2,1,1,2,1,0,2,1,
 Veeti Kondratjeff,Kesk.,Rautjärvi,peruskoulu,2006,suomi,male,3,1,2,2,1,1,2,2,1,0,2,2,3,2,0,2,0,1,2,3,2,1,0,3,2
 Toni Koppanen,Kok.,Imatra,ylioppilas,1963,suomi,male,3,2,3,3,0,0,1,0,1,1,0,0,2,2,1,1,0,3,1,2,0,3,1,3,0
 Jukka Kopra,Kok.,Lappeenranta,ylempi korkeakoulututkinto,1967,suomi,male,2,1,2,3,2,1,2,3,0,1,1,0,3,3,2,2,3,1,2,2,0,1,2,1,0
+Jouni Kovanen,Kok.,Lappeenranta,ammattitutkinto,1964,suomi,male,3,3,2,1,1,1,2,3,2,0,1,1,3,2,1,2,0,1,1,3,1,0,1,2,2
 Tommi Kukkonen,Kesk.,Taipalsaari,ylempi korkeakoulututkinto,1966,suomi,male,2,0,2,3,0,1,2,3,2,2,2,1,1,3,0,3,1,2,3,3,0,1,1,0,0
 Pekka Kurvi,PS,Lappeenranta,ammattitutkinto,1963,suomi,male,2,1,2,2,1,1,0,3,0,2,0,2,3,2,3,1,1,2,0,3,1,2,2,2,0
 Timo Kärki,Kok.,Ruokolahti,ylempi korkeakoulututkinto,1971,suomi,male,2,1,2,2,1,1,2,2,1,1,2,0,3,2,1,1,1,1,1,3,2,1,1,2,2
@@ -6531,6 +6673,7 @@ Juuso Mustonen,Vas.,Ruokolahti,ylioppilas,1985,suomi,male,3,3,1,2,1,1,2,2,3,0,3,
 Petri Mutikainen,Kok.,Imatra,alempi korkeakoulututkinto,1972,suomi,male,2,2,2,3,1,1,2,3,2,2,2,1,3,2,1,2,2,1,2,2,0,3,0,3,2
 Max Mört,Vas.,Lappeenranta,alempi korkeakoulututkinto,2000,suomi,male,3,3,0,3,2,2,2,2,3,0,3,0,3,3,0,1,0,3,3,2,3,1,0,3,3
 Petri Naakka,Kok.,Lappeenranta,ylempi korkeakoulututkinto,1972,suomi,male,1,1,2,2,2,2,1,2,1,1,2,1,2,3,2,2,2,2,1,2,1,2,2,2,2
+Jani Naskali,SDP,Lappeenranta,ylempi korkeakoulututkinto,1983,suomi,male,3,2,1,1,1,2,2,2,1,0,2,2,3,3,1,1,1,2,2,3,2,1,0,2,3
 Jari Niiranen,Kok.,Ruokolahti,ammattitutkinto,1961,suomi,male,1,0,3,3,0,1,2,3,3,0,2,1,3,3,2,2,1,1,2,3,0,0,1,1,3
 Heikki Niiva,Sit,Taipalsaari,alempi korkeakoulututkinto,1955,suomi,male,2,3,2,2,1,1,2,3,2,0,2,1,3,3,0,1,0,3,1,3,0,1,1,3,3
 Arto Nironen,KD,Lappeenranta,alempi korkeakoulututkinto,1979,suomi,male,1,1,2,2,2,1,2,2,1,2,0,1,2,2,2,2,2,1,1,2,1,3,2,1,2
@@ -6620,6 +6763,7 @@ Marja Mökö Forsén,RKP,Närpiö,joku muu,1972,suomi,female,3,0,2,2,1,1,2,3,2,0
 Åsa-britt Forth-snellman,RKP,Mustasaari,joku muu,1958,ruotsi,female,2,1,2,2,1,1,2,3,1,1,2,2,1,1,2,2,3,2,3,3,0,0,2,0,2
 Jaana Grankull,KD,Pedersören kunta,alempi korkeakoulututkinto,1981,ruotsi,female,3,2,1,0,1,1,2,3,0,1,1,3,2,1,1,1,0,1,0,3,1,0,1,2,3
 Heidi Haapala,SDP,Vaasa,ylempi korkeakoulututkinto,1984,suomi,female,3,2,2,0,0,2,0,2,2,0,2,2,3,2,0,1,0,1,3,3,0,0,0,2,2
+Aino-Maria Hakala,Kok.,Maalahti,ylempi korkeakoulututkinto,1989,suomi,female,1,0,2,2,3,1,3,1,0,2,1,0,1,2,0,3,2,2,1,3,0,3,3,0,1
 Annica Haldin,RKP,Pietarsaari,ylempi korkeakoulututkinto,1965,ruotsi,female,3,1,1,0,0,1,2,3,3,0,3,3,3,2,2,2,3,3,0,3,1,0,0,2,3
 Carita Halmelinna,Kesk.,Laihia,alempi korkeakoulututkinto,1958,suomi,female,3,2,0,1,1,0,2,3,1,1,1,2,2,3,1,1,1,3,1,3,2,0,0,3,0
 Sanna Halmesmäki,Vihr.,Laihia,alempi korkeakoulututkinto,1993,suomi,female,3,3,1,3,1,0,1,3,1,0,3,1,3,3,0,1,0,3,3,3,1,1,0,1,3
@@ -6636,6 +6780,7 @@ Elin Härmälä,SDP,Pedersören kunta,ylempi korkeakoulututkinto,1989,ruotsi,fem
 Jenni Ingo,RKP,Mustasaari,ylempi korkeakoulututkinto,1989,ruotsi,female,2,2,2,1,2,1,3,3,3,0,3,3,3,2,0,1,2,1,3,3,1,0,2,1,2
 Minna Ingram,Kesk.,Luoto,ylempi korkeakoulututkinto,1971,suomi,female,2,1,1,1,1,1,1,2,1,0,1,1,1,2,1,2,0,2,2,3,1,0,1,2,0
 Nina Jolkkonen-porander,Kesk.,Kristiinankaupunki,ylempi korkeakoulututkinto,1972,suomi,female,3,1,1,3,1,2,2,3,0,2,2,0,2,2,2,1,0,1,1,3,1,0,0,0,2
+Helena Joskitt,KD,Pedersören kunta,ylempi korkeakoulututkinto,1967,ruotsi,female,3,2,1,0,0,1,2,3,1,0,2,3,2,3,1,0,0,2,1,3,1,1,0,3,2
 Gunilla Jusslin,RKP,Vöyri,alempi korkeakoulututkinto,1954,ruotsi,female,2,1,1,1,0,1,2,2,1,0,1,2,3,1,1,0,0,3,2,3,2,0,1,2,3
 Gun Kaptens,RKP,Luoto,alempi korkeakoulututkinto,1957,ruotsi,female,3,2,3,3,1,2,2,3,3,0,2,3,3,1,2,0,2,3,2,2,1,0,3,2,1
 Päivi Karppi,PS,Vaasa,alempi korkeakoulututkinto,1981,suomi,female,3,1,2,3,2,1,0,3,0,1,3,0,2,2,2,2,3,3,1,3,0,2,2,2,0
@@ -6673,7 +6818,6 @@ Riitta Pääjärvi-myllyaho,Kok.,Vaasa,ylempi korkeakoulututkinto,1960,suomi,fem
 Jessica Påvall,RKP,Luoto,alempi korkeakoulututkinto,1990,ruotsi,female,1,1,3,1,2,1,3,3,2,0,3,3,3,3,2,0,0,2,2,3,1,0,0,2,2
 Sanna Rahko,Sit,Mustasaari,ammattitutkinto,1967,suomi,female,2,0,2,3,0,1,0,3,1,0,2,0,1,3,0,1,1,2,3,2,2,0,1,1,0
 Mervi Rantala,SDP,Pietarsaari,ammattitutkinto,1950,suomi,female,3,2,0,3,1,2,1,3,1,0,3,1,3,3,1,1,1,3,3,3,1,0,0,3,3
-Camilla Ribacka,RKP,Korsnäs,ylempi korkeakoulututkinto,1973,ruotsi,female,2,1,2,2,1,1,2,3,2,0,3,2,2,1,1,0,1,2,2,3,1,1,1,2,3
 Annika Rintamäki,KD,Luoto,ammattitutkinto,1974,ruotsi,female,3,2,2,2,2,2,2,3,2,3,0,2,3,2,0,1,3,1,0,3,0,0,1,1,2
 Katja Rosenzveig,SDP,Vaasa,ylempi korkeakoulututkinto,1986,suomi,female,3,2,0,3,2,1,3,3,2,0,3,2,1,2,2,1,2,2,1,2,2,1,3,3,1
 Camilla Roslund-Nordling,RKP,Pedersören kunta,alempi korkeakoulututkinto,1967,ruotsi,female,1,2,1,0,1,1,2,1,2,0,2,1,1,1,0,1,1,1,1,3,1,0,2,2,2
@@ -6709,6 +6853,7 @@ Tiina Virtakangas,SDP,Vaasa,ylempi korkeakoulututkinto,1981,suomi,female,3,2,2,1
 Pia Vuoto,SDP,Vaasa,ylempi korkeakoulututkinto,1978,suomi,female,3,3,3,0,1,2,0,2,3,0,3,3,3,3,1,2,0,2,3,3,0,0,1,1,3
 Susanne Vähäjylkkä,Kesk.,Vaasa,ylempi korkeakoulututkinto,1986,suomi,female,2,2,1,1,1,1,2,3,2,0,3,2,3,3,0,2,1,1,3,3,0,0,0,1,1
 Mirkka Välimäki,SDP,Vaasa,ylempi korkeakoulututkinto,1977,suomi,female,3,3,1,2,0,2,2,3,3,0,2,1,3,3,0,0,0,2,3,3,1,0,0,2,2
+Ingrid Wester,RKP,Pietarsaari,peruskoulu,2006,ruotsi,female,3,2,2,0,0,2,2,3,3,0,3,3,3,2,0,0,1,2,3,3,1,0,1,1,2
 Ida Wikman,RKP,Kaskinen,ylempi korkeakoulututkinto,1997,ruotsi,female,3,1,2,1,2,1,3,3,2,0,3,2,3,1,1,1,0,1,3,3,1,0,2,0,3
 Rebecca Åkers,SDP,Pietarsaari,ylempi korkeakoulututkinto,1994,ruotsi,female,3,3,0,0,2,1,2,2,3,0,2,2,3,2,1,0,1,2,1,2,3,1,0,3,2
 Erica Åminne,RKP,Kruunupyy,ylioppilas,2004,ruotsi,female,2,2,1,3,2,2,2,3,3,0,1,1,3,3,1,1,1,1,1,3,1,0,1,0,2
@@ -6748,6 +6893,7 @@ Teuvo Herranen,Vas.,Kruunupyy,ylempi korkeakoulututkinto,1955,suomi,male,2,3,1,1
 Andreas Hjulfors,KD,Luoto,ylempi korkeakoulututkinto,1978,ruotsi,male,3,1,2,1,0,1,1,2,0,3,0,3,2,3,1,0,2,1,0,3,0,1,1,2,1
 Heimo Hokkanen,KD,Vaasa,ammattitutkinto,1949,suomi,male,2,2,1,2,1,1,1,3,1,1,1,2,2,2,1,2,1,2,2,2,1,2,1,2,2
 Tommy Holm,RKP,Maalahti,ammattitutkinto,1988,ruotsi,male,3,1,1,3,0,0,2,3,0,0,0,3,3,2,2,0,0,1,2,3,3,0,0,3,1
+Ralf Holmlund,SDP,Vaasa,alempi korkeakoulututkinto,1960,suomi,male,3,1,2,1,1,1,2,3,2,1,2,2,3,2,1,2,1,0,1,2,2,1,1,1,1
 Sami Houtsonen,Kesk.,Pietarsaari,ammattitutkinto,1975,suomi,male,3,0,0,1,1,1,1,3,0,1,0,2,3,3,2,1,1,2,1,3,1,1,1,2,1
 Henrik Huhta,Kok.,Kruunupyy,ylempi korkeakoulututkinto,1946,ruotsi,male,3,1,3,3,2,1,3,3,1,2,1,1,3,3,2,0,2,1,2,3,0,2,2,1,3
 Teuvo Huhtanen,Kesk.,Laihia,ylempi korkeakoulututkinto,1982,suomi,male,2,1,3,2,1,2,2,2,0,0,1,1,0,1,3,3,3,1,1,3,1,2,0,0,0
@@ -6778,6 +6924,7 @@ Atte Koskela,Kok.,Vaasa,ylioppilas,2002,suomi,male,2,1,3,3,3,3,3,3,1,1,1,1,1,2,1
 Kari Koskela,SDP,Pietarsaari,ammattitutkinto,1950,suomi,male,3,2,1,2,2,2,2,2,2,0,2,3,3,3,2,2,1,1,1,3,1,1,1,1,2
 Sami Koskinen,Kesk.,Pietarsaari,alempi korkeakoulututkinto,1971,suomi,male,2,1,2,2,2,1,1,3,0,1,0,1,3,3,0,1,1,2,2,3,1,1,0,1,2
 Sami Kujala,SDP,Pietarsaari,ammattitutkinto,1985,suomi,male,3,2,0,1,1,2,2,2,2,1,3,2,3,3,1,1,1,2,2,3,2,1,1,1,2
+Kaj Kärr,RKP,Kristiinankaupunki,ylioppilas,1962,ruotsi,male,1,2,2,1,0,1,3,3,2,1,1,1,3,3,1,1,0,2,2,3,1,1,0,2,1
 Kimmo Köykkä,PS,Vaasa,ammattitutkinto,1966,suomi,male,1,0,3,0,3,0,0,3,0,0,0,0,3,3,0,0,0,0,3,1,0,3,0,2,0
 Kaj Laaja,Kok.,Vöyri,ammattitutkinto,1972,ruotsi,male,3,2,2,1,0,1,0,3,0,0,0,3,3,2,3,2,0,3,3,3,0,0,0,3,0
 Jussi Lammi,PS,Mustasaari,ammattitutkinto,1982,suomi,male,1,1,2,2,2,1,0,2,0,3,1,1,1,1,2,2,2,1,1,1,0,2,2,1,0
