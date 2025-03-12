@@ -38,6 +38,20 @@ MUNICIPAL = {
   "VL": [2.459016, 0.6885246, 0.8852459, 2.131148, 1.3770492, 0.1803279, 2.24590164, 2.2950820, 1.8196721, 2.0655738, 0.7868852, 1.5245902, 0.4754098, 1.639344, 1.1475410, 1.6065574, 0.1311475, 2.147541, 0.5901639, 2.4590164, 0.6229508, 2.2786885, 0.7704918, 1.1311475, 0.1475410],
 }
 
+function format(values) {
+  const title = "The most suitable parties are listed in order from most to least suitable. A lower value represents a more suitable party.\n\n"
+  const formatted = values.map(inner => inner.join(": ")).join("\n")
+  return title + formatted
+}
+
+function sort(values) {
+  return values.sort((a, b) => {
+    if (a[1] < b[1]) return -1
+    if (a[1] > b[1]) return 1
+    return 0
+  })
+}
+
 function calculate_mses(elections, answers) {
   const mses = []
   for (const [party, values] of Object.entries(elections)) {
@@ -50,15 +64,10 @@ function calculate_mses(elections, answers) {
       mse += (values[i] - answers[i]) ** 2
       ++count
     }
-    mses.push([party, mse / count])
+    mse = (mse / count).toFixed(2)
+    mses.push([party, mse])
   }
   return mses
-}
-
-function minimum(values) {
-  return values.reduce((min, cur) => {
-    return cur[1] < min[1] ? cur : min
-  })[0]
 }
 
 function get_answers() {
@@ -73,6 +82,7 @@ function get_answers() {
 function submit(elections) {
   const answers = get_answers()
   const mses = calculate_mses(elections, answers)
-  const party = minimum(mses)
-  window.open(party)
+  const sorted = sort(mses)
+  const formatted = format(sorted)
+  window.alert(formatted)
 }
