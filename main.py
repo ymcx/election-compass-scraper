@@ -26,7 +26,7 @@ def create_driver() -> Chrome:
 def click_element(by: str, value: str) -> bool:
     """Click an element after waiting for it to be clickable."""
     try:
-        WebDriverWait(DRIVER, 10).until(
+        WebDriverWait(DRIVER, 5).until(
             expected_conditions.element_to_be_clickable((by, value))
         ).click()
 
@@ -37,7 +37,7 @@ def click_element(by: str, value: str) -> bool:
 
 def click_element_once(by: str, value: str) -> None:
     """Try to click an element until it's clicked."""
-    for _ in range(10):
+    for _ in range(3):
         success = click_element(by, value)
         if success:
             break
@@ -45,7 +45,7 @@ def click_element_once(by: str, value: str) -> None:
 
 def click_element_forever(by: str, value: str) -> None:
     """Click an element until it's not clickable anymore."""
-    for _ in range(100):
+    for _ in range(50):
         success = click_element(by, value)
         if not success:
             break
@@ -86,17 +86,15 @@ def get_candidate_urls() -> List[str]:
 
 def get_candidate_info() -> List[str]:
     """Parse candidate's information."""
-    keys = DRIVER.find_elements(By.CLASS_NAME, "sc-fxLEUo.iIOaPI")
-    values = DRIVER.find_elements(By.CLASS_NAME, "sc-cDCfkV.yFgtA")
+    keys = DRIVER.find_elements(By.CLASS_NAME, "sc-fxLEUo")
+    values = DRIVER.find_elements(By.CLASS_NAME, "sc-cDCfkV")
     extract = ["Kotikunta", "Koulutus", "Syntymävuosi", "Äidinkieli"]
     data = {
         key.text: values[i].text for i, key in enumerate(keys) if key.text in extract
     }
 
-    name = find_element(By.CLASS_NAME, "sc-xyPcs.eWLytF")
-    party = find_element(
-        By.CLASS_NAME, "sc-cdoHnr.ebTVhW.sc-fUubzJ.sc-isewAz.gtdlFp.cbPEsB"
-    )
+    name = find_element(By.CLASS_NAME, "sc-xyPcs")
+    party = find_element(By.CLASS_NAME, "sc-cdoHnr")
     municipality = data.get(extract[0], "")
     education = data.get(extract[1], "")
     year_of_birth = data.get(extract[2], "")
@@ -109,11 +107,11 @@ def get_candidate_answers() -> List[str]:
     """Parse candidate's answers to questions."""
     answers = []
 
-    while len(answers) != 25:
+    for _ in range(3):
         answers = []
-        questions = DRIVER.find_elements(
-            By.CLASS_NAME, "sc-bRilDX.sc-lcBlzg.ddoxjp.ZCKmG"
-        )[: len(ELECTIONS.QUESTIONS)]
+        questions = DRIVER.find_elements(By.CLASS_NAME, "sc-bRilDX")[
+            : len(ELECTIONS.QUESTIONS)
+        ]
         for question in questions:
             options = question.find_elements(By.CLASS_NAME, "sc-kuCIbt")
             selected = next(
@@ -125,6 +123,9 @@ def get_candidate_answers() -> List[str]:
                 "",
             )
             answers.append(selected)
+
+        if len(answers) == 25:
+            break
 
     return answers
 
