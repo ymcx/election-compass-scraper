@@ -22,7 +22,7 @@ body {
 	margin: auto;
 	line-height: 2;
 	max-width: 32em;
-	padding-bottom: 8em;
+	padding: 0em 1em 8em 1em;
 }
 
 a {
