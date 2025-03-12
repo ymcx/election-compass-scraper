@@ -62,18 +62,15 @@ function minimum(values) {
 }
 
 function get_answers() {
-  const params = new URLSearchParams(window.location.search)
   const answers = []
   for (let i = 0; i < 25; ++i) {
-    const key = `q${i}`
-    const value = params.get(key)
-    answers.push(value)
+    const selected = document.querySelector(`input[name="q${i}"]:checked`)
+    answers.push(selected ? selected.value : null)
   }
   return answers
 }
 
 function submit(elections) {
-  document.getElementById("form").submit()
   const answers = get_answers()
   const mses = calculate_mses(elections, answers)
   const party = minimum(mses)
