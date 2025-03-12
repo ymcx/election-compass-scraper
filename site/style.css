@@ -20,17 +20,22 @@ body {
 	color: var(--text);
 	font-family: sans-serif;
 	margin: auto;
-	line-height: 1.5;
-	max-width: 40em;
+	line-height: 2;
+	max-width: 32em;
+	padding-bottom: 8em;
 }
 
 a {
 	color: var(--link);
-	text-decoration: none;
 }
 
-button {
+p,
+.button {
 	margin-top: 4em;
+}
+
+.button {
+	display: inline-block
 }
 
 .header {
@@ -41,5 +46,5 @@ button {
 
 .links {
 	display: flex;
-	gap: 2em;
+	gap: 1em;
 }
