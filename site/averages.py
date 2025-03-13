@@ -9,7 +9,7 @@ def append(contents):
     file.close()
 
 def process(elections):
-    data = pd.read_csv(f"{elections}_ELECTIONS_2025.csv")
+    data = pd.read_csv(f"../{elections}_ELECTIONS_2025.csv")
     data = data[data["Party"] != ""]
     subsets = {party: subset for party, subset in data.groupby("Party")}
     averages = {party: subset.iloc[:, 7:32].mean(skipna = True).tolist() for party, subset in subsets.items()}
