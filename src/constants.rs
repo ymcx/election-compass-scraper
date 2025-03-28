@@ -41,7 +41,7 @@ impl Elections {
 
 #[allow(dead_code)]
 pub fn municipal_elections_2025() -> Elections {
-    const FILE: &str = "MUNICIPAL_ELECTIONS_2025.csv";
+    const FILE: &str = "data/MUNICIPAL_ELECTIONS_2025.csv";
     const URL: &str = "https://vaalit.yle.fi/vaalikone/kuntavaalit2025/";
     const RANGE: [Range<u16>; 2] = [1..263, 284..314];
     const QUESTIONS: [&str; 25] = [
@@ -76,7 +76,7 @@ pub fn municipal_elections_2025() -> Elections {
 
 #[allow(dead_code)]
 pub fn county_elections_2025() -> Elections {
-    const FILE: &str = "COUNTY_ELECTIONS_2025.csv";
+    const FILE: &str = "data/COUNTY_ELECTIONS_2025.csv";
     const URL: &str = "https://vaalit.yle.fi/vaalikone/aluevaalit2025/";
     const RANGE: [Range<u16>; 1] = [263..284];
     const QUESTIONS: [&str; 25] = [
