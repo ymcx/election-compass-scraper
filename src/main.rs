@@ -50,7 +50,7 @@ fn urls(range: &Vec<Range<u16>>, baseurl: &str) -> Vec<(String, u16)> {
         .iter()
         .flat_map(|range| {
             range.clone().map(|i| {
-                let url = format!("{}{}", baseurl, i);
+                let url = format!("{baseurl}{i}");
                 let port = 32768 + i;
                 (url, port)
             })
@@ -64,7 +64,7 @@ async fn main() {
     let urls = urls(&elections.range, &elections.url);
     let threads = threads();
 
-    save(&elections.headers.join(","), &elections.file, false).await;
+    save(&elections.headers, &elections.file, false).await;
 
     futures::stream::iter(urls)
         .map(|(url, port)| {

@@ -14,7 +14,7 @@ pub struct Elections {
     pub file: String,
     pub url: String,
     pub range: Vec<Range<u16>>,
-    pub headers: Vec<String>,
+    pub headers: String,
 }
 
 impl Elections {
@@ -33,7 +33,8 @@ impl Elections {
                 .iter()
                 .chain(questions.iter())
                 .map(|&i| i.to_string())
-                .collect(),
+                .collect::<Vec<String>>()
+                .join(","),
         }
     }
 }
