@@ -10,12 +10,32 @@ const COMMON: [&str; 7] = [
     "Gender",
 ];
 
-#[derive(Clone)]
 pub struct Elections {
     pub file: String,
     pub url: String,
     pub range: Vec<Range<u16>>,
     pub headers: Vec<String>,
+}
+
+impl Elections {
+    fn new(
+        file: &str,
+        url: &str,
+        range: &[Range<u16>],
+        common: &[&str],
+        questions: &[&str],
+    ) -> Self {
+        Self {
+            file: file.to_string(),
+            url: url.to_string(),
+            range: range.to_vec(),
+            headers: common
+                .iter()
+                .chain(questions.iter())
+                .map(|&i| i.to_string())
+                .collect(),
+        }
+    }
 }
 
 #[allow(dead_code)]
@@ -50,17 +70,7 @@ pub fn municipal_elections_2025() -> Elections {
         "Libraries should be self-service so that my municipality can save on staff salary costs",
         "My municipality should show support for gender and sexual minorities by flying a Pride flag",
     ];
-
-    Elections {
-        file: FILE.to_string(),
-        url: URL.to_string(),
-        range: RANGE.to_vec(),
-        headers: COMMON
-            .iter()
-            .chain(QUESTIONS.iter())
-            .map(|&i| i.to_string())
-            .collect(),
-    }
+    Elections::new(FILE, URL, &RANGE, &COMMON, &QUESTIONS)
 }
 
 #[allow(dead_code)]
@@ -95,15 +105,5 @@ pub fn county_elections_2025() -> Elections {
         "No-one should be allowed to hold triple roles as MP municipal councillor and regional councillor at the same time",
         "My wellbeing services county must take into account the reduction of climate emissions in all its decisions",
     ];
-
-    Elections {
-        file: FILE.to_string(),
-        url: URL.to_string(),
-        range: RANGE.to_vec(),
-        headers: COMMON
-            .iter()
-            .chain(QUESTIONS.iter())
-            .map(|&i| i.to_string())
-            .collect(),
-    }
+    Elections::new(FILE, URL, &RANGE, &COMMON, &QUESTIONS)
 }
