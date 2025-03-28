@@ -17,7 +17,7 @@ async fn driver(port: u16) -> (Child, WebDriver) {
         .spawn()
         .unwrap();
 
-    tokio::time::sleep(Duration::from_millis(100)).await;
+    tokio::time::sleep(Duration::from_millis(500)).await;
 
     let mut capabilities = DesiredCapabilities::firefox();
     capabilities.set_headless().unwrap();
@@ -73,9 +73,8 @@ async fn main() {
             let file = elections.file.clone();
             async move {
                 let mut driver = driver(port).await;
-                scrape::accept_cookies(&driver.1).await;
 
-                let content = scrape::get_municipality(&driver.1, &url).await;
+                let content = scrape::municipality(&driver.1, &url, elections.fields).await;
                 save(&content.join("\n"), &file, true).await;
 
                 driver.1.quit().await.unwrap();
