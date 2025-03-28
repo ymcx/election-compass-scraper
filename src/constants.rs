@@ -1,4 +1,6 @@
-COMMON = [
+use std::ops::Range;
+
+const COMMON: [&str; 7] = [
     "Name",
     "Party",
     "Municipality",
@@ -6,12 +8,22 @@ COMMON = [
     "Year of birth",
     "Language",
     "Gender",
-]
+];
 
+#[derive(Clone)]
+pub struct Elections {
+    pub file: String,
+    pub url: String,
+    pub range: Vec<Range<u16>>,
+    pub headers: Vec<String>,
+}
 
-class MUNICIPAL_ELECTIONS_2025:
-    FILE = "MUNICIPAL_ELECTIONS_2025.csv"
-    QUESTIONS = [
+#[allow(dead_code)]
+pub fn municipal_elections_2025() -> Elections {
+    const FILE: &str = "MUNICIPAL_ELECTIONS_2025.csv";
+    const URL: &str = "https://vaalit.yle.fi/vaalikone/kuntavaalit2025/";
+    const RANGE: [Range<u16>; 2] = [1..263, 284..314];
+    const QUESTIONS: [&str; 25] = [
         "My municipality should set a maximum size for elementary school teaching groups",
         "It is justifiable to close down small schools to cut costs",
         "In my municipality pupils should have the opportunity to study Swedish in Finnish-speaking schools before the sixth grade in elementary schools",
@@ -37,15 +49,26 @@ class MUNICIPAL_ELECTIONS_2025:
         "Municipalities should compensate for the state cuts in theatre funding",
         "Libraries should be self-service so that my municipality can save on staff salary costs",
         "My municipality should show support for gender and sexual minorities by flying a Pride flag",
-    ]
-    FIELDS = COMMON + QUESTIONS
-    RANGE = list(range(1, 263)) + list(range(284, 314))
-    URL = "https://vaalit.yle.fi/vaalikone/kuntavaalit2025/"
+    ];
 
+    Elections {
+        file: FILE.to_string(),
+        url: URL.to_string(),
+        range: RANGE.to_vec(),
+        headers: COMMON
+            .iter()
+            .chain(QUESTIONS.iter())
+            .map(|&i| i.to_string())
+            .collect(),
+    }
+}
 
-class COUNTY_ELECTIONS_2025:
-    FILE = "COUNTY_ELECTIONS_2025.csv"
-    QUESTIONS = [
+#[allow(dead_code)]
+pub fn county_elections_2025() -> Elections {
+    const FILE: &str = "COUNTY_ELECTIONS_2025.csv";
+    const URL: &str = "https://vaalit.yle.fi/vaalikone/aluevaalit2025/";
+    const RANGE: [Range<u16>; 1] = [263..284];
+    const QUESTIONS: [&str; 25] = [
         "In my wellbeing services county I should be able to get non-urgent treatment in primary health care within two weeks",
         "Customer fees for public healthcare should be reduced",
         "It is right that public money is spent to support people's use of private healthcare",
@@ -71,7 +94,16 @@ class COUNTY_ELECTIONS_2025:
         "Well-being areas must make budget cuts within the required timeframe even if that means that services must be quickly reduced",
         "No-one should be allowed to hold triple roles as MP municipal councillor and regional councillor at the same time",
         "My wellbeing services county must take into account the reduction of climate emissions in all its decisions",
-    ]
-    FIELDS = COMMON + QUESTIONS
-    RANGE = range(263, 284)
-    URL = "https://vaalit.yle.fi/vaalikone/aluevaalit2025/"
+    ];
+
+    Elections {
+        file: FILE.to_string(),
+        url: URL.to_string(),
+        range: RANGE.to_vec(),
+        headers: COMMON
+            .iter()
+            .chain(QUESTIONS.iter())
+            .map(|&i| i.to_string())
+            .collect(),
+    }
+}
