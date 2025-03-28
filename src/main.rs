@@ -1,5 +1,5 @@
 use futures::StreamExt;
-use std::ops::Range;
+use std::{ops::Range, time::Duration};
 use thirtyfour::{DesiredCapabilities, WebDriver};
 use tokio::{
     fs::OpenOptions,
@@ -16,6 +16,8 @@ async fn driver(port: u16) -> (Child, WebDriver) {
         .arg(format!("--port={port}"))
         .spawn()
         .unwrap();
+
+    tokio::time::sleep(Duration::from_millis(100)).await;
 
     let mut capabilities = DesiredCapabilities::firefox();
     capabilities.set_headless().unwrap();
