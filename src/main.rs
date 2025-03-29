@@ -69,12 +69,10 @@ async fn main() {
     let urls = urls(&elections.range, &elections.url);
     let threads = threads();
 
-    if save(&elections.headers, &elections.file, false)
+    save(&elections.headers, &elections.file, false)
         .await
-        .is_err()
-    {
-        eprintln!("Couldn't write to file");
-    }
+        .map_err(|e| eprintln!("{e}"))
+        .ok();
 
     futures::stream::iter(urls)
         .map(|(url, port)| {
@@ -87,13 +85,13 @@ async fn main() {
                 };
 
                 let content = scrape::municipality(&driver.1, &url, elections.questions).await;
-                if save(&content.join("\n"), &file, true).await.is_err() {
-                    eprintln!("Couldn't write to file");
-                }
+                save(&content.join("\n"), &file, true)
+                    .await
+                    .map_err(|e| eprintln!("{e}"))
+                    .ok();
 
-                if driver.1.quit().await.is_err() | driver.0.kill().await.is_err() {
-                    eprintln!("Couldn't kill the driver");
-                }
+                driver.1.quit().await.map_err(|e| eprintln!("{e}")).ok();
+                driver.0.kill().await.map_err(|e| eprintln!("{e}")).ok();
             }
         })
         .buffer_unordered(threads)

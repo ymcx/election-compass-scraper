@@ -1,4 +1,5 @@
 use crate::interaction;
+use std::error::Error;
 use thirtyfour::{By, WebDriver, prelude::ElementQueryable};
 
 async fn candidate_urls_gender(driver: &WebDriver, gender: &str) -> Vec<String> {
@@ -73,16 +74,25 @@ async fn candidate_answers(driver: &WebDriver, questions: usize) -> String {
     answers.join(";")
 }
 
-async fn candidate(driver: &WebDriver, url: &str, gender: &str, questions: usize) -> String {
-    let url = format!("https://vaalit.yle.fi{url}");
-    interaction::goto(driver, &url).await;
+async fn candidate(
+    driver: &WebDriver,
+    url: &str,
+    gender: &str,
+    questions: usize,
+) -> Result<String, Box<dyn Error>> {
+    interaction::goto(driver, &format!("https://vaalit.yle.fi{url}")).await;
     interaction::click(driver, By::XPath("//button[@aria-label='Näytä lisää']")).await;
 
     let name = interaction::element(driver, By::ClassName("sc-xyPcs")).await;
     let info = candidate_info(driver).await;
     let answers = candidate_answers(driver, questions).await;
+    let candidate = format!("{name};{info};{gender};{answers}");
 
-    format!("{name};{info};{gender};{answers}")
+    if candidate.chars().filter(|&c| c == ';').count() != 32 {
+        return Err("Scraping of candidate was unsuccessful".into());
+    }
+
+    Ok(candidate)
 }
 
 pub async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<String> {
@@ -109,7 +119,12 @@ pub async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Ve
         (links_n, ""),
     ] {
         for link in links {
-            let candidate = candidate(driver, &link, gender, questions).await;
+            let candidate = loop {
+                match candidate(driver, &link, gender, questions).await {
+                    Ok(candidate) => break candidate,
+                    Err(e) => eprintln!("{e}"),
+                }
+            };
             municipality.push(candidate);
         }
     }

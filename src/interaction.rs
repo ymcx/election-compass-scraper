@@ -25,7 +25,7 @@ pub async fn elements(driver: &WebDriver, by: By) -> Vec<WebElement> {
 }
 
 pub async fn goto(driver: &WebDriver, url: &str) {
-    while driver.goto(url).await.is_err() {
-        eprintln!("Couldn't open {url}");
+    while let Err(e) = driver.goto(url).await {
+        eprintln!("{e}");
     }
 }
