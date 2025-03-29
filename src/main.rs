@@ -74,7 +74,7 @@ async fn main() {
             async move {
                 let mut driver = driver(port).await;
 
-                let content = scrape::municipality(&driver.1, &url, elections.fields).await;
+                let content = scrape::municipality(&driver.1, &url, elections.questions).await;
                 save(&content.join("\n"), &file, true).await;
 
                 driver.1.quit().await.unwrap();

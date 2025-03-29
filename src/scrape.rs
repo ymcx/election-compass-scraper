@@ -25,8 +25,7 @@ async fn candidate_urls(driver: &WebDriver) -> Vec<String> {
     urls
 }
 
-async fn candidate_info(driver: &WebDriver, fields: usize) -> String {
-    let name = interaction::element(driver, By::ClassName("sc-xyPcs")).await;
+async fn candidate_info(driver: &WebDriver) -> String {
     let keys = interaction::elements(driver, By::ClassName("sc-fxLEUo")).await;
     let vals = interaction::elements(driver, By::ClassName("sc-cDCfkV")).await;
     let extract = [
@@ -38,23 +37,22 @@ async fn candidate_info(driver: &WebDriver, fields: usize) -> String {
         "Kielitaito",
     ];
 
-    let mut info = vec![name];
-    for (i, key) in keys.iter().enumerate().take(fields) {
-        let text = key.text().await.unwrap_or_default();
-        if extract.contains(&text.as_str()) {
-            info.push(vals[i].text().await.unwrap_or_default());
-        } else {
-            info.push(String::default());
+    let mut info = vec![String::default(); extract.len()];
+    for (keyindex, key) in keys.iter().enumerate() {
+        let keytext = key.text().await.unwrap_or_default();
+        if let Some(extractindex) = extract.iter().position(|&i| i == keytext) {
+            let valtext = vals[keyindex].text().await.unwrap_or_default();
+            info[extractindex] = valtext;
         }
     }
 
     info.join(";")
 }
 
-async fn candidate_answers(driver: &WebDriver, fields: usize) -> String {
+async fn candidate_answers(driver: &WebDriver, questions: usize) -> String {
     let mut answers: Vec<String> = Vec::new();
     let elements = interaction::elements(driver, By::ClassName("sc-bRilDX")).await;
-    for element in elements.iter().take(fields) {
+    for element in elements.iter().take(questions) {
         let options = element
             .query(By::ClassName("sc-kuCIbt"))
             .all_from_selector()
@@ -75,19 +73,20 @@ async fn candidate_answers(driver: &WebDriver, fields: usize) -> String {
     answers.join(";")
 }
 
-async fn candidate(driver: &WebDriver, url: &str, gender: &str, fields: (usize, usize)) -> String {
+async fn candidate(driver: &WebDriver, url: &str, gender: &str, questions: usize) -> String {
     let url = format!("https://vaalit.yle.fi{url}");
-    driver.goto(url).await.unwrap();
+    while driver.goto(url.as_str()).await.is_err() {}
     interaction::click(driver, By::XPath("//button[@aria-label='Näytä lisää']")).await;
 
-    let info = candidate_info(driver, fields.0).await;
-    let answers = candidate_answers(driver, fields.1).await;
+    let name = interaction::element(driver, By::ClassName("sc-xyPcs")).await;
+    let info = candidate_info(driver).await;
+    let answers = candidate_answers(driver, questions).await;
 
-    format!("{info};{gender};{answers}")
+    format!("{name};{info};{gender};{answers}")
 }
 
-pub async fn municipality(driver: &WebDriver, url: &str, fields: (usize, usize)) -> Vec<String> {
-    driver.goto(url).await.unwrap();
+pub async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<String> {
+    while driver.goto(url).await.is_err() {}
     interaction::click(
         driver,
         By::XPath("//button[@aria-label='Vain välttämättömät']"),
@@ -110,7 +109,7 @@ pub async fn municipality(driver: &WebDriver, url: &str, fields: (usize, usize))
         (links_n, ""),
     ] {
         for link in links {
-            let candidate = candidate(driver, &link, gender, fields).await;
+            let candidate = candidate(driver, &link, gender, questions).await;
             municipality.push(candidate);
         }
     }
