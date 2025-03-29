@@ -1,4 +1,5 @@
 use futures::StreamExt;
+use rand::Rng;
 use std::{error::Error, ops::Range, time::Duration};
 use thirtyfour::{ChromiumLikeCapabilities, DesiredCapabilities, WebDriver};
 use tokio::{
@@ -11,7 +12,8 @@ mod constants;
 mod interaction;
 mod scrape;
 
-async fn driver(port: u16) -> Result<(Child, WebDriver), Box<dyn Error>> {
+async fn driver() -> Result<(Child, WebDriver), Box<dyn Error>> {
+    let port = rand::rng().random_range(1024..65536);
     let child = Command::new("chromedriver")
         .arg(format!("--port={port}"))
         .arg("--log-level=OFF")
@@ -50,16 +52,10 @@ fn threads() -> usize {
         .unwrap_or(4)
 }
 
-fn urls(range: &Vec<Range<u16>>, baseurl: &str) -> Vec<(String, u16)> {
+fn urls(range: &Vec<Range<u16>>, url: &str) -> Vec<String> {
     range
         .iter()
-        .flat_map(|range| {
-            range.clone().map(|i| {
-                let url = format!("{baseurl}{i}");
-                let port = 32768 + i;
-                (url, port)
-            })
-        })
+        .flat_map(|range| range.clone().map(|i| format!("{url}{i}")))
         .collect()
 }
 
@@ -75,11 +71,11 @@ async fn main() {
         .ok();
 
     futures::stream::iter(urls)
-        .map(|(url, port)| {
+        .map(|url| {
             let file = elections.file.clone();
             async move {
                 let mut driver = loop {
-                    if let Ok(driver) = driver(port).await {
+                    if let Ok(driver) = driver().await {
                         break driver;
                     }
                 };
