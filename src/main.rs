@@ -41,8 +41,12 @@ async fn save(content: &str, file: &str, append: bool) {
 }
 
 fn threads() -> usize {
-    let arguments: Vec<String> = std::env::args().collect();
-    arguments.get(1).unwrap().parse().unwrap()
+    std::env::args()
+        .collect::<Vec<String>>()
+        .get(1)
+        .unwrap_or(&String::from("4"))
+        .parse()
+        .unwrap()
 }
 
 fn urls(range: &Vec<Range<u16>>, baseurl: &str) -> Vec<(String, u16)> {
