@@ -1,6 +1,6 @@
 use futures::StreamExt;
-use std::{ops::Range, time::Duration};
-use thirtyfour::{DesiredCapabilities, WebDriver};
+use std::{error::Error, ops::Range, time::Duration};
+use thirtyfour::{ChromiumLikeCapabilities, DesiredCapabilities, WebDriver};
 use tokio::{
     fs::OpenOptions,
     io::AsyncWriteExt,
@@ -11,21 +11,19 @@ mod constants;
 mod interaction;
 mod scrape;
 
-async fn driver(port: u16) -> (Child, WebDriver) {
-    let child = Command::new("geckodriver")
+async fn driver(port: u16) -> Result<(Child, WebDriver), Box<dyn Error>> {
+    let child = Command::new("chromedriver")
         .arg(format!("--port={port}"))
-        .spawn()
-        .unwrap();
+        .arg("--log-level=OFF")
+        .spawn()?;
 
-    tokio::time::sleep(Duration::from_millis(500)).await;
+    tokio::time::sleep(Duration::from_millis(100)).await;
 
-    let mut capabilities = DesiredCapabilities::firefox();
-    capabilities.set_headless().unwrap();
-    let driver = WebDriver::new(format!("http://localhost:{port}"), capabilities)
-        .await
-        .unwrap();
+    let mut capabilities = DesiredCapabilities::chrome();
+    capabilities.set_headless()?;
+    let driver = WebDriver::new(format!("http://localhost:{port}"), capabilities).await?;
 
-    (child, driver)
+    Ok((child, driver))
 }
 
 async fn save(content: &str, file: &str, append: bool) {
@@ -72,13 +70,17 @@ async fn main() {
         .map(|(url, port)| {
             let file = elections.file.clone();
             async move {
-                let mut driver = driver(port).await;
+                let mut driver = loop {
+                    if let Ok(driver) = driver(port).await {
+                        break driver;
+                    }
+                };
 
                 let content = scrape::municipality(&driver.1, &url, elections.questions).await;
                 save(&content.join("\n"), &file, true).await;
 
-                driver.1.quit().await.unwrap();
-                driver.0.kill().await.unwrap();
+                let _ = driver.1.quit().await;
+                let _ = driver.0.kill().await;
             }
         })
         .buffer_unordered(threads)
