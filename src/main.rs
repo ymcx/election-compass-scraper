@@ -26,27 +26,28 @@ async fn driver(port: u16) -> Result<(Child, WebDriver), Box<dyn Error>> {
     Ok((child, driver))
 }
 
-async fn save(content: &str, file: &str, append: bool) {
+async fn save(content: &str, file: &str, append: bool) -> Result<(), Box<dyn Error>> {
     let mut file = OpenOptions::new()
         .create(true)
         .write(true)
         .append(append)
         .truncate(!append)
         .open(file)
-        .await
-        .unwrap();
+        .await?;
 
     let content = format!("{content}\n");
-    file.write(content.as_bytes()).await.unwrap();
+    file.write(content.as_bytes()).await?;
+
+    Ok(())
 }
 
 fn threads() -> usize {
     std::env::args()
         .collect::<Vec<String>>()
         .get(1)
-        .unwrap_or(&String::from("4"))
+        .unwrap_or(&String::default())
         .parse()
-        .unwrap()
+        .unwrap_or(4)
 }
 
 fn urls(range: &Vec<Range<u16>>, baseurl: &str) -> Vec<(String, u16)> {
@@ -68,7 +69,12 @@ async fn main() {
     let urls = urls(&elections.range, &elections.url);
     let threads = threads();
 
-    save(&elections.headers, &elections.file, false).await;
+    if save(&elections.headers, &elections.file, false)
+        .await
+        .is_err()
+    {
+        eprintln!("Couldn't write to file");
+    }
 
     futures::stream::iter(urls)
         .map(|(url, port)| {
@@ -81,10 +87,13 @@ async fn main() {
                 };
 
                 let content = scrape::municipality(&driver.1, &url, elections.questions).await;
-                save(&content.join("\n"), &file, true).await;
+                if save(&content.join("\n"), &file, true).await.is_err() {
+                    eprintln!("Couldn't write to file");
+                }
 
-                let _ = driver.1.quit().await;
-                let _ = driver.0.kill().await;
+                if driver.1.quit().await.is_err() | driver.0.kill().await.is_err() {
+                    eprintln!("Couldn't kill the driver");
+                }
             }
         })
         .buffer_unordered(threads)

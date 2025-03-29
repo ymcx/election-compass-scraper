@@ -23,3 +23,9 @@ pub async fn elements(driver: &WebDriver, by: By) -> Vec<WebElement> {
         .await
         .unwrap_or_default()
 }
+
+pub async fn goto(driver: &WebDriver, url: &str) {
+    while driver.goto(url).await.is_err() {
+        eprintln!("Couldn't open {url}");
+    }
+}

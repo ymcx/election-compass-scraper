@@ -75,7 +75,7 @@ async fn candidate_answers(driver: &WebDriver, questions: usize) -> String {
 
 async fn candidate(driver: &WebDriver, url: &str, gender: &str, questions: usize) -> String {
     let url = format!("https://vaalit.yle.fi{url}");
-    while driver.goto(&url).await.is_err() {}
+    interaction::goto(driver, &url).await;
     interaction::click(driver, By::XPath("//button[@aria-label='Näytä lisää']")).await;
 
     let name = interaction::element(driver, By::ClassName("sc-xyPcs")).await;
@@ -86,7 +86,7 @@ async fn candidate(driver: &WebDriver, url: &str, gender: &str, questions: usize
 }
 
 pub async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<String> {
-    while driver.goto(url).await.is_err() {}
+    interaction::goto(driver, url).await;
     interaction::click(
         driver,
         By::XPath("//button[@aria-label='Vain välttämättömät']"),
