@@ -76,19 +76,6 @@ fn urls(range: &Vec<Range<u16>>, url: &str) -> Vec<String> {
         .collect()
 }
 
-async fn process_url(url: &str, file: &str, questions: usize) -> Result<(), Box<dyn Error>> {
-    let (mut child, driver, directory) = driver().await?;
-
-    let content = scrape::municipality(&driver, url, questions).await;
-    save(&content.join("\n"), file, true).await?;
-
-    driver.quit().await?;
-    child.kill().await?;
-    std::fs::remove_dir_all(directory)?;
-
-    Ok(())
-}
-
 #[tokio::main]
 async fn main() {
     let arguments: Vec<String> = std::env::args().collect();
@@ -109,7 +96,7 @@ async fn main() {
             let questions = elections.questions;
             async move {
                 loop {
-                    match process_url(&url, &file, questions).await {
+                    match scrape::process(&url, &file, questions).await {
                         Ok(_) => break,
                         Err(e) => eprintln!("{e}"),
                     }

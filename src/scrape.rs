@@ -1,4 +1,4 @@
-use crate::interaction;
+use crate::{driver, interaction, save};
 use std::error::Error;
 use thirtyfour::{By, WebDriver, prelude::ElementQueryable};
 
@@ -95,7 +95,7 @@ async fn candidate(
     Ok(candidate)
 }
 
-pub async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<String> {
+async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<String> {
     interaction::goto(driver, url).await;
     interaction::click(
         driver,
@@ -130,4 +130,17 @@ pub async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Ve
     }
 
     municipality
+}
+
+pub async fn process(url: &str, file: &str, questions: usize) -> Result<(), Box<dyn Error>> {
+    let (mut child, driver, directory) = driver().await?;
+
+    let content = municipality(&driver, url, questions).await;
+    save(&content.join("\n"), file, true).await?;
+
+    driver.quit().await?;
+    child.kill().await?;
+    std::fs::remove_dir_all(directory)?;
+
+    Ok(())
 }
