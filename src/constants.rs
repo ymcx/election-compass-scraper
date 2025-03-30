@@ -1,6 +1,6 @@
 use std::ops::Range;
 
-const COMMON: [&str; 8] = [
+const COMMON: &[&str] = &[
     "Name",
     "Party",
     "Municipality",
@@ -14,7 +14,7 @@ const COMMON: [&str; 8] = [
 pub struct Elections {
     pub file: String,
     pub url: String,
-    pub range: Vec<Range<u16>>,
+    pub range: Vec<Range<usize>>,
     pub headers: String,
     pub questions: usize,
 }
@@ -23,7 +23,7 @@ impl Elections {
     fn new(
         file: &str,
         url: &str,
-        range: &[Range<u16>],
+        range: &[Range<usize>],
         common: &[&str],
         questions: &[&str],
     ) -> Self {
@@ -31,23 +31,22 @@ impl Elections {
             file: file.to_string(),
             url: url.to_string(),
             range: range.to_vec(),
-            headers: common
+            headers: [common, questions]
+                .concat()
                 .iter()
-                .chain(questions.iter())
                 .map(|&i| i.to_string())
-                .collect::<Vec<String>>()
-                .join(","),
+                .collect::<Vec<_>>()
+                .join(";"),
             questions: questions.len(),
         }
     }
 }
 
-#[allow(dead_code)]
 pub fn municipal_elections_2025() -> Elections {
     const FILE: &str = "data/MUNICIPAL_ELECTIONS_2025.csv";
     const URL: &str = "https://vaalit.yle.fi/vaalikone/kuntavaalit2025/";
-    const RANGE: [Range<u16>; 2] = [1..263, 284..314];
-    const QUESTIONS: [&str; 25] = [
+    const RANGE: &[Range<usize>] = &[1..263, 284..314];
+    const QUESTIONS: &[&str] = &[
         "My municipality should set a maximum size for elementary school teaching groups.",
         "It is justifiable to close down small schools to cut costs.",
         "In my municipality, pupils should have the opportunity to study Swedish in Finnish-speaking schools before the sixth grade in elementary schools.",
@@ -74,15 +73,14 @@ pub fn municipal_elections_2025() -> Elections {
         "Libraries should be self-service so that my municipality can save on staff salary costs.",
         "My municipality should show support for gender and sexual minorities by flying a Pride flag.",
     ];
-    Elections::new(FILE, URL, &RANGE, &COMMON, &QUESTIONS)
+    Elections::new(FILE, URL, RANGE, COMMON, QUESTIONS)
 }
 
-#[allow(dead_code)]
 pub fn county_elections_2025() -> Elections {
     const FILE: &str = "data/COUNTY_ELECTIONS_2025.csv";
     const URL: &str = "https://vaalit.yle.fi/vaalikone/aluevaalit2025/";
-    const RANGE: [Range<u16>; 1] = [263..284];
-    const QUESTIONS: [&str; 25] = [
+    const RANGE: &[Range<usize>] = &[263..284];
+    const QUESTIONS: &[&str] = &[
         "In my wellbeing services county, I should be able to get non-urgent treatment in primary health care within two weeks.",
         "Customer fees for public healthcare should be reduced.",
         "It is right that public money is spent to support people's use of private healthcare.",
@@ -109,5 +107,5 @@ pub fn county_elections_2025() -> Elections {
         "No-one should be allowed to hold triple roles as MP, municipal councillor and regional councillor at the same time.",
         "My wellbeing services county must take into account the reduction of climate emissions in all its decisions.",
     ];
-    Elections::new(FILE, URL, &RANGE, &COMMON, &QUESTIONS)
+    Elections::new(FILE, URL, RANGE, COMMON, QUESTIONS)
 }

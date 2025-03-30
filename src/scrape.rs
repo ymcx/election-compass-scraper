@@ -1,4 +1,5 @@
-use crate::{driver, interaction, save};
+use crate::{interaction, misc};
+use futures::StreamExt;
 use std::error::Error;
 use thirtyfour::{By, WebDriver, prelude::ElementQueryable};
 
@@ -51,24 +52,22 @@ async fn candidate_info(driver: &WebDriver) -> String {
 }
 
 async fn candidate_answers(driver: &WebDriver, questions: usize) -> String {
-    let mut answers: Vec<String> = Vec::new();
+    let mut answers = vec![String::default(); questions];
     let elements = interaction::elements(driver, By::ClassName("sc-bRilDX")).await;
-    for element in elements.iter().take(questions) {
+
+    for (i, element) in elements.iter().take(questions).enumerate() {
         let options = element
             .query(By::ClassName("sc-kuCIbt"))
             .all_from_selector()
             .await
             .unwrap_or_default();
 
-        let mut selected = String::default();
-        for (i, option) in options.iter().enumerate() {
+        for (j, option) in options.iter().enumerate() {
             if option.attr("imgurl").await.unwrap_or_default().is_some() {
-                selected = i.to_string();
+                answers[i] = j.to_string();
                 break;
             }
         }
-
-        answers.push(selected);
     }
 
     answers.join(";")
@@ -95,7 +94,7 @@ async fn candidate(
     Ok(candidate)
 }
 
-async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<String> {
+async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> String {
     interaction::goto(driver, url).await;
     interaction::click(
         driver,
@@ -103,8 +102,8 @@ async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<St
     )
     .await;
     while interaction::click(driver, By::XPath("//button[@aria-label='Näytä lisää']")).await {}
-
     interaction::click(driver, By::XPath("//button[@aria-label='Sukupuoli']")).await;
+
     let links_f = candidate_urls_gender(driver, "female").await;
     let links_m = candidate_urls_gender(driver, "male").await;
     let links_o = candidate_urls_gender(driver, "other").await;
@@ -129,18 +128,33 @@ async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<St
         }
     }
 
-    municipality
+    municipality.join("\n")
 }
 
-pub async fn process(url: &str, file: &str, questions: usize) -> Result<(), Box<dyn Error>> {
-    let (mut child, driver, directory) = driver().await?;
+async fn process_url(url: &str, file: &str, questions: usize) -> Result<(), Box<dyn Error>> {
+    let (mut child, driver, directory) = misc::driver().await?;
 
     let content = municipality(&driver, url, questions).await;
-    save(&content.join("\n"), file, true).await?;
+    misc::save(&content, file, true).await?;
 
     driver.quit().await?;
     child.kill().await?;
     std::fs::remove_dir_all(directory)?;
 
     Ok(())
+}
+
+pub async fn process_urls(urls: &Vec<String>, file: &str, questions: usize, threads: usize) {
+    futures::stream::iter(urls)
+        .map(|url| async move {
+            loop {
+                match process_url(url, file, questions).await {
+                    Ok(_) => break,
+                    Err(e) => eprintln!("{e}"),
+                }
+            }
+        })
+        .buffer_unordered(threads)
+        .collect::<Vec<_>>()
+        .await;
 }
