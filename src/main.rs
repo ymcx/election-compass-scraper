@@ -12,8 +12,10 @@ mod constants;
 mod interaction;
 mod scrape;
 
-async fn driver() -> Result<(Child, WebDriver), Box<dyn Error>> {
-    let port = rand::rng().random_range(1024..65536);
+async fn driver() -> Result<(Child, WebDriver, String), Box<dyn Error>> {
+    let port = rand::rng().random_range(1024..=u16::MAX);
+    let directory = format!("/tmp/scraper-{port}");
+
     let child = Command::new("chromedriver")
         .arg(format!("--port={port}"))
         .arg("--log-level=OFF")
@@ -22,10 +24,11 @@ async fn driver() -> Result<(Child, WebDriver), Box<dyn Error>> {
     tokio::time::sleep(Duration::from_millis(100)).await;
 
     let mut capabilities = DesiredCapabilities::chrome();
-    capabilities.set_headless()?;
+    capabilities.add_arg("--headless")?;
+    capabilities.add_arg(&format!("--user-data-dir={directory}"))?;
     let driver = WebDriver::new(format!("http://localhost:{port}"), capabilities).await?;
 
-    Ok((child, driver))
+    Ok((child, driver, directory))
 }
 
 async fn save(content: &str, file: &str, append: bool) -> Result<(), Box<dyn Error>> {
@@ -59,6 +62,19 @@ fn urls(range: &Vec<Range<u16>>, url: &str) -> Vec<String> {
         .collect()
 }
 
+async fn process_url(url: &str, file: &str, questions: usize) -> Result<(), Box<dyn Error>> {
+    let (mut child, driver, directory) = driver().await?;
+
+    let content = scrape::municipality(&driver, url, questions).await;
+    save(&content.join("\n"), file, true).await?;
+
+    driver.quit().await?;
+    child.kill().await?;
+    std::fs::remove_dir_all(directory)?;
+
+    Ok(())
+}
+
 #[tokio::main]
 async fn main() {
     let elections = constants::municipal_elections_2025();
@@ -73,21 +89,14 @@ async fn main() {
     futures::stream::iter(urls)
         .map(|url| {
             let file = elections.file.clone();
+            let questions = elections.questions;
             async move {
-                let mut driver = loop {
-                    if let Ok(driver) = driver().await {
-                        break driver;
+                loop {
+                    match process_url(&url, &file, questions).await {
+                        Ok(_) => break,
+                        Err(e) => eprintln!("{e}"),
                     }
-                };
-
-                let content = scrape::municipality(&driver.1, &url, elections.questions).await;
-                save(&content.join("\n"), &file, true)
-                    .await
-                    .map_err(|e| eprintln!("{e}"))
-                    .ok();
-
-                driver.1.quit().await.map_err(|e| eprintln!("{e}")).ok();
-                driver.0.kill().await.map_err(|e| eprintln!("{e}")).ok();
+                }
             }
         })
         .buffer_unordered(threads)
