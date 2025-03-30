@@ -83,13 +83,13 @@ async fn candidate(
     interaction::click(driver, By::XPath("//button[@aria-label='Näytä lisää']")).await;
 
     let name = interaction::element(driver, By::ClassName("sc-xyPcs")).await;
+    if name.is_empty() {
+        return Err("Scraping of candidate was unsuccessful".into());
+    }
+
     let info = candidate_info(driver).await;
     let answers = candidate_answers(driver, questions).await;
     let candidate = format!("{name};{info};{gender};{answers}");
-
-    if candidate.chars().filter(|&c| c == ';').count() != 32 {
-        return Err("Scraping of candidate was unsuccessful".into());
-    }
 
     Ok(candidate)
 }
