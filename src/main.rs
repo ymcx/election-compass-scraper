@@ -1,3 +1,4 @@
+use constants::Elections;
 use futures::StreamExt;
 use rand::Rng;
 use std::{error::Error, ops::Range, time::Duration};
@@ -46,13 +47,26 @@ async fn save(content: &str, file: &str, append: bool) -> Result<(), Box<dyn Err
     Ok(())
 }
 
-fn threads() -> usize {
-    std::env::args()
-        .collect::<Vec<String>>()
-        .get(1)
-        .unwrap_or(&String::default())
-        .parse()
-        .unwrap_or(4)
+fn elections(argument: &str) -> Elections {
+    match argument.to_uppercase().as_str() {
+        "COUNTY25" => constants::county_elections_2025(),
+        "EURO24" => panic!("Election data doesn't exist"),
+        "MUNICIPAL25" => constants::municipal_elections_2025(),
+        "PARLIAMENTARY23" => panic!("Election data doesn't exist"),
+        "PRESIDENTIAL24" => panic!("Election data doesn't exist"),
+
+        "COUNTY" => elections("COUNTY25"),
+        "EURO" => elections("EURO24"),
+        "MUNICIPAL" => elections("MUNICIPAL25"),
+        "PARLIAMENTARY" => elections("PARLIAMENTARY23"),
+        "PRESIDENTIAL" => elections("PRESIDENTIAL24"),
+
+        _ => elections("MUNICIPAL"),
+    }
+}
+
+fn threads(argument: &str) -> usize {
+    argument.parse().unwrap_or(4)
 }
 
 fn urls(range: &Vec<Range<u16>>, url: &str) -> Vec<String> {
@@ -77,9 +91,12 @@ async fn process_url(url: &str, file: &str, questions: usize) -> Result<(), Box<
 
 #[tokio::main]
 async fn main() {
-    let elections = constants::municipal_elections_2025();
+    let arguments: Vec<String> = std::env::args().collect();
+    let elections = elections(arguments.get(1).map(String::as_str).unwrap_or_default());
+    let threads = threads(arguments.get(2).map(String::as_str).unwrap_or_default());
     let urls = urls(&elections.range, &elections.url);
-    let threads = threads();
+
+    println!("Scraping {} with {} threads", elections.url, threads);
 
     save(&elections.headers, &elections.file, false)
         .await
