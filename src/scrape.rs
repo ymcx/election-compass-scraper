@@ -84,7 +84,8 @@ async fn candidate(
 
     let name = interaction::element(driver, By::ClassName("sc-xyPcs")).await;
     if name.is_empty() {
-        return Err("Scraping of candidate was unsuccessful".into());
+        let message = format!("Scraping of {url} was unsuccessful");
+        return Err(message.into());
     }
 
     let info = candidate_info(driver).await;
