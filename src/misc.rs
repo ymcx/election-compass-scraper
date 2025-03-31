@@ -3,7 +3,7 @@ use rand::Rng;
 use std::{error::Error, ops::Range, time::Duration};
 use thirtyfour::{ChromiumLikeCapabilities, DesiredCapabilities, WebDriver};
 use tokio::{
-    fs::OpenOptions,
+    fs::File,
     io::AsyncWriteExt,
     process::{Child, Command},
 };
@@ -27,17 +27,21 @@ pub async fn driver() -> Result<(Child, WebDriver, String), Box<dyn Error>> {
     Ok((child, driver, directory))
 }
 
-pub async fn save(content: &str, file: &str, append: bool) -> Result<(), Box<dyn Error>> {
-    let mut file = OpenOptions::new()
-        .create(true)
-        .write(true)
-        .append(append)
-        .truncate(!append)
-        .open(file)
-        .await?;
+pub async fn save(
+    headers: &str,
+    candidates: &Vec<String>,
+    filename: &str,
+) -> Result<(), Box<dyn Error>> {
+    let mut buffer = String::default();
+    buffer.push_str(headers);
+    buffer.push('\n');
+    for candidate in candidates {
+        buffer.push_str(candidate);
+        buffer.push('\n');
+    }
 
-    let content = format!("{content}\n");
-    file.write(content.as_bytes()).await?;
+    let mut file = File::create(filename).await?;
+    file.write_all(buffer.as_bytes()).await?;
 
     Ok(())
 }

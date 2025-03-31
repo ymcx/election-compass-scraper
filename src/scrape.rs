@@ -94,7 +94,7 @@ async fn candidate(
     Ok(candidate)
 }
 
-async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> String {
+async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<String> {
     interaction::goto(driver, url).await;
     interaction::click(
         driver,
@@ -128,33 +128,38 @@ async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> String
         }
     }
 
-    municipality.join("\n")
+    municipality
 }
 
-async fn process_url(url: &str, file: &str, questions: usize) -> Result<(), Box<dyn Error>> {
+async fn process_url(url: &str, questions: usize) -> Result<Vec<String>, Box<dyn Error>> {
     let (mut child, driver, directory) = misc::driver().await?;
 
     let content = municipality(&driver, url, questions).await;
-    misc::save(&content, file, true).await?;
 
     driver.quit().await?;
     child.kill().await?;
     std::fs::remove_dir_all(directory)?;
 
-    Ok(())
+    Ok(content)
 }
 
-pub async fn process_urls(urls: &Vec<String>, file: &str, questions: usize, threads: usize) {
-    futures::stream::iter(urls)
+pub async fn process_urls(urls: &Vec<String>, questions: usize, threads: usize) -> Vec<String> {
+    let mut candidates = futures::stream::iter(urls)
         .map(|url| async move {
             loop {
-                match process_url(url, file, questions).await {
-                    Ok(_) => break,
+                match process_url(url, questions).await {
+                    Ok(candidates) => break candidates,
                     Err(e) => eprintln!("{e}"),
                 }
             }
         })
         .buffer_unordered(threads)
-        .collect::<Vec<_>>()
-        .await;
+        .collect::<Vec<Vec<_>>>()
+        .await
+        .into_iter()
+        .flatten()
+        .collect::<Vec<_>>();
+
+    candidates.sort();
+    candidates
 }
