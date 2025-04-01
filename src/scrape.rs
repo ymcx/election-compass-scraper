@@ -1,4 +1,4 @@
-use crate::{interaction, misc};
+use crate::{driver::Driver, interaction};
 use futures::StreamExt;
 use std::error::Error;
 use thirtyfour::WebDriver;
@@ -121,19 +121,20 @@ async fn candidate(
 }
 
 async fn municipality(url: &str, questions: usize) -> Result<Vec<String>, Box<dyn Error>> {
-    let (_process, driver) = misc::driver().await?;
+    let drivers = Driver::new().await;
+    let driver = drivers.driver().ok_or("Driver is None")?;
 
-    interaction::goto(&driver, url).await;
-    interaction::click_accept_cookies(&driver).await;
-    interaction::click_show_more(&driver, true).await;
-    interaction::click_gender_button(&driver).await;
+    interaction::goto(driver, url).await;
+    interaction::click_accept_cookies(driver).await;
+    interaction::click_show_more(driver, true).await;
+    interaction::click_gender_button(driver).await;
 
     let genders = ["", "female", "male", "other"];
     let mut urls = (
-        candidate_urls_gender(&driver, genders[0]).await?,
-        candidate_urls_gender(&driver, genders[1]).await?,
-        candidate_urls_gender(&driver, genders[2]).await?,
-        candidate_urls_gender(&driver, genders[3]).await?,
+        candidate_urls_gender(driver, genders[0]).await?,
+        candidate_urls_gender(driver, genders[1]).await?,
+        candidate_urls_gender(driver, genders[2]).await?,
+        candidate_urls_gender(driver, genders[3]).await?,
     );
     urls.0
         .retain(|u| !urls.1.contains(u) && !urls.2.contains(u) && !urls.3.contains(u));
@@ -142,7 +143,7 @@ async fn municipality(url: &str, questions: usize) -> Result<Vec<String>, Box<dy
     for (i, urls) in [&urls.0, &urls.1, &urls.2, &urls.3].into_iter().enumerate() {
         for url in urls {
             let candidate = loop {
-                match candidate(&driver, url, genders[i], questions).await {
+                match candidate(driver, url, genders[i], questions).await {
                     Ok(candidate) => break candidate,
                     Err(e) => eprintln!("{e}"),
                 }
@@ -151,7 +152,6 @@ async fn municipality(url: &str, questions: usize) -> Result<Vec<String>, Box<dy
         }
     }
 
-    driver.quit().await.ok();
     Ok(municipality)
 }
 

@@ -1,25 +1,6 @@
-use crate::{
-    constants::{self, Elections},
-    driverprocess::DriverProcess,
-};
-use rand::Rng;
+use crate::constants::{self, Elections};
 use std::{error::Error, ops::Range};
-use thirtyfour::{ChromiumLikeCapabilities, DesiredCapabilities, WebDriver};
-use tokio::{fs::File, io::AsyncWriteExt, time::Duration};
-
-pub async fn driver() -> Result<(DriverProcess, WebDriver), Box<dyn Error>> {
-    let port = rand::rng().random_range(1024..65536);
-    let process = DriverProcess::new(port);
-
-    tokio::time::sleep(Duration::from_millis(100)).await;
-
-    let mut capabilities = DesiredCapabilities::chrome();
-    capabilities.add_arg("--headless")?;
-    capabilities.add_arg(&format!("--user-data-dir=/tmp/scraper-{port}"))?;
-    let driver = WebDriver::new(format!("http://localhost:{port}"), capabilities).await?;
-
-    Ok((process, driver))
-}
+use tokio::{fs::File, io::AsyncWriteExt};
 
 pub async fn save(
     headers: &str,

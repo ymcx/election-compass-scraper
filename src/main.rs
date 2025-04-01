@@ -1,5 +1,5 @@
 mod constants;
-mod driverprocess;
+mod driver;
 mod interaction;
 mod misc;
 mod scrape;
@@ -18,8 +18,7 @@ async fn main() {
     );
 
     let candidates = scrape::scrape(&urls, elections.questions, threads).await;
-    misc::save(&elections.headers, &candidates, &elections.file)
+    let _ = misc::save(&elections.headers, &candidates, &elections.file)
         .await
-        .map_err(|e| eprintln!("{e}"))
-        .ok();
+        .map_err(|e| eprintln!("{e}"));
 }
