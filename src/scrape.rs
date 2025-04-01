@@ -3,14 +3,12 @@ use futures::StreamExt;
 use std::error::Error;
 use thirtyfour::WebDriver;
 
-async fn candidate_urls_gender(driver: &WebDriver, gender: &str) -> Vec<String> {
+async fn candidate_urls_gender(
+    driver: &WebDriver,
+    gender: &str,
+) -> Result<Vec<String>, Box<dyn Error>> {
     interaction::click_gender_checkbox(driver, gender).await;
-    let urls = loop {
-        match candidate_urls(driver).await {
-            Ok(urls) => break urls,
-            Err(e) => eprintln!("{e}"),
-        }
-    };
+    let urls = candidate_urls(driver).await;
     interaction::click_gender_checkbox(driver, gender).await;
 
     urls
@@ -123,7 +121,7 @@ async fn candidate(
 }
 
 async fn municipality(url: &str, questions: usize) -> Result<Vec<String>, Box<dyn Error>> {
-    let (mut child, driver, directory) = misc::driver().await?;
+    let (_process, driver) = misc::driver().await?;
 
     interaction::goto(&driver, url).await;
     interaction::click_accept_cookies(&driver).await;
@@ -132,10 +130,10 @@ async fn municipality(url: &str, questions: usize) -> Result<Vec<String>, Box<dy
 
     let genders = ["", "female", "male", "other"];
     let mut urls = (
-        candidate_urls_gender(&driver, genders[0]).await,
-        candidate_urls_gender(&driver, genders[1]).await,
-        candidate_urls_gender(&driver, genders[2]).await,
-        candidate_urls_gender(&driver, genders[3]).await,
+        candidate_urls_gender(&driver, genders[0]).await?,
+        candidate_urls_gender(&driver, genders[1]).await?,
+        candidate_urls_gender(&driver, genders[2]).await?,
+        candidate_urls_gender(&driver, genders[3]).await?,
     );
     urls.0
         .retain(|u| !urls.1.contains(u) && !urls.2.contains(u) && !urls.3.contains(u));
@@ -152,10 +150,6 @@ async fn municipality(url: &str, questions: usize) -> Result<Vec<String>, Box<dy
             municipality.push(candidate);
         }
     }
-
-    driver.quit().await?;
-    child.kill().await?;
-    std::fs::remove_dir_all(directory)?;
 
     Ok(municipality)
 }
