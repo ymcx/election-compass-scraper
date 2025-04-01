@@ -130,22 +130,21 @@ async fn municipality(url: &str, questions: usize) -> Result<Vec<String>, Box<dy
     interaction::click_show_more(&driver, true).await;
     interaction::click_gender_button(&driver).await;
 
-    let links_f = candidate_urls_gender(&driver, "female").await;
-    let links_m = candidate_urls_gender(&driver, "male").await;
-    let links_o = candidate_urls_gender(&driver, "other").await;
-    let mut links_n = candidate_urls_gender(&driver, "").await;
-    links_n.retain(|i| !links_f.contains(i) && !links_m.contains(i) && !links_o.contains(i));
+    let genders = ["", "female", "male", "other"];
+    let mut urls = (
+        candidate_urls_gender(&driver, genders[0]).await,
+        candidate_urls_gender(&driver, genders[1]).await,
+        candidate_urls_gender(&driver, genders[2]).await,
+        candidate_urls_gender(&driver, genders[3]).await,
+    );
+    urls.0
+        .retain(|u| !urls.1.contains(u) && !urls.2.contains(u) && !urls.3.contains(u));
 
     let mut municipality: Vec<String> = Vec::new();
-    for (links, gender) in [
-        (links_f, "female"),
-        (links_m, "male"),
-        (links_o, "other"),
-        (links_n, ""),
-    ] {
-        for link in links {
+    for (i, urls) in [&urls.0, &urls.1, &urls.2, &urls.3].into_iter().enumerate() {
+        for url in urls {
             let candidate = loop {
-                match candidate(&driver, &link, gender, questions).await {
+                match candidate(&driver, url, genders[i], questions).await {
                     Ok(candidate) => break candidate,
                     Err(e) => eprintln!("{e}"),
                 }
