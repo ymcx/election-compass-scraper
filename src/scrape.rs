@@ -4,14 +4,23 @@ use std::error::Error;
 use thirtyfour::{By, WebDriver, prelude::ElementQueryable};
 
 async fn candidate_urls_gender(driver: &WebDriver, gender: &str) -> Vec<String> {
-    interaction::click(driver, By::XPath(format!("//input[@value='{gender}']"))).await;
-    let urls = candidate_urls(driver).await;
-    interaction::click(driver, By::XPath(format!("//input[@value='{gender}']"))).await;
+    if !gender.is_empty() {
+        interaction::click(driver, By::XPath(format!("//input[@value='{gender}']"))).await;
+    }
+    let urls = loop {
+        match candidate_urls(driver).await {
+            Ok(urls) => break urls,
+            Err(e) => eprintln!("{e}"),
+        }
+    };
+    if !gender.is_empty() {
+        interaction::click(driver, By::XPath(format!("//input[@value='{gender}']"))).await;
+    }
 
     urls
 }
 
-async fn candidate_urls(driver: &WebDriver) -> Vec<String> {
+async fn candidate_urls(driver: &WebDriver) -> Result<Vec<String>, Box<dyn Error>> {
     let mut urls: Vec<String> = Vec::new();
     for element in interaction::elements(driver, By::Tag("a")).await {
         let href = element
@@ -24,7 +33,26 @@ async fn candidate_urls(driver: &WebDriver) -> Vec<String> {
         }
     }
 
-    urls
+    let mut amount = 0;
+    for element in interaction::elements(driver, By::ClassName("sc-heIBZE")).await {
+        let text = element.text().await.unwrap_or_default();
+        if text.contains("Näytä (") {
+            let numbers: String = text.chars().filter(|c| c.is_numeric()).collect();
+            amount = numbers.parse().unwrap_or_default();
+            break;
+        }
+    }
+
+    if urls.len() != amount {
+        let message = format!(
+            "Amount of scraped urls ({}) doesn't match the amount of candidates present ({})",
+            urls.len(),
+            amount
+        );
+        return Err(message.into());
+    }
+
+    Ok(urls)
 }
 
 async fn candidate_info(driver: &WebDriver) -> String {
@@ -108,7 +136,7 @@ async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<St
     let links_f = candidate_urls_gender(driver, "female").await;
     let links_m = candidate_urls_gender(driver, "male").await;
     let links_o = candidate_urls_gender(driver, "other").await;
-    let mut links_n = candidate_urls(driver).await;
+    let mut links_n = candidate_urls_gender(driver, "").await;
     links_n.retain(|i| !links_f.contains(i) && !links_m.contains(i) && !links_o.contains(i));
 
     let mut municipality: Vec<String> = Vec::new();

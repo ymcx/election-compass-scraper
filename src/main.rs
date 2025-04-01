@@ -10,7 +10,7 @@ async fn main() {
     let urls = misc::urls(&elections.range, &elections.url);
 
     println!(
-        "{}\nURL\t[{}]\nTHREADS\t[{}]",
+        "{}\nURL\t[{}]\nTHREADS\t[{}]\n",
         constants::TAG,
         elections.url,
         threads
