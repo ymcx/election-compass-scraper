@@ -1,7 +1,13 @@
 use thirtyfour::{By, WebDriver, WebElement, prelude::ElementQueryable};
 
-pub async fn click(driver: &WebDriver, by: By) -> bool {
-    if let Ok(element) = driver.query(by).first().await {
+pub async fn click(driver: &WebDriver, by: By, wait: bool) -> bool {
+    let query = if wait {
+        driver.query(by)
+    } else {
+        driver.query(by).nowait()
+    };
+
+    if let Ok(element) = query.first().await {
         return element.click().await.is_ok();
     }
 

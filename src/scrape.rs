@@ -5,7 +5,12 @@ use thirtyfour::{By, WebDriver, prelude::ElementQueryable};
 
 async fn candidate_urls_gender(driver: &WebDriver, gender: &str) -> Vec<String> {
     if !gender.is_empty() {
-        interaction::click(driver, By::XPath(format!("//input[@value='{gender}']"))).await;
+        interaction::click(
+            driver,
+            By::XPath(format!("//input[@value='{gender}']")),
+            true,
+        )
+        .await;
     }
     let urls = loop {
         match candidate_urls(driver).await {
@@ -14,7 +19,12 @@ async fn candidate_urls_gender(driver: &WebDriver, gender: &str) -> Vec<String> 
         }
     };
     if !gender.is_empty() {
-        interaction::click(driver, By::XPath(format!("//input[@value='{gender}']"))).await;
+        interaction::click(
+            driver,
+            By::XPath(format!("//input[@value='{gender}']")),
+            true,
+        )
+        .await;
     }
 
     urls
@@ -108,7 +118,12 @@ async fn candidate(
     questions: usize,
 ) -> Result<String, Box<dyn Error>> {
     interaction::goto(driver, &format!("https://vaalit.yle.fi{url}")).await;
-    interaction::click(driver, By::XPath("//button[@aria-label='Näytä lisää']")).await;
+    interaction::click(
+        driver,
+        By::XPath("//button[@aria-label='Näytä lisää']"),
+        true,
+    )
+    .await;
 
     let name = interaction::element(driver, By::ClassName("sc-xyPcs")).await;
     if name.is_empty() {
@@ -128,10 +143,17 @@ async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<St
     interaction::click(
         driver,
         By::XPath("//button[@aria-label='Vain välttämättömät']"),
+        true,
     )
     .await;
-    while interaction::click(driver, By::XPath("//button[@aria-label='Näytä lisää']")).await {}
-    interaction::click(driver, By::XPath("//button[@aria-label='Sukupuoli']")).await;
+    while interaction::click(
+        driver,
+        By::XPath("//button[@aria-label='Näytä lisää']"),
+        false,
+    )
+    .await
+    {}
+    interaction::click(driver, By::XPath("//button[@aria-label='Sukupuoli']"), true).await;
 
     let links_f = candidate_urls_gender(driver, "female").await;
     let links_m = candidate_urls_gender(driver, "male").await;
