@@ -151,6 +151,7 @@ async fn municipality(url: &str, questions: usize) -> Result<Vec<String>, Box<dy
         }
     }
 
+    driver.quit().await.ok();
     Ok(municipality)
 }
 
