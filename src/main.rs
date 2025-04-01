@@ -16,7 +16,7 @@ async fn main() {
         threads
     );
 
-    let candidates = scrape::process_urls(&urls, elections.questions, threads).await;
+    let candidates = scrape::scrape(&urls, elections.questions, threads).await;
     misc::save(&elections.headers, &candidates, &elections.file)
         .await
         .map_err(|e| eprintln!("{e}"))
