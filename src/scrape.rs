@@ -4,28 +4,14 @@ use std::error::Error;
 use thirtyfour::{By, WebDriver, prelude::ElementQueryable};
 
 async fn candidate_urls_gender(driver: &WebDriver, gender: &str) -> Vec<String> {
-    if !gender.is_empty() {
-        interaction::click(
-            driver,
-            By::XPath(format!("//input[@value='{gender}']")),
-            true,
-        )
-        .await;
-    }
+    interaction::click_gender_checkbox(driver, gender).await;
     let urls = loop {
         match candidate_urls(driver).await {
             Ok(urls) => break urls,
             Err(e) => eprintln!("{e}"),
         }
     };
-    if !gender.is_empty() {
-        interaction::click(
-            driver,
-            By::XPath(format!("//input[@value='{gender}']")),
-            true,
-        )
-        .await;
-    }
+    interaction::click_gender_checkbox(driver, gender).await;
 
     urls
 }
@@ -118,12 +104,7 @@ async fn candidate(
     questions: usize,
 ) -> Result<String, Box<dyn Error>> {
     interaction::goto(driver, &format!("https://vaalit.yle.fi{url}")).await;
-    interaction::click(
-        driver,
-        By::XPath("//button[@aria-label='Näytä lisää']"),
-        true,
-    )
-    .await;
+    interaction::click_show_more(driver, false).await;
 
     let name = interaction::element(driver, By::ClassName("sc-xyPcs")).await;
     if name.is_empty() {
@@ -140,20 +121,9 @@ async fn candidate(
 
 async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<String> {
     interaction::goto(driver, url).await;
-    interaction::click(
-        driver,
-        By::XPath("//button[@aria-label='Vain välttämättömät']"),
-        true,
-    )
-    .await;
-    while interaction::click(
-        driver,
-        By::XPath("//button[@aria-label='Näytä lisää']"),
-        false,
-    )
-    .await
-    {}
-    interaction::click(driver, By::XPath("//button[@aria-label='Sukupuoli']"), true).await;
+    interaction::click_accept_cookies(driver).await;
+    interaction::click_show_more(driver, true).await;
+    interaction::click_gender_button(driver).await;
 
     let links_f = candidate_urls_gender(driver, "female").await;
     let links_m = candidate_urls_gender(driver, "male").await;
