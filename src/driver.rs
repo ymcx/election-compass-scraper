@@ -43,19 +43,18 @@ impl Driver {
 
 impl Drop for Driver {
     fn drop(&mut self) {
+        let process = self.process.take();
+        let driver = self.driver.take();
         let directory = format!("/tmp/scraper-{}", self.port);
         let _ = std::fs::remove_dir_all(directory);
 
-        if let Some(mut process) = self.process.take() {
-            tokio::spawn(async move {
-                let _ = process.kill().await;
-            });
-        }
-
-        if let Some(driver) = self.driver.take() {
-            tokio::spawn(async move {
+        tokio::spawn(async move {
+            if let Some(driver) = driver {
                 let _ = driver.quit().await;
-            });
-        }
+            }
+            if let Some(mut process) = process {
+                let _ = process.kill().await;
+            }
+        });
     }
 }
