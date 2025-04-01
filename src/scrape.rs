@@ -2,6 +2,7 @@ use crate::{driver::Driver, interaction};
 use futures::StreamExt;
 use std::error::Error;
 use thirtyfour::WebDriver;
+use tokio::time::Duration;
 
 async fn candidate_urls_gender(
     driver: &WebDriver,
@@ -22,6 +23,8 @@ async fn candidate_urls(driver: &WebDriver) -> Result<Vec<String>, Box<dyn Error
             urls.push(href);
         }
     }
+
+    tokio::time::sleep(Duration::from_millis(500)).await;
 
     let mut amount = 0;
     for button in interaction::elements_buttons(driver).await {
