@@ -1,11 +1,12 @@
 use crate::constants::{self, Elections};
 use rand::Rng;
-use std::{error::Error, ops::Range, time::Duration};
+use std::{error::Error, ops::Range};
 use thirtyfour::{ChromiumLikeCapabilities, DesiredCapabilities, WebDriver};
 use tokio::{
     fs::File,
     io::AsyncWriteExt,
     process::{Child, Command},
+    time::Duration,
 };
 
 pub async fn driver() -> Result<(Child, WebDriver, String), Box<dyn Error>> {
