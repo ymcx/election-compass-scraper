@@ -123,10 +123,11 @@ async fn candidate(
     Ok(candidate)
 }
 
-async fn municipality(url: &str, questions: usize) -> Result<Vec<String>, Box<dyn Error>> {
-    let drivers = Driver::new().await;
-    let driver = drivers.driver().ok_or("Driver is None")?;
-
+async fn municipality(
+    driver: &WebDriver,
+    url: &str,
+    questions: usize,
+) -> Result<Vec<String>, Box<dyn Error>> {
     interaction::goto(driver, url).await;
     interaction::click_accept_cookies(driver).await;
     interaction::click_show_more(driver, true).await;
@@ -162,8 +163,17 @@ pub async fn scrape(urls: &Vec<String>, questions: usize, threads: usize) -> Vec
     let mut candidates = futures::stream::iter(urls)
         .map(|url| async move {
             loop {
-                match municipality(url, questions).await {
-                    Ok(candidates) => break candidates,
+                let mut drivers = Driver::new().await;
+                let driver = drivers.driver();
+                if driver.is_none() {
+                    drivers.drop().await;
+                    continue;
+                }
+
+                let municipality = municipality(driver.unwrap(), url, questions).await;
+                drivers.drop().await;
+                match municipality {
+                    Ok(candidates) => return candidates,
                     Err(e) => eprintln!("{e}"),
                 }
             }

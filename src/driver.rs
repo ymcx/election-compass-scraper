@@ -39,22 +39,18 @@ impl Driver {
     pub fn driver(&self) -> Option<&WebDriver> {
         self.driver.as_ref()
     }
-}
 
-impl Drop for Driver {
-    fn drop(&mut self) {
+    pub async fn drop(&mut self) {
         let process = self.process.take();
         let driver = self.driver.take();
         let directory = format!("/tmp/scraper-{}", self.port);
         let _ = std::fs::remove_dir_all(directory);
 
-        tokio::spawn(async move {
-            if let Some(driver) = driver {
-                let _ = driver.quit().await;
-            }
-            if let Some(mut process) = process {
-                let _ = process.kill().await;
-            }
-        });
+        if let Some(driver) = driver {
+            let _ = driver.quit().await;
+        }
+        if let Some(mut process) = process {
+            let _ = process.kill().await;
+        }
     }
 }
