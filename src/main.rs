@@ -1,3 +1,5 @@
+use tokio::time::Duration;
+
 mod constants;
 mod driver;
 mod interaction;
@@ -21,4 +23,6 @@ async fn main() {
     let _ = misc::save(&elections.headers, &candidates, &elections.file)
         .await
         .map_err(|e| eprintln!("{e}"));
+
+    tokio::time::sleep(Duration::from_millis(1000)).await;
 }
