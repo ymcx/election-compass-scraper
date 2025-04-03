@@ -118,7 +118,7 @@ async fn candidate(
 
     let info = candidate_info(driver).await;
     let answers = candidate_answers(driver, questions).await;
-    let candidate = format!("{name};{info};{gender};{answers}");
+    let candidate = format!("{name};{info};{gender};{answers}").to_lowercase();
 
     Ok(candidate)
 }
