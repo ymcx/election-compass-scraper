@@ -1,4 +1,5 @@
 use crate::constants::{self, Elections};
+use std::io::prelude::*;
 use std::{error::Error, ops::Range};
 use tokio::{fs::File, io::AsyncWriteExt};
 
@@ -56,4 +57,15 @@ pub fn urls(range: &Vec<Range<usize>>, url: &str) -> Vec<String> {
         .iter()
         .flat_map(|range| range.clone().map(|i| format!("{url}{i}")))
         .collect()
+}
+
+pub fn print_error(error: &Box<dyn Error>) {
+    print!(" [{}]", error);
+    let _ = std::io::stdout().flush();
+}
+
+pub fn print_progress(current: usize, length: usize) {
+    print!("\x1B[2K\r");
+    print!("[{:-<19}]", "#".repeat(current * 20 / length));
+    let _ = std::io::stdout().flush();
 }

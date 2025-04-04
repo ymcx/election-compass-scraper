@@ -1,3 +1,4 @@
+use crate::misc;
 use thirtyfour::{
     By, WebDriver, WebElement, extensions::query::ElementQuery, prelude::ElementQueryable,
 };
@@ -95,6 +96,6 @@ pub async fn elements_options(question: &WebElement) -> Vec<WebElement> {
 
 pub async fn goto(driver: &WebDriver, url: &str) {
     while let Err(e) = driver.goto(url).await {
-        eprintln!("{e}");
+        misc::print_error(&Box::new(e).into());
     }
 }

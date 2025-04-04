@@ -20,5 +20,5 @@ async fn main() {
     let candidates = scrape::scrape(&urls, elections.questions, threads).await;
     let _ = misc::save(&elections.headers, &candidates, &elections.file)
         .await
-        .map_err(|e| eprintln!("{e}"));
+        .map_err(|e| misc::print_error(&e));
 }
