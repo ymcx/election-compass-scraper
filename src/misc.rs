@@ -1,4 +1,5 @@
 use crate::constants::{self, Elections};
+use std::cmp;
 use std::io::prelude::*;
 use std::{error::Error, ops::Range};
 use tokio::{fs::File, io::AsyncWriteExt};
@@ -49,7 +50,10 @@ pub fn elections() -> Elections {
 }
 
 pub fn threads() -> usize {
-    arg(2).parse().unwrap_or(4)
+    let cores = num_cpus::get();
+    let default = cmp::min(cores / 2, 10);
+
+    arg(2).parse().unwrap_or(default)
 }
 
 pub fn urls(range: &Vec<Range<usize>>, url: &str) -> Vec<String> {
