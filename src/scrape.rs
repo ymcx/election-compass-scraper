@@ -1,4 +1,4 @@
-use crate::{driver::Driver, interaction, misc};
+use crate::{driver::Driver, interaction, io};
 use futures::StreamExt;
 use std::error::Error;
 use thirtyfour::WebDriver;
@@ -149,7 +149,7 @@ async fn municipality(
             let candidate = loop {
                 match candidate(driver, url, genders[i], questions).await {
                     Ok(candidate) => break candidate,
-                    Err(e) => misc::print_error(&e),
+                    Err(e) => io::print_error(&e),
                 }
             };
             municipality.push(candidate);
@@ -162,7 +162,7 @@ async fn municipality(
 pub async fn scrape(urls: &Vec<String>, questions: usize, threads: usize) -> Vec<String> {
     let mut candidates = futures::stream::iter(urls.iter().enumerate())
         .map(|(i, url)| async move {
-            misc::print_progress(i, urls.len());
+            io::print_progress(i, urls.len());
 
             loop {
                 let mut drivers = Driver::new().await;
@@ -176,7 +176,7 @@ pub async fn scrape(urls: &Vec<String>, questions: usize, threads: usize) -> Vec
                 drivers.drop().await;
                 match municipality {
                     Ok(candidates) => return candidates,
-                    Err(e) => misc::print_error(&e),
+                    Err(e) => io::print_error(&e),
                 }
             }
         })

@@ -5,7 +5,15 @@ Scrapes candidates' responses from Yle's election compass (vaalikone). The resul
 <br>
 
 ```shell
-$ ./election-compass-scraper municipal25 "$(nproc)"
+$ election-compass-scraper --help
+Usage: election-compass-scraper [OPTIONS]
+
+Options:
+  -e, --election <ELECTION>
+  -y, --year <YEAR>
+  -j, --jobs <JOBS>
+  -h, --help                 Print help
+$ election-compass-scraper --election=municipal --year=2025 -j4
          __          __  __
   ___  / /__  _____/ /_/_/___  ____     _________  ________  ____  ____  __________   ___________________  ____  ___  _____
  / _ \/ / _ \/ ___/ __/ / __ \/ __ \   / ___/ __ \/ __  __ \/ __ \/ __ \/ ___/ ___/  / ___/ ___/ ___/ __ \/ __ \/ _ \/ ___/

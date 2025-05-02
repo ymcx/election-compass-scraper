@@ -4,6 +4,7 @@ version = "1.0.2"
 edition = "2024"
 
 [dependencies]
+clap = { version = "4.5.37", features = ["derive"] }
 futures = "0.3.31"
 num_cpus = "1.16.0"
 rand = "0.9.1"

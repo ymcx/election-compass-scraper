@@ -1,24 +1,22 @@
 mod constants;
 mod driver;
 mod interaction;
-mod misc;
+mod io;
 mod scrape;
 
 #[tokio::main]
 async fn main() {
-    let elections = misc::elections();
-    let threads = misc::threads();
-    let urls = misc::urls(&elections.range, &elections.url);
+    let (election, threads) = io::args();
 
     println!(
-        "{}\nURL\t[{}]\nTHREADS\t[{}]\n",
+        "{}\nFILE\t[{}]\nTHREADS\t[{}]\n",
         constants::TAG,
-        elections.url,
+        election.file,
         threads
     );
 
-    let candidates = scrape::scrape(&urls, elections.questions, threads).await;
-    let _ = misc::save(&elections.headers, &candidates, &elections.file)
+    let candidates = scrape::scrape(&election.urls, election.questions, threads).await;
+    let _ = io::save(&election.headers, &candidates, &election.file)
         .await
-        .map_err(|e| misc::print_error(&e));
+        .map_err(|e| io::print_error(&e));
 }
