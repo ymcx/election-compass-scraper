@@ -26,16 +26,18 @@ pub async fn click_gender_button(driver: &WebDriver) -> bool {
     click(&query).await
 }
 
-pub async fn click_show_more(driver: &WebDriver, continuous: bool) -> bool {
+pub async fn click_show_more(driver: &WebDriver) {
+    let element_less = "//button[@aria-label='Näytä vähemmän']";
     let element = "//button[@aria-label='Näytä lisää']";
-    if !continuous {
-        let query = driver.query(By::XPath(element));
-        return click(&query).await;
-    }
+    let query = driver.query(By::XPath(element));
 
-    let query = driver.query(By::XPath(element)).nowait();
-    while click(&query).await {}
-    true
+    while click(&query).await {
+        if let Ok(button_less) = driver.find_all(By::XPath(element_less)).await {
+            if !button_less.is_empty() {
+                break;
+            }
+        }
+    }
 }
 
 pub async fn click_accept_cookies(driver: &WebDriver) -> bool {

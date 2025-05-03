@@ -2,20 +2,9 @@ use crate::{driver::Driver, interaction, io};
 use futures::StreamExt;
 use std::error::Error;
 use thirtyfour::WebDriver;
-use tokio::time::Duration;
 
-async fn candidate_urls_gender(
-    driver: &WebDriver,
-    gender: &str,
-) -> Result<Vec<String>, Box<dyn Error>> {
+async fn candidate_urls(driver: &WebDriver, gender: &str) -> Vec<String> {
     interaction::click_gender_checkbox(driver, gender).await;
-    let urls = candidate_urls(driver).await;
-    interaction::click_gender_checkbox(driver, gender).await;
-
-    urls
-}
-
-async fn candidate_urls(driver: &WebDriver) -> Result<Vec<String>, Box<dyn Error>> {
     let mut urls: Vec<String> = Vec::new();
     for a in interaction::elements_a(driver).await {
         let href = a.attr("href").await.unwrap_or_default().unwrap_or_default();
@@ -24,32 +13,8 @@ async fn candidate_urls(driver: &WebDriver) -> Result<Vec<String>, Box<dyn Error
         }
     }
 
-    tokio::time::sleep(Duration::from_millis(500)).await;
-
-    let mut amount = 0;
-    for button in interaction::elements_buttons(driver).await {
-        let text = button.text().await.unwrap_or_default();
-        if text.contains("Näytä (") {
-            amount = text
-                .chars()
-                .filter(|c| c.is_digit(10))
-                .collect::<String>()
-                .parse()
-                .unwrap_or_default();
-            break;
-        }
-    }
-
-    if urls.len() != amount {
-        let message = format!(
-            "Amount of scraped urls ({}) doesn't match the amount of candidates present ({})",
-            urls.len(),
-            amount
-        );
-        return Err(message.into());
-    }
-
-    Ok(urls)
+    interaction::click_gender_checkbox(driver, gender).await;
+    urls
 }
 
 async fn candidate_info(driver: &WebDriver) -> String {
@@ -108,7 +73,7 @@ async fn candidate(
 ) -> Result<String, Box<dyn Error>> {
     let url = format!("https://vaalit.yle.fi{url_relative}");
     interaction::goto(driver, &url).await;
-    interaction::click_show_more(driver, false).await;
+    interaction::click_show_more(driver).await;
 
     let name = interaction::text_name(driver).await;
     if name.is_empty() {
@@ -123,22 +88,18 @@ async fn candidate(
     Ok(candidate)
 }
 
-async fn municipality(
-    driver: &WebDriver,
-    url: &str,
-    questions: usize,
-) -> Result<Vec<String>, Box<dyn Error>> {
+async fn municipality(driver: &WebDriver, url: &str, questions: usize) -> Vec<String> {
     interaction::goto(driver, url).await;
     interaction::click_accept_cookies(driver).await;
-    interaction::click_show_more(driver, true).await;
+    interaction::click_show_more(driver).await;
     interaction::click_gender_button(driver).await;
 
     let genders = ["", "female", "male", "other"];
     let mut urls = (
-        candidate_urls_gender(driver, genders[0]).await?,
-        candidate_urls_gender(driver, genders[1]).await?,
-        candidate_urls_gender(driver, genders[2]).await?,
-        candidate_urls_gender(driver, genders[3]).await?,
+        candidate_urls(driver, genders[0]).await,
+        candidate_urls(driver, genders[1]).await,
+        candidate_urls(driver, genders[2]).await,
+        candidate_urls(driver, genders[3]).await,
     );
     urls.0
         .retain(|u| !urls.1.contains(u) && !urls.2.contains(u) && !urls.3.contains(u));
@@ -156,7 +117,7 @@ async fn municipality(
         }
     }
 
-    Ok(municipality)
+    municipality
 }
 
 pub async fn scrape(urls: &Vec<String>, questions: usize, threads: usize) -> Vec<String> {
@@ -174,10 +135,7 @@ pub async fn scrape(urls: &Vec<String>, questions: usize, threads: usize) -> Vec
 
                 let municipality = municipality(driver.unwrap(), url, questions).await;
                 drivers.drop().await;
-                match municipality {
-                    Ok(candidates) => return candidates,
-                    Err(e) => io::print_error(&e),
-                }
+                return municipality;
             }
         })
         .buffer_unordered(threads)
