@@ -69,12 +69,6 @@ pub async fn elements_a(driver: &WebDriver) -> Vec<WebElement> {
     elements(&query).await
 }
 
-pub async fn elements_buttons(driver: &WebDriver) -> Vec<WebElement> {
-    let element = "sc-heIBZE";
-    let query = driver.query(By::ClassName(element));
-    elements(&query).await
-}
-
 pub async fn elements_questions(driver: &WebDriver) -> Vec<WebElement> {
     let element = "sc-bRilDX";
     let query = driver.query(By::ClassName(element));
