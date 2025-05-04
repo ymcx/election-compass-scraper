@@ -6,10 +6,16 @@ use thirtyfour::WebDriver;
 async fn candidate_urls(driver: &WebDriver, gender: &str) -> Vec<String> {
     interaction::click_gender_checkbox(driver, gender).await;
     let mut urls: Vec<String> = Vec::new();
-    for a in interaction::elements_a(driver).await {
-        let href = a.attr("href").await.unwrap_or_default().unwrap_or_default();
-        if href.contains("/ehdokkaat/") {
-            urls.push(href);
+    loop {
+        for a in interaction::elements_a(driver).await {
+            let href = a.attr("href").await.unwrap_or_default().unwrap_or_default();
+            if href.contains("/ehdokkaat/") {
+                urls.push(href);
+            }
+        }
+
+        if !gender.is_empty() || urls.len() != 0 {
+            break;
         }
     }
 
