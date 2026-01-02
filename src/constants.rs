@@ -49,22 +49,10 @@ impl Election {
         }
     }
 
-    pub fn get(election: Option<String>, year: Option<usize>) -> Self {
-        let binding = election.as_deref().map(|i| i.to_uppercase());
-        let election_type = binding.as_deref();
-
-        match year {
-            Some(2025) => match election_type {
-                Some("MUNICIPAL") => Self::municipal_2025(),
-                Some("COUNTY") => Self::county_2025(),
-                _ => panic!("Invalid election type for {}", year.unwrap()),
-            },
-            None => match election_type {
-                Some("MUNICIPAL") => Self::municipal_2025(),
-                Some("COUNTY") => Self::county_2025(),
-                _ => panic!("Invalid election type"),
-            },
-            _ => panic!("Invalid election year"),
+    pub fn get(election: usize) -> Self {
+        match election {
+            1 => Self::county_2025(),
+            _ => Self::municipal_2025(),
         }
     }
 

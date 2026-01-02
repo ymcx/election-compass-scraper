@@ -1,6 +1,5 @@
 use crate::constants::Election;
-use clap::Parser;
-use std::{cmp, error::Error, io::prelude::*};
+use std::{env, error::Error, io::prelude::*, thread};
 use tokio::{fs::File, io::AsyncWriteExt};
 
 pub async fn save(
@@ -22,22 +21,16 @@ pub async fn save(
     Ok(())
 }
 
-#[derive(Parser)]
-struct Args {
-    #[arg(short, long)]
-    election: Option<String>,
-    #[arg(short, long)]
-    jobs: Option<usize>,
-    #[arg(short, long)]
-    year: Option<usize>,
+pub fn get_election() -> Election {
+    let mut args = env::args();
+    args.next();
+    let election = args.next().unwrap_or_default().parse().unwrap_or_default();
+
+    Election::get(election)
 }
 
-pub fn args() -> (Election, usize) {
-    let args = Args::parse();
-    let election = Election::get(args.election, args.year);
-    let jobs = args.jobs.unwrap_or(cmp::min(num_cpus::get() / 2, 10));
-
-    (election, jobs)
+pub fn get_threads() -> usize {
+    thread::available_parallelism().unwrap().get()
 }
 
 pub fn print_error(error: &Box<dyn Error>) {
